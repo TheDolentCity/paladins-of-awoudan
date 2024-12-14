@@ -1,0 +1,47 @@
+---
+import { CssBuilder } from '../../lib/css-builder';
+import { Icon } from '@astrojs/starlight/components';
+
+const asideVariants = ['note', 'tip', 'caution', 'danger'] as const;
+const icons = {
+  note: 'information',
+  tip: 'rocket',
+  caution: 'warning',
+  danger: 'error',
+} as const;
+
+interface Props {
+  type?: (typeof asideVariants)[number];
+  title?: string;
+}
+
+let { type = 'note', title = 'Note' } = Astro.props;
+
+if (!asideVariants.includes(type)) {
+  throw new Error(
+    'Invalid `type` prop passed to the `<Aside>` component.\n' +
+      `Received: ${JSON.stringify(type)}\n` +
+      `Expected one of ${asideVariants.map((i) => JSON.stringify(i)).join(', ')}`
+  );
+}
+
+const asideCss = new CssBuilder()
+  .addClass('not-prose p-4 border-l-4')
+  .addClass('border-gray-800 dark:border-accent-400', type === 'note')
+  .addClass('text-gray-800 dark:text-accent-400 bg-gray-800/10 dark:bg-accent-400/10', type === 'note')
+  .build();
+
+const titleCss = new CssBuilder()
+  .addClass('flex gap-2 items-center font-semibold')
+  .addClass('text-gray-900 dark:text-gray-100', type === 'note')
+  .build();
+---
+
+<aside aria-label={title} class={asideCss}>
+  <p class={titleCss} aria-hidden='true'>
+    <Icon name={icons[type]} class='s-4 text-[1.5rem]' />{title}
+  </p>
+  <section class='starlight-aside__content'>
+    <slot />
+  </section>
+</aside>

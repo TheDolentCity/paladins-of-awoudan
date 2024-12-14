@@ -1,0 +1,24 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import clsx from 'clsx';
+
+const css = clsx(
+  'prose dark:prose-invert lg:prose-2xl',
+  'prose-headings:font-serif prose-headings:uppercase prose-headings:text-gray-800 dark:prose-headings:text-gray-200',
+  "prose-h2:relative prose-h2:after:content-[''] after:prose-h2:h-[2px] after:prose-h2:absolute after:prose-h2:left-0 after:prose-h2:right-0  after:prose-h2:-bottom-2 after:prose-h2:bg-accent-400",
+  "prose-h3:relative prose-h3:after:content-[''] after:prose-h3:h-[2px] after:prose-h3:absolute after:prose-h3:left-0 after:prose-h3:right-0  after:prose-h3:-bottom-2 after:prose-h3:bg-accent-400",
+  'prose-h4:mb-0',
+  'prose-p:leading-none prose-p:text-gray-600 dark:prose-p:text-gray-400',
+  'prose-li:leading-none prose-li:my-1 prose-li:text-gray-600 dark:prose-li:text-gray-400',
+  'prose-table:border-separate prose-table:border-2 prose-table:border-spacing-0 prose-table:rounded-lg prose-table:border-gray-900 dark:prose-table:border-accent-400',
+  'last:prose-tr:rounded-b',
+  'prose-th:p-2 prose-th:border-2 first:prose-th:rounded-tl last:prose-th:rounded-tr',
+  'prose-th:text-gray-200 dark:prose-th:text-accent-950 prose-th:bg-gray-900 prose-th:border-gray-900 dark:prose-th:bg-accent-400 dark:prose-th:border-accent-400',
+  'prose-td:p-2 prose-td:border-2 prose-td:border-gray-200 dark:prose-td:border-gray-900');
+---
+
+<div
+  class={css}
+>
+  <slot />
+</div>
