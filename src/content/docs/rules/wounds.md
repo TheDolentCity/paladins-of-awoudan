@@ -3,7 +3,11 @@ title: Wounds
 description: Details and tables for handling Paladin wounds.
 ---
 
-## Blunt Wounds
+## Wounds
+
+If your **HEA** falls to zero or lower, you roll a d12 + injury level on the relevant wounds table. Your injury level is equal to the rating of the highest wound you're currently suffering from. You then reset your **HEA** to its maximum.
+
+### Blunt Wounds
 
 These wounds are often caused by melee and kinetic weapons. They often involve physically moving the Paladin and breaking their bones.
 
@@ -20,36 +24,38 @@ These wounds are often caused by melee and kinetic weapons. They often involve p
 | 9   | Skull broken → unconscious and dying and thrown a good distance      |
 | 0   | Spine destroyed → Paladin is killed                                  |
 
-## Piercing Wounds
+### Piercing Wounds
 
 These wounds are often caused by bullet and laser weapons. They leaving bleeding wounds that will weaken and then kill the Paladin if left untreated.
 
-|     | Piercing Wounds                                                |
-| --- | -------------------------------------------------------------- |
-| 1   | Grazed                                                         |
-| 2   | Cut → lose (3) stamina                                         |
-| 3   | Cut → lose (6) stamina                                         |
-| 4   | Bleeding → gain the bleeding (1) condition                     |
-| 5   | Bleeding → gain the bleeding (1) condition                     |
-| 6   | Bleeding → gain the bleeding (2) condition                     |
-| 7   | Bleeding → gain the bleeding (2) condition                     |
-| 8   | Bleeding → gain the bleeding (4) condition                     |
-| 9   | Bleeding → gain the bleeding (4) condition                     |
-| 10  | Weakened → fingers lose blood, -2 when using your hands        |
-| 11  | Weakened → fingers lose blood, -4 when using your hands        |
-| 12  | Weakened → toes lose blood, slowed                             |
-| 13  | Bleeding → gain the bleeding (8) condition                     |
-| 14  | Bleeding → gain the bleeding (8) condition                     |
-| 15  | Withered → leg loses lots of blood, immobilized                |
-| 16  | Withered → arm loses lots of blood, unable to use hands at all |
-| 17  | Bleeding out → Paladin is unconscious and dying                |
-| 18  | Headshot → Paladin is killed                                   |
+| d12 | Piercing Wounds                                                                  |
+| --- | -------------------------------------------------------------------------------- |
+| 1   | Grazed                                                                           |
+| 2   | Cut → lose (3) stamina                                                           |
+| 3   | Cut → lose (6) stamina                                                           |
+| 4   | Bleeding → gain the bleeding (1) condition                                       |
+| 5   | Bleeding → gain the bleeding (1) condition                                       |
+| 6   | Bleeding → gain the bleeding (2) condition                                       |
+| 7   | Bleeding → gain the bleeding (2) condition                                       |
+| 8   | Bleeding → gain the bleeding (4) condition                                       |
+| 9   | Bleeding → gain the bleeding (4) condition                                       |
+| 10  | Weakened → fingers lose blood, -2 when using your hands                          |
+| 11  | Weakened → fingers lose blood, -4 when using your hands                          |
+| 12  | Weakened → toes lose blood, slowed                                               |
+| 13  | Bleeding → gain the bleeding (8) condition                                       |
+| 14  | Bleeding → gain the bleeding (8) condition                                       |
+| 15  | Withered → leg loses lots of blood, immobilized                                  |
+| 16  | Withered → leg loses lots of blood, immobilized                                  |
+| 17  | Withered → arm loses lots of blood, unable to use hands at all                   |
+| 18  | Withered → arm loses lots of blood, unable to use hands at all                   |
+| 19  | Withered → arms and legs lose lots of blood, immobilized and unable to use hands |
+| 20  | Bleeding out → Paladin is unconscious and dying unless they are healed           |
 
-## Explosive Wounds
+### Massive Wounds
 
-These wounds are often caused by alchemy, magic, and monsters. They can light Paladins on fire or sever limbs with ease.
+These wounds are often caused by alchemy, magic, and monsters. They can kill or sever limbs with ease.
 
-|     | Explosive Wounds                                                       |
+|     | Massive Wounds                                                         |
 | --- | ---------------------------------------------------------------------- |
 | 1   | Blasted → knocked down and scorched                                    |
 | 2   | Burned → 3rd degree burns, unable to act for a round                   |
@@ -61,3 +67,16 @@ These wounds are often caused by alchemy, magic, and monsters. They can light Pa
 | 8   | Limb destroyed → leg is severed, unable to move                        |
 | 9   | Limbs fragmented → Paladin loses d4 limbs                              |
 | 0   | Eruption → Paladin loses consciousness and d4 limbs                    |
+
+## Broken Will
+
+These conditions are triggered when your will is broken by a powerful spirit or magic. If your **WIL** falls to zero or lower, you roll a d6 on the broken will table. Afterwards, you regain a number of **WIL** equal to d4 + **MIN**.
+
+| d6  | Broken Will                                                            |
+| --- | ---------------------------------------------------------------------- |
+| 1   | Staggered → gain the slowed condition.                                 |
+| 2   | Stunned → gain the immobilized condition.                              |
+| 3   | Strained → gain the frightened condition.                              |
+| 4   | Cracked → gain the dazed condition.                                    |
+| 5   | Fractured → gain the exposed condition.                                |
+| 6   | Broken → **MIN** save or fall unconscious. On a success, become dazed. |
