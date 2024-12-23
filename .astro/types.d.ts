@@ -136,9 +136,37 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"classes/paladin-of-the-red-hunt.md": {
-	id: "classes/paladin-of-the-red-hunt.md";
-  slug: "classes/paladin-of-the-red-hunt";
+"classes/paladin-of-the-azure-keep.md": {
+	id: "classes/paladin-of-the-azure-keep.md";
+  slug: "classes/paladin-of-the-azure-keep";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/paladin-of-the-celadon-tower.md": {
+	id: "classes/paladin-of-the-celadon-tower.md";
+  slug: "classes/paladin-of-the-celadon-tower";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/paladin-of-the-red-wood.md": {
+	id: "classes/paladin-of-the-red-wood.md";
+  slug: "classes/paladin-of-the-red-wood";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/paladin-of-the-sable-spire.md": {
+	id: "classes/paladin-of-the-sable-spire.md";
+  slug: "classes/paladin-of-the-sable-spire";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/paladin-of-the-white-ash.md": {
+	id: "classes/paladin-of-the-white-ash.md";
+  slug: "classes/paladin-of-the-white-ash";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -167,6 +195,13 @@ declare module 'astro:content' {
 "rules/checks.md": {
 	id: "rules/checks.md";
   slug: "rules/checks";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"rules/combat.md": {
+	id: "rules/combat.md";
+  slug: "rules/combat";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

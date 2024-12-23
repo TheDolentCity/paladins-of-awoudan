@@ -72,11 +72,11 @@ These wounds are often caused by alchemy, magic, and monsters. They can kill or 
 
 These conditions are triggered when your will is broken by a powerful spirit or magic. If your **WIL** falls to zero or lower, you roll a d6 on the broken will table. Afterwards, you regain a number of **WIL** equal to d4 + **MIN**.
 
-| d6  | Broken Will                                                            |
-| --- | ---------------------------------------------------------------------- |
-| 1   | Staggered → gain the slowed condition.                                 |
-| 2   | Stunned → gain the immobilized condition.                              |
-| 3   | Strained → gain the frightened condition.                              |
-| 4   | Cracked → gain the dazed condition.                                    |
-| 5   | Fractured → gain the exposed condition.                                |
-| 6   | Broken → **MIN** save or fall unconscious. On a success, become dazed. |
+| d6  | Broken Will                                                                           |
+| --- | ------------------------------------------------------------------------------------- |
+| 1   | Confused → the attacker slides the target a number of squares equal to their **MIN**. |
+| 2   | Cracked → gain the dazed condition.                                                   |
+| 3   | Staggered → gain the slowed condition.                                                |
+| 4   | Stunned → gain the immobilized condition.                                             |
+| 5   | Strained → gain the frightened condition.                                             |
+| 6   | Broken → gain the exposed condition.                                                  |
