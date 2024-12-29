@@ -6,10 +6,10 @@ description: Overview of the rules.
 ## Ability Scores
 
 - **Strength:** Your physical prowess. Increases encumbrance and weapon damage.
-- **Dexterity:** Your adroitness. Increases speed, stamina, and some weapon damage. Also affects the strength of the dodge action.
+- **Dexterity:** Your adroitness. Increases speed, stamina, and some weapon damage. Also affects the efficacy of the dodge action.
 - **Endurance:** Your energy. Increases stamina.
 - **Vitality:** Your strength of body. Increases health and increases resilience against physical conditions.
-- **Arcane:** Your innate magical potential. Increases effectiveness of spellcraft and increases luster.
+- **Arcane:** Your innate magical potential. Increases effectiveness of spells and increases luster.
 - **Spirit:** Your strength of faith and emotion. Increases effectiveness of class abilities and increases luster.
 - **Intelligence:** Your innate acumen. Increases willpower and number of skills.
 - **Mind:** Your cerebral potential. Increases willpower and resilience against mental conditions.

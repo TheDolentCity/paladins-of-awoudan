@@ -1,9 +1,9 @@
 ---
 title: Paladin of the Celadon Tower
-description: The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller.
+description: The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with some blaster aspects.
 ---
 
-_The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller._
+_The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with some blaster aspects._
 
 ## Ability Scores
 
@@ -19,12 +19,13 @@ _The old wizard, Myrrdin, is long dead. There are still a few who learned but an
 - You start with 4 stamina. Increase it by 1 for each point of dexterity and 2 for each point of endurance.
 - You start with 4 health. Increase it by 2 for each point of vitality.
 - You start with 12 willpower. Increase it by 1 for each point of intelligence and 3 for each point of mind.
-- You start with 4 luster. Increase it by 1 for each point of spirit and 2 for each point of arcane.
+- You start with 4 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 ## Gear
 
 - Take sable robes or consecrated robes.
 - Take crystal orb or oak staff or hazel wand or hawthorn wand.
+- Take shortsword, axe, or mace.
 - Take spell hoard ring.
 
 ## Builds
@@ -67,7 +68,7 @@ A caster who focuses on fighting and surviving in the thick of combat.
 - Level 2: Increase **ARC** and **MIN** by +1.
 - Level 2: Take the **Lingering Shield** feat.
 - Level 3: Take **Push** spell attribute.
-- Level 3: Take **Pull** spell attribute.
+- Level 3: Take **Wall** spell attribute.
 - Level 4: Increase **ARC** and **INT** by +1.
 - Level 4: Take the **Willful Mage** feat.
 - Level 5: Take the **Wall of Force** daily spell.
@@ -101,7 +102,7 @@ When you take a level in this class after level one, increase your health by 0, 
 
 All Paladins of the Celadon Tower have the same three features: wizard's exit, cantrips, and spell attributes. Choose 1 cantrip and 6 attributes or 2 cantrips and 4 attributes. You can apply 1 attribute to a standard spell attack. Add additional attributes at the cost of 3 **WIL** each. You cannot apply more than 3 attributes to one attack or apply multiple range attributes.
 
-- **Wizard's Exit:** Once per encounter as a move action, you may move your speed and enter a natural object such as a tree or boulder and reappear up to 20 squares away from behind another natural object.
+- **Wizard's Exit:** Once per skirmish as a move action, you may move your speed and enter a natural object such as a tree or boulder and reappear up to 20 squares away from behind another natural object.
 - **Cantrips:** Weak, but useful spells.
   - **Magus Light:** Requires a magical implement. As a standard action, shed bright light from your magical implement in a close burst 2 and dim light in a close burst 6. Increase both bursts by 1 for every point of **WIL** you spend. This effect lasts for one minute.
   - **Magus Hand:** As a standard action, you conjure an ethereal hand up to 10 squares away. This hand is the same size as your own. It can carry 1 **ENC** worth of items and move with 5 **SPE**. If it has to make a check, it uses your ability scores. Concentration (1).
@@ -116,6 +117,7 @@ All Paladins of the Celadon Tower have the same three features: wizard's exit, c
   - **Dishearten:** Targets hit by the attack have -2 to all attack rolls. Increase the penalty by -2 for every 3 points of **WIL** you spend. The maximum penalty is equal to twice your **MIN**. This effect lasts until the start of your next turn.
   - **Domination:** The attack must be single target and target **WIL**. If the attack breaks the target's will, they gain the domination condition. At the start of the target's turn, as a free action before they roll for saves, you may force them to perform a move action.
   - **Expose:** Targets hit by the attack have -2 to **DEF**. Increase the penalty by -2 for every 6 points of **WIL** you spend. The maximum penalty is equal to twice your **MIN**. This effect lasts until the start of your next turn.
+  - **Knockdown:** Targets hit by the attack are knocked prone.
   - **Light:** The attack conjures bright light in each square it strikes and dim light in every adjacent square.
   - **Line:** The range becomes line 10.
   - **Overpower:** The attack must be single target and target **WIL**. Add **INT** and **MIN** to the attack roll.
@@ -127,6 +129,7 @@ All Paladins of the Celadon Tower have the same three features: wizard's exit, c
   - **Shatter:** The attack targets **HEA** instead of **STA** or **WIL** and deals 5x damage to all objects that are struck by the attack.
   - **Sniper:** Requires the attack to be single target. The range increases by 6 + **INT**.
   - **Targeted:** Select a number of targets up to your **INT** within range of the attack.
+  - **Wall:** This attribute cannot be combined with other attributes. If this attribute is selected, the spell does no damage. Instead, create a wall using your spell attack range with a number of sections equal to **INT** + **MIN**. Concentration (1). The wall is 2 squares tall and appears like a cloud of fog, blocking line of sight. Each section of the wall has 1 **HEA** and attacks against **STA** or **WIL** deal **HEA** damage to it. If a section is destroyed, other portions of the wall remain active.
   - **Ward:** Targets of the attack, not including yourself, gain +2 **DEF** and +2 **FOC** until the start of your next turn.
   - **Zone:** The squares of this attack leave behind a zone. Concentration (1). If there is only a range modifier applied to this spell, then the caster may choose to not roll an attack as part of the spell and only create the zone. Choose from one of the following zone effects:
     - **Cracked Earth:** The zone is difficult terrain.

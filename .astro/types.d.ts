@@ -150,6 +150,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"classes/paladin-of-the-fulvous-stockade.md": {
+	id: "classes/paladin-of-the-fulvous-stockade.md";
+  slug: "classes/paladin-of-the-fulvous-stockade";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "classes/paladin-of-the-red-wood.md": {
 	id: "classes/paladin-of-the-red-wood.md";
   slug: "classes/paladin-of-the-red-wood";

@@ -19,11 +19,11 @@ _The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember
 - You start with 6 stamina. Increase it by 1 for each point of dexterity and 2 for each point of endurance.
 - You start with 8 health. Increase it by 2 for each point of vitality.
 - You start with 12 willpower. Increase it by 1 for each point of intelligence and 2 for each point of mind.
-- You start with 10 luster. Increase it by 1 for each point of spirit and 2 for each point of arcane.
+- You start with 10 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 ## Gear
 
-- Take consecrated armor or consecrated robes.
+- Take medium armor, consecrated armor, or consecrated robes.
 - Take mace and shield or hazel wand.
 - Take prayerbook or scholar's tome.
 - Take pagan holy symbol on a chain necklace.
@@ -109,9 +109,9 @@ Take one of the following features:
   - **Holy Warrior:** As long as you wear your holy symbol and wield a melee weapon, you increase **STR** by 2 and max **STA** by 6. If your holy symbol is destroyed or removed, you lose these benefits and gain the exposed condition.
 - **Priest's Instruction:** You have been instructed in the methods of great healing and rituals.
   - **Divine Shield:** Once per round as a standard action, you may spend 12 **WIL** to conjure a divine shield on one target within 5 squares. While the shield is active, the target has resist 4 **HEA**, resist 4 **WIL**, and resist 1 **LUS**. You may only have one divine shield active at a time. Concentration (1).
-  - **Healing Ritual:** This ritual requires a holy symbol. The ritual takes one hour to perform on an immobile target other than yourself. Make a **SPI** check. On success, the target may heal one wound. If the check is a failure this ability cannot be attempted again for that condition.
+  - **Healing Ritual:** This ritual requires a holy symbol. The ritual takes one hour to perform on an immobile target other than yourself. The target chooses one wound they suffer from. Make a **SPI** check. On success, the target heals the selected wound. If the check is a failure this ability cannot be attempted again for that wound.
 - **Scholar's Study:** You have studied ancient texts to understand holy powers time has forgotten.
-  - **Divine Sigil:** Once per round as a standard action, you may spend 12 **WIL** to inscribe a holy sigil on your square. This creates a close burst 3 zone of divine blessing. While within the zone, yourself and allies subtract 2 from all **HEA**, **STA**, and **WIL** damage taken involuntarily (to a minimum of one) and add +4 to all saves. You may only have one zone active at a time. Concentration (1).
+  - **Divine Sigil:** Once per round as a standard action, you may spend 12 **WIL** to inscribe a holy sigil on your square. This creates a close burst 3 zone of divine blessing. While within the zone, yourself and allies gain **HEA**, **STA**, and **WIL** resist 2 and add +4 to all saves. You may only have one zone active at a time. Concentration (1).
   - **Healing Touch:** Once per round as a standard action, you may heal an adjacent ally with your touch. They may restore d8 **HEA** or automatically save against one condition. You have a number of uses per day equal to your **INT** plus your **MIN**.
 
 ### Level 2
@@ -120,10 +120,10 @@ Increase two different ability scores by +1 and take a new feat.
 
 ### Level 3
 
-Spell attributes modify standard attacks with magical implements. Take three of the following spell attributes. You can only select attributes for the book/tome you carry. You can apply one attribute to a standard spell attack or apply two at the cost of 6 **WIL**. You cannot apply more than two attributes to one attack.
+Spell attributes modify standard attacks with magical implements. Take three of the following spell attributes. You can only select attributes for the book/tome you carry. You can apply one attribute to a standard attack or apply two at the cost of 6 **WIL**. You cannot apply more than two attributes to one attack.
 
 - **Prayerbook Attributes:** Healing and protection spells.
-  - **Branding:** This attribute can only be applied to attacks with a melee weapon. Whether the attack deals damage or not, the target is branded. Allies gain a **DEF** bonus equal to your **SPI** against all attacks from the branded target until the start of your next turn. They can only increase **DEF** once per round from this ability.
+  - **Branding:** This attribute can only be applied to attacks with a melee weapon. Whether the attack deals damage or not, the target is marked. While the target is marked, it has a penalty to attack rolls that do not include you equal to your **SPI**.
   - **Brighten:** If this attack breaks a target's will, one ally who can see regains 2 **LUS**.
   - **Burst:** The attack becomes a close burst 2 and does not target allies.
   - **Holy:** This attribute can only be applied to attacks with a melee weapon. Treat the weapon as though it has the holy property.
@@ -163,8 +163,7 @@ You must have at least one level in this class to take the following feats:
 - **Divine Protection:** You may place your holy symbol around anyone's neck to bestow the divine protection condition on them. As long as they are not attacked further, they will not die from wounds or disease. They do not receive any other bonuses or abilities from your holy symbol.
 - **Divine Speech:** You have learned some of the divine language. You can communicate with all humans, and understand limited words of animals and umbral creatures.
 - **Empowered Shield:** Requires the priest's instruction feature. When you create a divine shield, the target has resist 6 **HEA**, resist 6 **WIL**, and resist 2 **LUS**. Additionally, they gain **WIL** regeneration 1.
-- **Empowered Sigil:** Requires the scholar's study feature. When you create a divine sigil, every foe in the burst is dazed until the start of your next turn.
-- **Empowered Sigil (improved):** Requires the scholar's study feature. When you create a divine sigil, every foe in the burst must make a **MIN** check. If they fail, they are exposed until the start of their next turn.
+- **Empowered Sigil:** Requires the scholar's study feature. When you create a divine sigil, every foe in the burst must make a **MIN** check. If they fail, they are exposed until the start of their next turn.
 - **Holy Fervor:** When you make a holy attack regain 1 **WIL**.
 - **Holy Guardian:** Requires the cleric's training feature. You may use the divine defense ability when an ally is attacked and you are adjacent to the attacker.
 - **Natural Healer:** When you heal an ally, increase the total amount of healing by +2.

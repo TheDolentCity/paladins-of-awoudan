@@ -1,9 +1,9 @@
 ---
 title: Paladin of the Sable Spire
-description: All omens feel the call of umbral magic, but none so keenly as you. You have mastered your inner light, spending it to work great magics just like the umbral sorcerers. Take care that you do not follow in their footsteps. Striker, with some controller aspects.
+description: All omens feel the call of umbral magic, but none so keenly as you. You have mastered your inner light, spending it to work great magics just like the umbral sorcerers. Take care that you do not follow in their footsteps. Blaster, with some striker and controller aspects.
 ---
 
-_All omens feel the call of umbral magic, but none so keenly as you. You have mastered your inner light, spending it to work great magics just like the umbral sorcerers. Take care that you do not follow in their footsteps. Striker, with some controller aspects._
+_All omens feel the call of umbral magic, but none so keenly as you. You have mastered your inner light, spending it to work great magics just like the umbral sorcerers. Take care that you do not follow in their footsteps. Blaster, with some striker and controller aspects._
 
 ## Ability Scores
 
@@ -19,11 +19,13 @@ _All omens feel the call of umbral magic, but none so keenly as you. You have ma
 - You start with 8 stamina. Increase it by 1 for each point of dexterity and 4 for each point of endurance.
 - You start with 6 health. Increase it by 2 for each point of vitality.
 - You start with 10 willpower. Increase it by 1 for each point of intelligence and 2 for each point of mind.
-- You start with 12 luster. Increase it by 1 for each point of spirit and 2 for each point of arcane.
+- You start with 12 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 ## Gear
 
 - Take sable robes or consecrated robes.
+- Take shortsword, axe, or mace.
+- Take dagger or shield.
 - Take white ash ring.
 
 ## Builds

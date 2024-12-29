@@ -35,6 +35,8 @@
   --sl-text-sm: 1.25rem;
   --sl-text-base: 1.5rem;
   --sl-text-lg: 1.75rem;
+  --sl-text-code: var(--sl-text-lg);
+  --ec-codeLineHt: 1.5rem !important;
 }
 /* Light mode colors. */
 :root[data-theme="light"] {
@@ -55,4 +57,7 @@
   --sl-color-hairline: var(--sl-color-black);
   --sl-color-hairline-light: var(--sl-color-black);
   --sl-color-hairline-shade: var(--sl-color-gray-6);
+}
+.expressive-code .frame {
+  display: inline-block !important;
 }

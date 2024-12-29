@@ -5,7 +5,7 @@ description: Overview of combat rules.
 
 ## Sequence
 
-A combat encounter is a series of rounds and turns. In a round, every character takes one turn. A round represents about six seconds in the fiction, but they can technically be shorter or longer. Time is simulated poorly, do not perform Newtonian analysis of combat. On your turn, you can take a standard action, a move action, and choose to perform additional stamina actions.
+A skirmish is a series of rounds and turns. In a round, every character takes one turn. A round represents about six seconds in the fiction, but they can technically be shorter or longer. Time is simulated poorly, do not perform Newtonian analysis of combat. On your turn, you can take a standard action, a move action, and choose to perform additional stamina actions.
 
 The full combat sequence is as follows:
 
@@ -28,16 +28,19 @@ The full combat sequence is as follows:
 - **Free:** A small, easy action such as speaking a sentence, dropping an item, or inspecting something you see. Does not require spending stamina.
 - **Stamina:** Any additional action performed on a turn. Requires spending stamina.
 - **Reaction:** A special stamina action performed outside of a turn that is limited to once per round.
-- **Rest:** Perform no actions except free actions. Recover 2d4 stamina.
+- **Rest:** Perform no actions except free actions. At the end of your turn when you regenerate stamina or willpower, you add +d6 to the rolls.
 - **Concentration**: Certain effects must be maintained by sacrificing a number of **WIL** equal to the rating of concentration per turn as a free action.
 
 ### Stamina Actions
 
-- **Attack (6 STA):** Perform an additional melee, ranged, or spell attack action.
+- **Attack (6 STA):** Perform an additional melee, ranged, or spell attack action. You can perform a maximum amount of attack actions in a round equal to your **END** (minimum 2).
 - **Move (6 STA):** Perform an additional move action. A maximum of two move actions can be performed per round.
 - **Opportunity Attack (3 STA, Reaction):** When you are wielding a melee weapon and an adjacent enemy moves to a square that is not adjacent to you, you may perform an opportunity attack. This is a standard attack action. Certain class abilities grant you additional attacks or triggers for opportunity attacks.
+- **Draw/Stow (3 STA):** Perform an additional draw or stow action. A maximum of two draw/stow actions can be performed per round. Drawing/stowing two melee weapons that you dual wield is one action.
 - **Dodge (6 STA, Reaction):** As a reaction to an attack against you, but before damage is rolled, you may dodge. Roll d6 + **DEX** and subtract the sum from the final attack roll. If the sum is zero or less, no on-hit or on-damage effects trigger.
-- **Shield (Variable STA, Reaction):** Requires wielding a shield. As a reaction to an attack against you, but before damage is rolled, you may shield. If you do, you must spend a number of **STA** equal to the damage of the attack. If this leaves you with 0 or less **STA**, you are exposed and cannot make a save for this condition on your next turn. ex: Attack roll of 8 when you have 4 armor would result in 4 damage, requiring you to spend 4 **STA** to negate all damage.
+- **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** up to 12 and add **DEX**. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and the attacker takes **STA** damage equal to your **STR**+**DEX**.
+- **Shield (Variable STA, Reaction):** Requires a shield. As a reaction to an attack against you, but before damage is rolled, you may shield. If you do, you must spend a number of **STA** equal to the damage of the attack. If this leaves you with 0 or less **STA**, you gain the exposed condition and cannot make a save for this condition on your next turn. ex: Attack roll of 8 when you have 4 armor would result in 4 damage, requiring you to spend 4 **STA** to negate all damage.
+- **Reload (3 STA):** This action can only be performed once per round.
 
 ## Attacks
 
@@ -61,10 +64,11 @@ When your **STA** falls to zero or lower, your stamina is drained. You gain the 
 
 - **Bleeding:** At the start of your turn, you take an amount of damage equal to the rating of the bleeding condition. Make a **VIT** save to remove the condition.
 - **Burning:** At the start of your turn, you take an amount of damage equal to the rating of the burning condition. Make a **DEX** save to remove the condition.
+- **Dazed:** You are unable to perform stamina actions. Make a **MIN** save to remove the condition.
 - **Dying:** You must make three death saves to stabilize and lose the dying condition. If you reach three failed death saves, you die.
 - **Exposed:** Unable to perform actions besides free actions, including stamina actions and reactions. You also suffer an additional +4 damage from all attacks until the condition leaves you. Make a **MIN** save to remove the condition.
-- **Dazed:** You are unable to perform stamina actions. Make a **MIN** save to remove the condition.
 - **Frightened:** You are unable to move towards or attack the creature/object frightening you. Make a **SPI** save to remove the condition.
+- **Grappled:** One creature is holding onto another. The grappler can perform move action at half speed, but the grappled creature is immobilized. The grappled creature has a -2 penalty to all attacks. Everyone besides the grappler has +2 bonus to attacks against the grappled creature. Make a **STR** save to break free of the grapple.
 - **Immobilized:** You are unable to perform move actions or any action that results in you moving from your current square. Make a **VIT** save to remove the condition.
 - **Prone:** You move at a quarter speed. Melee attacks against you have +4 and ranged attacks have -4. It takes half your movement to go prone or stand up from prone.
 - **Slowed:** Your speed is halved. Make a **VIT** save to remove the condition.
@@ -72,15 +76,209 @@ When your **STA** falls to zero or lower, your stamina is drained. You gain the 
 
 ## Ranges
 
+Most attacks are single target, be they melee, ranged, or magic attacks. Certain class abilities modify attacks so that they have unique ranges that target multiple creatures instead. These ranges are also used colloquially to describe certain ranges of non-attack effects.
+
 ### Blast
+
+Blast is a wide attack pattern that does not reach very far. First you choose a square in close burst one. If it is an orthogonal (N, E, S, W), then count out a number of squares equal to the rating of the blast and that are orthogonal to the origin square. If it is diagonal (NE, SE, SW, NW), then count out a number of squares equal to the rating of the blast in a perpendicular direction (N, E, S, W).
+
+#### Blast 1, facing North
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • X X X • • • • • •
+• • • X X X • • • • • •
+• • • • 0 • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Blast 1, facing Northeast
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • X X • • • • •
+• • • • • X X • • • • •
+• • • • 0 • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Blast 2, facing East
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • X X X • • • •
+• • • • • X X X • • • •
+• • • • 0 X X X • • • •
+• • • • • X X X • • • •
+• • • • • X X X • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Blast 2, facing Southwest
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • 0 • • • •
+• • • • X X X • • • • •
+• • • • X X X • • • • •
+• • • • X X X • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
 
 ### Burst
 
+Burst is an attack pattern that hits a wide area far from your character. Choose any square within range of your normal attack. This is the origin square of the burst. Count a number of squares equal to the rating of the burst in each direction. This creates a square around you that determines the range of the attack.
+
+#### Burst 1, with a weapon range of 4
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • X X X • • • • •
+• • • • X X X • • • • •
+• • • • X X X • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • 0 • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Burst 2, with a weapon range of 4
+
+```javascript
+• • • • • • • • • • • •
+• • • X X X X X • • • •
+• • • X X X X X • • • •
+• • • X X X X X • • • •
+• • • X X X X X • • • •
+• • • X X X X X • • • •
+• • • • • • • • • • • •
+• • • • • 0 • • • • • •
+• • • • • • • • • • • •
+```
+
 ### Close Burst
+
+Close burst is an attack pattern that surrounds your character. Count out a number of squares equal to the rating of the close burst in each direction. This creates a square around you that determines the range of the attack.
+
+#### Close Burst 1
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • X X X • • • • • •
+• • • X 0 X • • • • • •
+• • • X X X • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Close Burst 3
+
+```javascript
+• • • • • • • • • • • •
+• • X X X X X X X • • •
+• • X X X X X X X • • •
+• • X X X X X X X • • •
+• • X X X 0 X X X • • •
+• • X X X X X X X • • •
+• • X X X X X X X • • •
+• • X X X X X X X • • •
+• • • • • • • • • • • •
+```
 
 ### Line
 
+Line is a thin attack pattern that reaches very far. First you choose a square in close burst one. Count out a number of squares equal to the rating of the line that head in the same direction as the initial square.
+
+#### Line 3, facing North
+
+```javascript
+• • • • • • • • • • • •
+• • • • X • • • • • • •
+• • • • X • • • • • • •
+• • • • X • • • • • • •
+• • • • 0 • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Line 4, facing Northeast
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • X • • • • •
+• • • • • X • • • • • •
+• • • • X • • • • • • •
+• • • X • • • • • • • •
+• • 0 • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Line 8, facing East
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • 0 X X X X X X X X •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
 ### Wall
+
+Wall is a unique attack pattern. Walls create physical objects on the battlefield. Choose an origin square within range of your ranged or magic weapon. Place each section of the wall (the ability will determine how many) in an unoccupied square in an orthogonal fashion. You cannot place sections diagonal of each other and you cannot place a piece that is orthogonal to three or more sections at the same time. The wall must be continous. If you have more sections to place, but no more valid placements, then they are discarded.
+
+#### Wall 5, valid examples
+
+```javascript
+• • • • • • • • • • • •
+• • • • • • • X X • • •
+• • • • • • • • X • • •
+• X X X • • • • X • • •
+• X • • • • • • X • • •
+• X • • X • X • • • • •
+• • • • X X X • • • • •
+• 0 • • • • • • • • • •
+• • X X X X X • • • • •
+```
+
+#### Wall 5, invalid examples
+
+```javascript
+• X • • • • • • • • • •
+• • • • • • • • • • • •
+• X • • X X • • • • • •
+• X • X X X • • • • • •
+• X • • • • • • X • • •
+• X • • • • X X • • • •
+• • • • • X X • • • • •
+• 0 X • • • • • • • • •
+• X X X X • • • • • • •
+```
 
 ## Niche Rules
 
@@ -90,7 +288,7 @@ When you are concentrating on an effect and you take damage, you must make a **M
 
 ### Dual Wielding
 
-When you hold two of the same weapon type, one in each hand, you are dual wielding. While you dual wield, you do not add your ability scores to attack rolls, but you can roll two attack rolls as one standard attack action or you can combine both attack rolls into one.
+When you hold two of the same weapon type, one in each hand, you are dual wielding. While you dual wield, you do not add your ability scores to attack rolls, but you can roll two attack rolls against different targets as one standard attack action or you can combine both attack rolls against the same target.
 
 Ex: If you dual wield shortswords, you can either roll d6 against two adjacent targets or roll 2d6 against one adjacent target. If you roll against two targets and hit both, then you can trigger two on-hit effects.
 
