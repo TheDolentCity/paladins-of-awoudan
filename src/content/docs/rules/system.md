@@ -5,22 +5,108 @@ description: Overview of the rules.
 
 ## Ability Scores
 
-- **Strength:** Your physical prowess. Increases encumbrance and weapon damage.
-- **Dexterity:** Your adroitness. Increases speed, stamina, and some weapon damage. Also affects the efficacy of the dodge action.
-- **Endurance:** Your energy. Increases stamina.
-- **Vitality:** Your strength of body. Increases health and increases resilience against physical conditions.
-- **Arcane:** Your innate magical potential. Increases effectiveness of spells and increases luster.
-- **Spirit:** Your strength of faith and emotion. Increases effectiveness of class abilities and increases luster.
-- **Intelligence:** Your innate acumen. Increases willpower and number of skills.
-- **Mind:** Your cerebral potential. Increases willpower and resilience against mental conditions.
+There are eight ability score: strength, dexterity, endurance, vitality, arcane, spirit, intelligence, and mind. They are used for ability checks for related tasks, but they also have important numerical influences on your character stats, items they can wield, and saves from conditions.
+
+### Strength
+
+Your physical prowess and power.
+
+- Increases encumbrance by +1 for each point.
+- Increases effectiveness of crushing weapons.
+- Required for most arms and armor, especially the stronger ones.
+
+### Dexterity
+
+Your agility and adroitness.
+
+- Increases speed by +1 for each point.
+- Increases stamina by +1 for each point.
+- Increases effectiveness of piercing and slashing weapons.
+- Increases efficacy of the dodge action.
+- Required for certain arms and armor.
+
+### Endurance
+
+Your body's energy level.
+
+- Increases stamina by +4 for each point.
+- Used for stamina regeneration.
+
+### Vitality
+
+Your strength of body.
+
+- Increases health by +2 for each point.
+- Used for saves from the slowed condition.
+- Used for saves from the immobilized condition.
+- Used for saves from the bleeding condition.
+
+### Arcane
+
+Your innate magical potential.
+
+- Increases luster by +1 for each point.
+- Increases effectiveness of magic attacks.
+- Required for certain arms and armor.
+
+### Spirit
+
+Your strength of faith and courage.
+
+- Increases luster by +2 for each point.
+- Used for saves from the frightened condition.
+- Used for saves from the exposed condition.
+- Required for certain arms and armor.
+
+### Intelligence
+
+Your innate acumen.
+
+- Increases willpower by +1 for each point.
+- Increases number of skills.
+
+### Mind
+
+Your cerebral potential.
+
+- Increases willpower by +2 for each point.
+- Used for willpower regeneration.
+- Used for saves from the dazed condition.
+- Used for saves from the stunned condition.
+- Used for concentration checks.
 
 ## Stats
 
-- **Defense:** Determines the amount of health damage reduction a character experiences.
-- **Focus:** Determines the amount of willpower damage reduction a character experiences.
-- **Encumbrance:** Determines the amount of items a character can carry. Most items you can hold in one hand are one encumbrance while items you can hold in two are three encumbrance.
-- **Speed:** Determines the amount of squares a character can move in one action.
-- **Stamina:** A pool of energy that can be spent to perform additional actions.
-- **Health:** A pool of energy that decreases as your body is attacked.
-- **Willpower:** A pool of energy that decreases as your mind is attacked. It can also be spent to perform abilities.
-- **Luster:** A pool of energy that decreases as you are struck with umbral magic. Once it hits 0 it signifies your character's heart being ensorceled by umbral magic and they become an NPC.
+There are eight stats: defense, focus, encumbrance, speed, stamina, health, willpower, and luster. They represent variable values or resources that increase or decrease over time. For example, health decreases as you take damage or encumbrance increases as you gain strength.
+
+### Defense
+
+Your ability to resist attacks on your body. There are three types of defense: crush, pierce, and slash. Different weapons have different strengths and different armors have different defenses. Optimizing the correct damage type is key to battles.
+
+### Focus
+
+Your ability to resist attacks on your mind. Reduce willpower damage by your character's focus.
+
+### Encumbrance
+
+Determines the amount of items a character can carry. Most items you can hold in one hand are 1 encumbrance (ENC) while items you can hold in two are 3 encumbrance (ENC).
+
+### Speed
+
+How much ground you can cover in six seconds. Determines the amount of squares a character can move as one action.
+
+### Stamina
+
+How much extra energy you can use in this moment. A pool of energy that can be spent to perform additional actions. When it hits 0, it represents your character overexerting themselves, exposing themselves to attacks for a brief moment.
+
+### Health
+
+Your physical well-being. A pool of energy that decreases as your body is attacked. When it hits 0, it represents your character suffering a lasting wound, such as a broken arm or deep laceration. These wounds take great time or magic to heal.
+
+### Willpower
+
+The strength of one's mind. A pool of energy that decreases as your mind is attacked. It can also be spent to enhance class abilities.
+
+### Luster
+
+The natural light that all humans hold within them. A pool of energy that decreases as you are struck with umbral magic. When it hits 0, it signifies your character's soul being ensorceled by umbral magic and they become a hostile NPC.

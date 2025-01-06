@@ -1,0 +1,28 @@
+---
+import { CssBuilder } from '../../lib/css-builder';
+
+const tagVariants = ['primary', 'secondary', 'outline'] as const;
+
+interface Props {
+  type?: (typeof tagVariants)[number];
+}
+
+let { type = 'primary' } = Astro.props;
+
+if (!tagVariants.includes(type)) {
+  throw new Error(
+    'Invalid `type` prop passed to the `<Tag>` component.\n' +
+      `Received: ${JSON.stringify(type)}\n` +
+      `Expected one of ${tagVariants.map((i) => JSON.stringify(i)).join(', ')}`
+  );
+}
+---
+
+<div class={new CssBuilder()
+  .addClass('not-prose inline-block px-2 py-0.5 mb-4 border rounded-sm text-xl tracking-tight leading-none')
+  .addClass('text-accent-300 border-accent-700 bg-accent-700 dark:text-accent-700 dark:border-accent-300 dark:bg-accent-300', type === 'primary')
+  .addClass('text-accent-700 border-accent-300 bg-accent-300 dark:text-accent-300 dark:border-accent-700 dark:bg-accent-700', type === 'secondary')
+  .addClass('text-accent-700 border-accent-700 dark:text-accent-300 dark:border-accent-300', type === 'outline')
+  .build()}>
+  <slot />
+</div>

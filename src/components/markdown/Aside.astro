@@ -2,8 +2,9 @@
 import { CssBuilder } from '../../lib/css-builder';
 import { Icon } from '@astrojs/starlight/components';
 
-const asideVariants = ['note', 'tip', 'caution', 'danger'] as const;
+const asideVariants = ['example', 'note', 'tip', 'caution', 'danger'] as const;
 const icons = {
+  example: 'open-book',
   note: 'information',
   tip: 'rocket',
   caution: 'warning',
@@ -15,7 +16,7 @@ interface Props {
   title?: string;
 }
 
-let { type = 'note', title = 'Note' } = Astro.props;
+let { type = 'example', title = 'Example' } = Astro.props;
 
 if (!asideVariants.includes(type)) {
   throw new Error(
@@ -26,14 +27,14 @@ if (!asideVariants.includes(type)) {
 }
 
 const asideCss = new CssBuilder()
-  .addClass('not-prose p-4 border-l-4')
-  .addClass('border-gray-800 dark:border-accent-400', type === 'note')
-  .addClass('text-gray-800 dark:text-accent-400 bg-gray-800/10 dark:bg-accent-400/10', type === 'note')
+  .addClass('not-prose p-4 border-l-4 leading-none')
+  .addClass('border-accent-800 dark:border-accent-400', type === 'note' || type === 'example')
+  .addClass('text-accent-800 dark:text-accent-400 bg-accent-800/10 dark:bg-accent-200/10', type === 'note' || type === 'example')
   .build();
 
 const titleCss = new CssBuilder()
-  .addClass('flex gap-2 items-center font-semibold')
-  .addClass('text-gray-900 dark:text-gray-100', type === 'note')
+  .addClass('flex gap-2 mb-2 items-center font-semibold')
+  .addClass('text-accent-900 dark:text-accent-100', type === 'note' || type === 'example')
   .build();
 ---
 

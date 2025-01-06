@@ -1,9 +1,9 @@
 ---
-title: Paladin of the Azure Keep
-description: TODO
+title: The Azure Mountain
+description: A warrior who was habitually struck by boulders as part of their training. A class that focuses on wearing heavy armor and directing attacks towards themself. Defender, with controller or striker as a secondary role depending on your ability selection.
 ---
 
-_TODO. Defender, with some striker aspects._
+_A warrior who was habitually struck by boulders as part of their training. A class that focuses on wearing heavy armor and directing attacks towards themself. Defender, with controller or striker as a secondary role depending on your ability selection._
 
 ## Stats
 
@@ -17,8 +17,8 @@ _TODO. Defender, with some striker aspects._
 ## Gear
 
 - Take medium armor or heavy armor.
-- Take great hammer or shield and mace.
-- Take crossbow or x2 short spears.
+- Take great hammer or mace.
+- Take heavy shield, shield, crossbow or x2 short spears.
 
 ## Builds
 
@@ -32,33 +32,41 @@ Start with: <br />
 **STR:** +3 **DEX:** +1 **END:** +2 **VIT:** +2 <br />
 **ARC:** +0 **SPI:** -1 **INT:** +0 **MIN:** +1
 
-- Take X, X, and X.
-- Level 1: Take **X** feature.
-- Level 1: Take the **X** feat.
-- Level 2: Increase **XXX** and **XXX** by +1.
-- Level 2: Take the **X** feat.
-- Level 3: Take the **X** attack.
-- Level 4: Increase **XXX** and **XXX** by +1.
-- Level 4: Take the **X** feat.
-- Level 5: Take the **X** daily attack.
+- Take heavy armor, mace, and crossbow.
+- Level 1: Take **Ironclad Mark** feature.
+- Level 1: Take **Ironclad Onslaught** feature.
+- Level 1: Take **Ironclad Monolith** feature.
+- Level 1: Take the **Unmovable** feat.
+- Level 2: Increase **STR** and **END** by +1.
+- Level 2: Take the **Wrestler's Tutelage** feat.
+- Level 3: Take the **Grapple** attack.
+- Level 3: Take the **Hack and Slash** attack.
+- Level 3: Take the **Halt** attack.
+- Level 4: Increase **STR** and **VIT** by +1.
+- Level 4: Take the **Inspiring Momentum** feat.
+- Level 5: Take the **Ironclad Grasp** daily attack.
 
 ### The Shield Warden
 
-An enduring warrior that uses a shield to intercept incoming attacks.
+An enduring warrior that uses a shield to intercept incoming attacks for allies.
 
 Start with: <br />
 **STR:** +2 **DEX:** +1 **END:** +3 **VIT:** +3 <br />
 **ARC:** -1 **SPI:** -1 **INT:** +0 **MIN:** +1
 
-- Take X, X, and X.
-- Level 1: Take **X** feature.
-- Level 1: Take the **X** feat.
-- Level 2: Increase **XXX** and **XXX** by +1.
-- Level 2: Take the **X** feat.
-- Level 3: Take the **X** attack.
-- Level 4: Increase **XXX** and **XXX** by +1.
-- Level 4: Take the **X** feat.
-- Level 5: Take the **X** daily attack.
+- Take heavy armor, mace, and heavy shield.
+- Level 1: Take **Shield Banger's Mark** feature.
+- Level 1: Take **Shield Defense** feature.
+- Level 1: Take **Shield Warden** feature.
+- Level 1: Take the **Shield Deflection** feat.
+- Level 2: Increase **END** and **VIT** by +1.
+- Level 2: Take the **Artillery Training** feat.
+- Level 3: Take the **Bash** attack attribute.
+- Level 3: Take the **Focus** attack attribute.
+- Level 3: Take the **Halt** attack attribute.
+- Level 4: Increase **END** and **STR** by +1.
+- Level 4: Take the **Peerless Defender** feat.
+- Level 5: Take the **Shield Sundering** daily attack.
 
 ### The Titan
 
@@ -72,13 +80,15 @@ Start with: <br />
 - Level 1: Take **Titan's Mark** feature.
 - Level 1: Take **Titan's Invigorating Blows** feature.
 - Level 1: Take **Titan's Ferocity** feature.
-- Level 1: Take the **X** feat.
-- Level 2: Increase **XXX** and **XXX** by +1.
-- Level 2: Take the **X** feat.
-- Level 3: Take the **X** attack.
-- Level 4: Increase **XXX** and **XXX** by +1.
-- Level 4: Take the **X** feat.
-- Level 5: Take the **X** daily attack.
+- Level 1: Take the **Relentless Titan** feat.
+- Level 2: Increase **END** and **STR** by +1.
+- Level 2: Take the **Seize the High Ground** feat.
+- Level 3: Take the **Cleave** attack attribute.
+- Level 3: Take the **Knockdown** attack attribute.
+- Level 3: Take the **Unstoppable** attack attribute.
+- Level 4: Increase **END** and **VIT** by +1.
+- Level 4: Take the **Titan's Opportunity** feat.
+- Level 5: Take the **Titan's Roar** daily attack.
 
 ## Levels
 
@@ -88,17 +98,17 @@ When you take a level in this class after level one, increase your health by 4, 
 
 Every Paladin of the Azure Keep has a marking, defensive, and protective feature. Choose one option for each feature type:
 
-- **Defender's Mark:** Marking targets makes allies harder to hit.
+- **Mountain's Mark:** Marking targets makes allies harder to hit.
   - **Ironclad Mark:** As a free action once per round, you may mark a number of creatures up to your **VIT** that are in a close burst 1. While a target is marked, it has a -2 penalty to attack rolls that do not include you as a target. Each mark persists until the end of the encounter.
   - **Shield Banger's Mark:** You must wield a shield to benefit from this feature. As a free action once per round, you may bang your shield and mark a number of targets up to your **END** that are in a close burst 6. While a target is marked, it has a -2 penalty to attack rolls that do not include you as a target. This mark lasts until the start of your next turn.
   - **Titan's Mark:** As a free action once per round when you attack, whether it hits or not, you may mark 1 of the targets involved in the attack. Marked targets have a penalty to attack rolls that do not include you as a target. If you are wielding a two-handed weapon, the penalty is equal to your **STR** (minimum -2) otherwise the penalty is -2. This mark lasts until the end of your next turn.
-- **Survivor of Battle:** You were trained to survive the hardest fighting.
+- **Mountain's Protection:** You were trained to survive the hardest fighting.
   - **Ironclad Onslaught:** You must wear heavy armor to benefit from this feature. Once per round as a free action when you make an attack, whether the attack hits or not, you may roll a d4 afterwards. On a 1, you may push the target 1 square. On a 2, you may slide the target 1 square. On a 3, you may knock the target prone. On a 4, you regain **HEA** equal to your **VIT**. Alternatively, if you are grappling someone, you may spend this free action to deal damage to them equal to your **STR**.
-  - **Shield Basher:** You must wield a shield to benefit from this feature. You decrease the cost of the shield action by your **END** and **VIT**.
+  - **Shield Defense:** You must wield a shield to benefit from this feature. You decrease the cost of the shield action by your **END** and **VIT**.
   - **Titan's Invigorating Blows:** You must wield a two-handed weapon to benefit from this feature. When you wound or kill an enemy, you regain an amount of **HEA** equal to your **STR**.
-- **Protector of the Keep:** You protect your allies at all costs.
+- **Mountain's Defense:** You protect allies that stay close to you.
   - **Ironclad Monolith:** You must wear heavy armor to benefit from this feature. All attacks against allies in close burst 1 have -2 to attack rolls, regardless of whether or not the attacker is marked.
-  - **Shield Warden:** You must wield a shield to benefit from this feature. When an ally in close burst 1 is attacked, you may use the shield reaction to redirect the attack to yourself instead. You still perform the shield reaction as normal. All allies in close burst 1 also benefit from the cover property on your shield. This benefit does not stack.
+  - **Shield Warden:** You must wield a shield to benefit from this feature. When an ally in close burst 1 is attacked, you may use the shield reaction to redirect the attack to yourself instead. You still perform the shield reaction as normal.
   - **Titan's Ferocity:** You must wield a two-handed weapon to benefit from this feature. When you wound or kill a target, every enemy in a close burst 2 gains the frightened condition.
 
 ### Level 2
@@ -134,7 +144,7 @@ Take one of the following daily attacks:
 
 You must have at least one level in this class to take the following feats:
 
-- **Artillery Training:** Requires a shield. Increase the penalty to ranged projectiles due to the cover property from -2 to -4.
+- **Artillery Training:** Requires a shield. Increase the pierce penalty by -3 when you are targeted by ranged weapons.
 - **Inspiring Momentum:** When you push, slide, or knock a target prone, you regain 1 **WIL** and 1 **STA**.
 - **Opportunistic Fighter:** Decrease the cost of opportunity attacks to 1 **STA**. You also have no restriction on a number of opportunity attacks you can perform in one round.
 - **Peerless Defender:** When an enemy shifts in order to avoid an opportunity attack from you, it still triggers opportunity attacks.

@@ -35,7 +35,7 @@
   --sl-text-sm: 1.25rem;
   --sl-text-base: 1.5rem;
   --sl-text-lg: 1.75rem;
-  --sl-text-code: var(--sl-text-lg);
+  --sl-text-code: var(--sl-text-base);
   --ec-codeLineHt: 1.5rem !important;
 }
 /* Light mode colors. */

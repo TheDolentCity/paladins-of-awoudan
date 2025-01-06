@@ -1,16 +1,9 @@
 ---
-title: Paladin of the Red Wood
-description: A slayer of dangerous beasts and men alike. A class that focuses on harrying a single target or perching in one position to strike out at many foes. A striker or blaster, depending on build.
+title: The Red Wood
+description: A slayer of dangerous beasts and men alike. A class that focuses on harrying a single target or perching in one position to strike out at many foes. A striker or blaster depending on your ability selection.
 ---
 
-_A slayer of dangerous beasts and men alike. A class that focuses on harrying a single target or perching in one position to strike out at many foes. A striker or blaster, depending on build._
-
-## Ability Scores
-
-- Increase **STR** by +1.
-- Increase **DEX** by +1.
-- Increase **END** by +1.
-- Increase **INT** by +1.
+_A slayer of dangerous beasts and men alike. A class that focuses on harrying a single target or perching in one position to strike out at many foes. A striker or blaster depending on your ability selection._
 
 ## Stats
 
@@ -36,14 +29,14 @@ You unlock features, attacks, and feats as you level up. There are three builds 
 An archer who remains still, striking quickly at many faraway foes.
 
 Start with: <br />
-**STR:** +2 **DEX:** +3 **END:** +1 **VIT:** +1 <br />
-**ARC:** +0 **SPI:** -2 **INT:** -1 **MIN:** +0
+**STR:** +3 **DEX:** +3 **END:** +2 **VIT:** +0 <br />
+**ARC:** -1 **SPI:** +0 **INT:** -1 **MIN:** +1
 
 - Take ranging cloak, longbow, and ranger's long/short knife.
 - Level 1: Take **Ranger's Patience** feature.
 - Level 1: Take the **Patrol** martial practice.
 - Level 1: Take the **Survivor's Trade** martial practice.
-- Level 1: Take the **Tracker** martial practice.
+- Level 1: Take the **Weather Vane** martial practice.
 - Level 1: Take the **Precision Archer** feat.
 - Level 2: Increase **STR** and **END** by +1.
 - Level 2: Take the **Attentive** feat.
@@ -59,8 +52,8 @@ Start with: <br />
 A killer that focuses on bringing down one large foe with damage bonuses and bleeding conditions.
 
 Start with: <br />
-**STR:** +2 **DEX:** +2 **END:** +0 **VIT:** +0 <br />
-**ARC:** -1 **SPI:** -1 **INT:** +2 **MIN:** +0
+**STR:** +3 **DEX:** +1 **END:** +2 **VIT:** +1 <br />
+**ARC:** -1 **SPI:** -1 **INT:** +3 **MIN:** +0
 
 - Take light armor, bow, and ranger's long/short knife.
 - Level 1: Take **Hunter's Prey** feature.
@@ -73,7 +66,7 @@ Start with: <br />
 - Level 3: Take the **Critical** attack attribute.
 - Level 3: Take the **Focus** attack attribute.
 - Level 3: Take the **Line** attack attribute.
-- Level 4: Increase **STR** and **DEX** by +1.
+- Level 4: Increase **STR** and **END** by +1.
 - Level 4: Take the **Deadly Wounds** feat.
 - Level 5: Take the **Thrill of the Hunt** daily attack.
 
@@ -82,8 +75,8 @@ Start with: <br />
 A ranged protector that attacks many enemies and slows or immobilizes them with arrows.
 
 Start with: <br />
-**STR:** -1 **DEX:** +2 **END:** +2 **VIT:** +2 <br />
-**ARC:** +0 **SPI:** -1 **INT:** +0 **MIN:** +0
+**STR:** +0 **DEX:** +3 **END:** +4 **VIT:** +2 <br />
+**ARC:** -2 **SPI:** +0 **INT:** +1 **MIN:** -1
 
 - Take the ranging cloak, shortbow, and ranger's long/short knife.
 - Level 1: Take **Overwatch** feature.
@@ -93,9 +86,9 @@ Start with: <br />
 - Level 1: Take the **Twin Strike** feat.
 - Level 2: Increase **DEX** and **END** by +1.
 - Level 2: Take the **Lithebow's Training** feat.
-- Level 3: Take the **Focus** attack attribute.
 - Level 3: Take the **Pin** attack attribute.
-- Level 4: Increase **DEX** and **END** by +1.
+- Level 3: Take the **Sky Strike** attack attribute.
+- Level 4: Increase **DEX** and **VIT** by +1.
 - Level 4: Take the **Eagle Sight** feat.
 - Level 5: Take the **Hail of Arrows** daily attack.
 
@@ -110,7 +103,7 @@ Take 1 of the following red wood hunting features and 3 martial practices:
 - **Martial Hunting:** You were trained to kill in the violent woods of Awouden.
   - **Hunter's Prey:** Once per turn, as a free action, you may designate the enemy creature closest to you as your prey. Once per round, when an attack you make deals damage to your prey, you may add d6+**INT** to the damage. The hunter's prey status remains active until the prey is defeated. You may only have one prey at a time.
   - **Overwatch:** At the start of your turn, as a free action, you may enter or leave the overwatch stance. Until the stance ends, you cannot move on your turn, but you may perform opportunity attacks on any target that enters or leaves a burst 3 zone centered on you. You may perform additional opportunity attacks in one round using this ability at the cost of 3 **STA**, but may not perform them multiple times on the same target.
-  - **Ranger's Patience:** On your turn as a free action, you may sacrifice your move action to instantly regain 6 **STA**. You are unable to move as part of any actions on this turn as well. When you sacrifice your movement in this way, all bow attacks gain a bonus to attack rolls. The bonus is equal to the amount of squares between you and the target of the attack, up to a maximum of +6 to all attack rolls and lasts until the end of your turn. If the attack has multiple targets, add the smallest bonus to the attack roll.
+  - **Ranger's Patience:** On your turn as a free action, you may sacrifice your move action to benefit from this feature. You are unable to move as part of any actions on this turn as well. When you sacrifice your movement in this way, all bow attacks deal double damage. Attack rolls remain unchanged. If you rolled d6+3 and got a 6 for a total of 9 piercing, and the target has -4 pierce defense, then you would deal 10 damage to them.
 - **Martial Practices:** Useful techniques warriors learn.
   - **Courier's Training:**: You can spend ten minutes stretching and breathing before a run. If you do so, you can run without stopping for a time. Make an **END** check. On success, you can run for 24 hours without stopping. On failure, you can run for 12 hours without stopping.
   - **Feign Death:** You slow your heartbeat and breathing to be imperceptible to creatures. You appear unconscious, but are aware of your surroundings. You can emerge from this state as a free action. Creatures have -4 to checks to avoid being surprised by this.
@@ -171,7 +164,7 @@ You must have at least one level in this class to take the following feats:
 - **Ranger's Offense:** When you attack a surprised creature, add +d12 to the attack roll.
 - **Sidestep:** You gain access to the sidestep reaction. When a creature makes a melee attack against you, you may spend 12 **STA** to sidestep. Immediately shift 1 square. The attack roll can still be made if you remain within melee range, otherwise it is a miss.
 - **Strongbow's Training:** When you attack while wielding any bow and deal damage, you can push the target 1 square.
-- **Twin Strike:** When you attack, you can roll two separate attack rolls, but you cannot add your ability scores. Both attack rolls count as separate attacks and trigger on-miss or on-hit effects separately. The attacks may be against different targets.
+- **Twin Strike:** When you attack, you can roll two separate attack rolls, but you cannot add your ability scores. Both attack rolls count as separate attacks and trigger on-miss or on-hit effects separately. The attacks may be against different targets. Whatever attack attributes you apply are applied to both attacks. If there is a cost to this, you must suffer it twice.
 
 <!-- _TODO. ROLE._
 

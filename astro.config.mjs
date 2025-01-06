@@ -26,6 +26,11 @@ export default defineConfig({
       social: {
         github: "https://github.com/TheDolentCity/paladins-of-the-woud-ring",
       },
+      expressiveCode: {
+        defaultProps: {
+          wrap: true,
+        },
+      },
       sidebar: [
         {
           label: "Introduction",
@@ -48,6 +53,13 @@ export default defineConfig({
           collapsed: true,
           autogenerate: {
             directory: "setting",
+          },
+        },
+        {
+          label: "Bestiary",
+          collapsed: true,
+          autogenerate: {
+            directory: "bestiary",
           },
         },
       ],

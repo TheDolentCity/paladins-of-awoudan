@@ -1,25 +1,18 @@
 ---
-title: Paladin of the Celadon Tower
-description: The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with some blaster aspects.
+title: The Celadon Tower
+description: The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with blaster or leader as a secondary role depending on your ability selection.
 ---
 
-_The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with some blaster aspects._
-
-## Ability Scores
-
-- Increase **DEX** by +1.
-- Increase **ARC** by +1.
-- Increase **INT** by +1.
-- Increase **MIN** by +1.
+_The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with blaster or leader as a secondary role depending on your ability selection._
 
 ## Stats
 
 - You start with 4 encumbrance. Increase it by 1 for each point of strength.
 - You start with 4 speed. Increase it by 1 for each point of dexterity.
-- You start with 4 stamina. Increase it by 1 for each point of dexterity and 2 for each point of endurance.
+- You start with 4 stamina. Increase it by 1 for each point of dexterity and 4 for each point of endurance.
 - You start with 4 health. Increase it by 2 for each point of vitality.
-- You start with 12 willpower. Increase it by 1 for each point of intelligence and 3 for each point of mind.
-- You start with 4 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
+- You start with 12 willpower. Increase it by 1 for each point of intelligence and 4 for each point of mind.
+- You start with 8 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 ## Gear
 
@@ -35,6 +28,10 @@ You unlock features, attacks, and feats as you level up. There are three quick b
 ### The Wizard
 
 A caster who focuses on cantrips and spells that control the battlefield.
+
+Start with: <br />
+**STR:** +0 **DEX:** +2 **END:** -1 **VIT:** +0 <br />
+**ARC:** +4 **SPI:** -2 **INT:** +1 **MIN:** +3
 
 - Take consecrated robes, hazel wand, and spell hoard ring.
 - Level 1: Take **Magus Hand** cantrip.
@@ -57,6 +54,10 @@ A caster who focuses on cantrips and spells that control the battlefield.
 
 A caster who focuses on fighting and surviving in the thick of combat.
 
+Start with: <br />
+**STR:** +0 **DEX:** +1 **END:** +0 **VIT:** +1 <br />
+**ARC:** +3 **SPI:** -1 **INT:** +2 **MIN:** +2
+
 - Take consecrated robes, oak staff, and spell hoard ring.
 - Level 1: Take **Magus Light** cantrip.
 - Level 1: Take **Magus Sound** cantrip.
@@ -77,6 +78,10 @@ A caster who focuses on fighting and surviving in the thick of combat.
 
 A caster who dominates the mind of a single target.
 
+Start with: <br />
+**STR:** +0 **DEX:** +1 **END:** -2 **VIT:** +0 <br />
+**ARC:** +4 **SPI:** -1 **INT:** +2 **MIN:** +3
+
 - Take sable robes, hazel wand, and spell hoard ring.
 - Level 1: Take **Magus Illusion** cantrip.
 - Level 1: Take **Dishearten** spell attribute.
@@ -86,23 +91,23 @@ A caster who dominates the mind of a single target.
 - Level 1: Take **Sniper** spell attribute.
 - Level 1: Take **Targeted** spell attribute.
 - Level 1: Take the **Commanding Mind** feat.
-- Level 2: Increase **ARC** and **MIN** by +1.
+- Level 2: Increase **MIN** and **ARC** by +1.
 - Level 2: Take the **Crippling Conditions** feat.
 - Level 3: Take **Magus Sound** cantrip.
 - Level 3: Take **Shatter** spell attribute.
-- Level 4: Increase **ARC** and **MIN** by +1.
+- Level 4: Increase **MIN** and **INT** by +1.
 - Level 4: Take the **Willful Alienist** feat.
 - Level 5: Take the **Wizard's Passage** daily spell.
 
 ## Levels
 
-When you take a level in this class after level one, increase your health by 0, stamina by 2, willpower by 4, and luster by 2.
+When you take a level in this class after level one, increase your health by 1, stamina by 1, willpower by 4, and luster by 2.    
 
 ### Level 1
 
 All Paladins of the Celadon Tower have the same three features: wizard's exit, cantrips, and spell attributes. Choose 1 cantrip and 6 attributes or 2 cantrips and 4 attributes. You can apply 1 attribute to a standard spell attack. Add additional attributes at the cost of 3 **WIL** each. You cannot apply more than 3 attributes to one attack or apply multiple range attributes.
 
-- **Wizard's Exit:** Once per skirmish as a move action, you may move your speed and enter a natural object such as a tree or boulder and reappear up to 20 squares away from behind another natural object.
+- **Wizard's Exit:** Once per skirmish as a move action, you may move up to your speed and at any point enter a natural object such as a tree or boulder and reappear up to 20 squares away from behind another natural object.
 - **Cantrips:** Weak, but useful spells.
   - **Magus Light:** Requires a magical implement. As a standard action, shed bright light from your magical implement in a close burst 2 and dim light in a close burst 6. Increase both bursts by 1 for every point of **WIL** you spend. This effect lasts for one minute.
   - **Magus Hand:** As a standard action, you conjure an ethereal hand up to 10 squares away. This hand is the same size as your own. It can carry 1 **ENC** worth of items and move with 5 **SPE**. If it has to make a check, it uses your ability scores. Concentration (1).

@@ -136,131 +136,138 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"classes/paladin-of-the-azure-keep.md": {
-	id: "classes/paladin-of-the-azure-keep.md";
-  slug: "classes/paladin-of-the-azure-keep";
+"bestiary/bandits.md": {
+	id: "bestiary/bandits.md";
+  slug: "bestiary/bandits";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
-"classes/paladin-of-the-celadon-tower.md": {
-	id: "classes/paladin-of-the-celadon-tower.md";
-  slug: "classes/paladin-of-the-celadon-tower";
+"classes/the-azure-mountain.md": {
+	id: "classes/the-azure-mountain.md";
+  slug: "classes/the-azure-mountain";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
-"classes/paladin-of-the-fulvous-stockade.md": {
-	id: "classes/paladin-of-the-fulvous-stockade.md";
-  slug: "classes/paladin-of-the-fulvous-stockade";
+"classes/the-celadon-tower.md": {
+	id: "classes/the-celadon-tower.md";
+  slug: "classes/the-celadon-tower";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
-"classes/paladin-of-the-red-wood.md": {
-	id: "classes/paladin-of-the-red-wood.md";
-  slug: "classes/paladin-of-the-red-wood";
+"classes/the-red-wood.md": {
+	id: "classes/the-red-wood.md";
+  slug: "classes/the-red-wood";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
-"classes/paladin-of-the-sable-spire.md": {
-	id: "classes/paladin-of-the-sable-spire.md";
-  slug: "classes/paladin-of-the-sable-spire";
+"classes/the-sable-spire.md": {
+	id: "classes/the-sable-spire.md";
+  slug: "classes/the-sable-spire";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
-"classes/paladin-of-the-white-ash.md": {
-	id: "classes/paladin-of-the-white-ash.md";
-  slug: "classes/paladin-of-the-white-ash";
+"classes/the-umber-trees.md": {
+	id: "classes/the-umber-trees.md";
+  slug: "classes/the-umber-trees";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
+} & { render(): Render[".md"] };
+"classes/the-white-ash-temple.md": {
+	id: "classes/the-white-ash-temple.md";
+  slug: "classes/the-white-ash-temple";
+  body: string;
+  collection: "docs";
+  data: any
 } & { render(): Render[".md"] };
 "index.mdx": {
 	id: "index.mdx";
   slug: "index";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".mdx"] };
 "introduction.md": {
 	id: "introduction.md";
   slug: "introduction";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "rules/character-creation.md": {
 	id: "rules/character-creation.md";
   slug: "rules/character-creation";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "rules/checks.md": {
 	id: "rules/checks.md";
   slug: "rules/checks";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "rules/combat.md": {
 	id: "rules/combat.md";
   slug: "rules/combat";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "rules/equipment.md": {
 	id: "rules/equipment.md";
   slug: "rules/equipment";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "rules/feats.md": {
 	id: "rules/feats.md";
   slug: "rules/feats";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "rules/system.md": {
 	id: "rules/system.md";
   slug: "rules/system";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "rules/wounds.md": {
 	id: "rules/wounds.md";
   slug: "rules/wounds";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "setting/history.md": {
 	id: "setting/history.md";
   slug: "setting/history";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "setting/notable-characters.md": {
 	id: "setting/notable-characters.md";
   slug: "setting/notable-characters";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 "setting/paladins.md": {
 	id: "setting/paladins.md";
   slug: "setting/paladins";
   body: string;
   collection: "docs";
-  data: InferEntrySchema<"docs">
+  data: any
 } & { render(): Render[".md"] };
 };
 
@@ -274,5 +281,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = never;
 }

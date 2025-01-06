@@ -1,25 +1,18 @@
 ---
-title: Paladin of the White Ash
+title: The White Ash Temple
 description: The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember, a burning sigil they wield in the fight against darkness. This class focuses on healing allies and using holy power to shield friends or sunder foes. A leader, with some defender aspects.
 ---
 
 _The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember, a burning sigil they wield in the fight against darkness. This class focuses on healing allies and using holy power to shield friends or sunder foes. A leader, with some defender aspects._
 
-## Ability Scores
-
-- Increase **VIT** by +1.
-- Increase **SPI** by +1.
-- Increase **INT** by +1.
-- Increase **MIN** by +1.
-
 ## Stats
 
 - You start with 4 encumbrance. Increase it by 1 for each point of strength.
 - You start with 4 speed. Increase it by 1 for every point of dexterity.
-- You start with 6 stamina. Increase it by 1 for each point of dexterity and 2 for each point of endurance.
+- You start with 6 stamina. Increase it by 1 for each point of dexterity and 4 for each point of endurance.
 - You start with 8 health. Increase it by 2 for each point of vitality.
 - You start with 12 willpower. Increase it by 1 for each point of intelligence and 2 for each point of mind.
-- You start with 10 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
+- You start with 8 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 ## Gear
 
@@ -37,14 +30,13 @@ You unlock features, attacks, and feats as you level up. There are three builds 
 An armored warrior who invigorates allies with attacks and shouts of encouragement.
 
 Start with: <br />
-**STR:** +1 **DEX:** +1 **END:** +0 **VIT:** +1 <br />
-**ARC:** +0 **SPI:** +1 **INT:** +1 **MIN:** +1
+**STR:** +1 **DEX:** +1 **END:** +1 **VIT:** +1 <br />
+**ARC:** +0 **SPI:** +2 **INT:** +1 **MIN:** +2
 
-- Increase **VIT**, **SPI**, **INT**, and **MIN** by +1.
 - Take consecrated armor, mace and shield, prayerbook, and holy symbol.
 - Level 1: Take the **Cleric's Training** feature.
 - Level 1: Take the **Cleric's Shield Expertise** feat.
-- Level 2: Increase **VIT** and **SPI** by +1.
+- Level 2: Increase **SPI** and **VIT** by +1.
 - Level 2: Take the **Holy Guardian** feat.
 - Level 3: Take the **Branding** attribute.
 - Level 3: Take the **Burst** attribute.
@@ -61,7 +53,6 @@ Start with: <br />
 **STR:** -2 **DEX:** -1 **END:** -1 **VIT:** +1 <br />
 **ARC:** +0 **SPI:** +3 **INT:** +1 **MIN:** +2
 
-- Increase **VIT**, **SPI**, **INT**, and **MIN** by +1.
 - Take consecrated robes, hazel wand, prayerbook, and holy symbol.
 - Level 1: Take the **Priest's Instruction** feature.
 - Level 1: Take the **Natural Healer** feat.
@@ -82,7 +73,6 @@ Start with: <br />
 **STR:** -1 **DEX:** -1 **END:** +0 **VIT:** +0 <br />
 **ARC:** +2 **SPI:** +0 **INT:** +2 **MIN:** +2
 
-- Increase **VIT**, **SPI**, **INT**, and **MIN** by +1.
 - Take consecrated robes, hazel wand, scholar's tome, and holy symbol.
 - Level 1: Take the **Scholar's Study** feature.
 - Level 1: Take the **Scholar's Wand Expertise** feat.

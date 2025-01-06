@@ -24,12 +24,19 @@ The full combat sequence is as follows:
 ### Types
 
 - **Standard:** An attack or key action.
-- **Move:** Move a number of squares equal to your speed or shift one square (shifting prevents opportunity attacks).
+- **Move:** Move a number of squares equal to your speed or shift 1 square (shifting prevents opportunity attacks).
 - **Free:** A small, easy action such as speaking a sentence, dropping an item, or inspecting something you see. Does not require spending stamina.
 - **Stamina:** Any additional action performed on a turn. Requires spending stamina.
 - **Reaction:** A special stamina action performed outside of a turn that is limited to once per round.
-- **Rest:** Perform no actions except free actions. At the end of your turn when you regenerate stamina or willpower, you add +d6 to the rolls.
 - **Concentration**: Certain effects must be maintained by sacrificing a number of **WIL** equal to the rating of concentration per turn as a free action.
+
+### Standard Actions
+
+- **Attack:** Perform a melee, ranged, or spell attack action. You can perform a maximum amount of attack actions in a round equal to your **END** (minimum 2).
+- **Bull Rush:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target is pushed 1 square away and knocked prone or it is pushed 2 squares away. You can shift into the square it left behind after pushing it.
+- **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check.
+- **Grapple:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target gains the grappled condition.
+- **Rest:** At the end of your turn when you regenerate stamina or willpower, you add +d6 to the rolls.
 
 ### Stamina Actions
 
@@ -46,13 +53,35 @@ The full combat sequence is as follows:
 
 When you attack with magic or a weapon, you roll dice and add ability scores or bonuses. The sum is reduced by a relevant defense stat and the result is the damage. If the damage is 0 or less, then the attack is a miss, otherwise it's a hit. If an ability says it deals damage instead of an attack, then there is no attack roll.
 
+## Defense
+
+There are several defense stats. Usually based on armor, attack rolls have a penalty equal to the defense rating of the target. If a target has -2 crush, -4 pierce, and -4 slash, then the attacker subtracts -4 from an attack roll with a bow (which all deal piercing damage). It is in an attacker's best interest to use the damage type that a target resists the least.
+
+When an ability or item specifies that **DEF** is lowered or increased, this refers to all defenses: crush, pierce, slash, and focus.
+
+### Crush (CRU)
+
+This defense is highest with light armors. Blunt weapons and strong creatures deal a lot of crush damage, which is effective against heavier armors.
+
+### Pierce (PRC)
+
+This defense is highest with heavy armors. Spears, swords, and bows deal a lot of pierce damage. Bows can _only_ deal piercing damage. This is necessary to hit certain creatures.
+
+### Slash (SLA)
+
+This defense is highest with heavy armors. Swords and axes deal a lot of slashing damage, but most weapons have a decent slash attack. It is treated as the standard damage type.
+
+### Focus (FOC)
+
+This defense is highest with consecrated armors and robes. All magic attacks (regardless of whether they target **HEA**, **STA**, or **WIL**) are resisted by the focus stat.
+
 ## Damage
 
 You have three stats that represent your well-being: health (**HEA**), stamina (**STA**), and willpower (**WIL**). Each of these stats can be damaged and reduced to zero or lower. When that happens, you gain conditions such as exposed, dazed, or unconscious.
 
 ### Health Damage
 
-When your **HEA** falls to zero or lower, you are dying. You gain the unconscious condition. You cannot save from this condition. Instead, you perform one death save on your turn. If you fail three death saves, you die. If you succeed on three death saves, you stabilize. A death save is a **VIT** check. Keep track of your death saves as you roll.
+When your **HEA** falls to zero or lower, you are dying. You gain the unconscious condition. You cannot save from this condition. Instead, you perform one death save on your turn. If you fail three death saves, you die. If you succeed on three death saves, you stabilize. A death save is a d12 check with no bonuses. Keep track of your death saves as you roll.
 
 If your **HEA** is restored to a value greater than 0, you lose the unconscious condition and your death saves are thrown out.
 
@@ -62,16 +91,17 @@ When your **STA** falls to zero or lower, your stamina is drained. You gain the 
 
 ## Conditions
 
-- **Bleeding:** At the start of your turn, you take an amount of damage equal to the rating of the bleeding condition. Make a **VIT** save to remove the condition.
-- **Burning:** At the start of your turn, you take an amount of damage equal to the rating of the burning condition. Make a **DEX** save to remove the condition.
+- **Bleeding:** At the start of your turn, you take an amount of damage equal to the rating of the bleeding condition. Make a **VIT** save to remove the condition. If the damage from this condition lowers you to 0 or lower **HEA**, you suffer a wound and the condition is removed.
+- **Burning:** At the start of your turn, you take an amount of damage equal to the rating of the burning condition. Make a **DEX** save to remove the condition. If the damage from this condition lowers you to 0 or lower **HEA**, you suffer a wound and the condition is removed.
 - **Dazed:** You are unable to perform stamina actions. Make a **MIN** save to remove the condition.
 - **Dying:** You must make three death saves to stabilize and lose the dying condition. If you reach three failed death saves, you die.
-- **Exposed:** Unable to perform actions besides free actions, including stamina actions and reactions. You also suffer an additional +4 damage from all attacks until the condition leaves you. Make a **MIN** save to remove the condition.
+- **Exposed:** Unable to perform actions besides free actions, including stamina actions and reactions. You also suffer an additional +4 damage from all attacks until the condition leaves you. Make a **SPI** save to remove the condition.
 - **Frightened:** You are unable to move towards or attack the creature/object frightening you. Make a **SPI** save to remove the condition.
 - **Grappled:** One creature is holding onto another. The grappler can perform move action at half speed, but the grappled creature is immobilized. The grappled creature has a -2 penalty to all attacks. Everyone besides the grappler has +2 bonus to attacks against the grappled creature. Make a **STR** save to break free of the grapple.
 - **Immobilized:** You are unable to perform move actions or any action that results in you moving from your current square. Make a **VIT** save to remove the condition.
-- **Prone:** You move at a quarter speed. Melee attacks against you have +4 and ranged attacks have -4. It takes half your movement to go prone or stand up from prone.
+- **Prone:** You move at a quarter speed. Melee attacks against you have +2 and ranged attacks have -2. It takes two squares of movement to stand from prone, but it is a free action to drop prone.
 - **Slowed:** Your speed is halved. Make a **VIT** save to remove the condition.
+- **Stunned:** You lose your free move or standard action every turn. Make a **MIN** save to remove the condition.
 - **Unconscious:** Unaware and unable to perform actions. When first given this condition from a wound, you are dying and must make death saves. This condition can only be removed through healing or medicine from an ally.
 
 ## Ranges
@@ -281,6 +311,38 @@ Wall is a unique attack pattern. Walls create physical objects on the battlefiel
 ```
 
 ## Niche Rules
+
+### Combat Advantage
+
+There are several ways to gain combat advantage, but the one way any unit can gain it is through flanking an enemy. A character is considered flanked if there are two enemies positioned adjacent to it and at opposite corners (see diagrams for details). Only the characters who are positioned as part of the flank gain combat advantage. If an attack has combat advantage, add +2 to the attack roll. Combat advantage can also trigger abilities for allies and foes.
+
+#### Flanking, valid examples
+
+```javascript
+• • • • • • • • • • • •
+• X • • • X 0 X • • • •
+• • 0 • • • • • • • X •
+• • • X • • X • • 0 • •
+• • • • • • 0 • X • • •
+• • • • • • X • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+• • • • • • • • • • • •
+```
+
+#### Flanking, invalid examples
+
+```javascript
+• • • • • • • • • • • •
+• X • X • • X • X • • •
+• • 0 • • • 0 • 0 X • •
+• • • • • X • • • • • •
+• • X • • • • • • • • •
+• • • • • • • X • • • •
+• X 0 • • • X 0 • • • •
+• • X • • • • • X • • •
+• • • • • • • • • • • •
+```
 
 ### Concentration
 
