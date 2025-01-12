@@ -5,30 +5,6 @@ description: An overview of the equipment and their traits.
 
 ## Weapons
 
-| Name                 | Attack          | Range | ENC | Requirements | Properties         |
-| -------------------- | --------------- | ----- | --- | ------------ | ------------------ |
-| Short Spear          | d6+DEX          | 1     | 1   | DEX 1        | Throwable 6        |
-| Great Spear          | d8+DEX          | 2     | 3   | STR 1        | 2H                 |
-| Halberd              | d10+DEX         | 3     | 5   | STR 2        | 2H, Slow           |
-| Dagger               | d4+DEX          | 1     | 1   |              | Quick              |
-| Ranger's Short Knife | d4+DEX          | 1     | 1   | DEX 1        | Quick, Throwable 6 |
-| Ranger's Long Knife  | d4+STR          | 1     | 1   | DEX 1        | Parry              |
-| Shortsword           | d6+DEX          | 1     | 2   | STR 0, DEX 0 | Parry              |
-| Longsword            | d8+DEX          | 1     | 3   | STR 1, DEX 0 | 2H, Parry          |
-| Greatsword           | d10+DEX+STR     | 1     | 5   | STR 3        | 2H, Parry          |
-| Throwing Axe         | d8+DEX          | 1     | 1   | DEX 2        | Throwable 4        |
-| Axe                  | d6+(DEX or STR) | 1     | 1   | STR 0        | Cruel 2            |
-| Longaxe              | d8+(DEX or STR) | 1     | 3   | STR 1        | 2H, Cruel 4        |
-| Mace                 | d6+STR          | 1     | 2   | STR 1        | Crush 2            |
-| Great Hammer         | d8+STR          | 2     | 4   | STR 3        | 2H, Crush 4        |
-| Maul                 | d12+STR         | 1     | 6   | STR 4        | 2H, Slow, Crush 6  |
-| Shortbow             | d4+DEX          | 8     | 2   | STR 0, DEX 0 | 2H                 |
-| Bow                  | d6+STR          | 12    | 3   | STR 1, DEX 1 | 2H                 |
-| Longbow              | d8+STR          | 20    | 4   | STR 3, DEX 1 | 2H, Slow           |
-| Crossbow             | 2d10            | 20    | 4   | STR 2        | 2H, Reload 2       |
-
-# Weapons
-
 Most weapons are only effective at one or two damage types. The most common is piercing, followed by slashing, then crushing. Piercing is the only damage type that bows deal, making it common for ranged units. Most melee weapons excel at slashing. A few heavy and blunt melee weapons, such as maces, have excellent crushing attacks that rely on strength as opposed to dexterity.
 
 | Name                 | CRU     | PRC     | SLA     | RAN | ENC | Requirements | Properties         |
@@ -52,14 +28,14 @@ Most weapons are only effective at one or two damage types. The most common is p
 | Shortbow             | NA      | d4+DEX  | NA      | 8   | 2   | STR 0, DEX 0 | 2H                 |
 | Bow                  | NA      | d6+STR  | NA      | 12  | 3   | STR 1, DEX 1 | 2H                 |
 | Longbow              | NA      | d10+STR | NA      | 20  | 4   | STR 3, DEX 1 | 2H, Slow           |
-| Crossbow             | NA      | 2d10    | NA      | 20  | 4   | STR 2        | 2H, Reload 2       |
+| Crossbow             | NA      | 2d10    | NA      | 20  | 4   | STR 1        | 2H, Reload 2       |
 
 ### Weapon Properties
 
 - **2H:** This weapon requires two hands to be wielded properly.
 - **Cruel:** When this weapon inflicts a wound, add the rating of cruel to the wound roll.
 - **Crush:** Objects or targets with **DEF** greater than 5 take an additional amount of damage from the attack equal to the rating of crush.
-- **Guard:** Increase **DEF** by a number of points equal to the rating of guard while wielding the weapon.
+- **Parry:** You are able to use the parry reaction while wielding the weapon.
 - **Quick:** You can draw and stow this weapon as part of an attack action, even while wielding another weapon using two hands.
 - **Reload:** This weapon requires a number of standard actions equal to the rating to reload and use the weapon again.
 - **Slow:** You cannot perform multiple attack actions on your turn with this weapon.
@@ -100,19 +76,19 @@ age.
 - **Requirements:** You must meet the following ability score requirements to wear the item and receive any benefit.
 - **Properties:** Unique properties that modify the clothing/armor.
 
-| Name                    | CRU | PRC | SLA | FOC | ENC | SPE | Check | Requirements | Properties                 |
-| ----------------------- | --- | --- | --- | --- | --- | --- | ----- | ------------ | -------------------------- |
-| Clothing                | -2  | -0  | -0  | -0  | 0   | +0  | +0    |              |                            |
-| Light armor             | -4  | -2  | -2  | -0  | 2   | +0  | +0    | STR 0        |                            |
-| Medium armor            | -2  | -6  | -6  | -0  | 4   | -1  | +0    | STR 1        |                            |
-| Heavy armor             | -2  | -10 | -10 | -0  | 6   | -2  | -2    | STR 2        |                            |
-| Consecrated heavy armor | -2  | -8  | -8  | -2  | 5   | -2  | -2    | STR 2, SPI 1 |                            |
-| Consecrated armor       | -1  | -4  | -4  | -4  | 3   | -1  | +0    | STR 1, SPI 2 |                            |
-| Consecrated robes       | -2  | -0  | -0  | -6  | 1   | +0  | +0    | SPI 1        |                            |
-| Sable robes             | -2  | -0  | -0  | -4  | 1   | +0  | +0    | ARC 2        | Shroud 1                   |
-| Ranging cloak           | -2  | -0  | -0  | -0  | 0   | +0  | +0    | DEX 2        | Skill (Wilderness Stealth) |
-| Shield                  | -0  | -1  | -1  | -0  | 1   | +0  | -1    | STR 1        | Shielding                  |
-| Heavy shield            | -1  | -2  | -2  | -0  | 2   | +0  | -3    | STR 3        | Shielding                  |
+| Name                    | CRU | PRC | SLA | FOC | ENC | SPE | Check | Requirements | Properties                |
+| ----------------------- | --- | --- | --- | --- | --- | --- | ----- | ------------ | ------------------------- |
+| Clothing                | -2  | -0  | -0  | -0  | 0   | +0  | +0    |              |                           |
+| Light armor             | -4  | -2  | -2  | -0  | 2   | +0  | +0    | STR 0        |                           |
+| Medium armor            | -2  | -6  | -6  | -0  | 4   | -1  | +0    | STR 1        |                           |
+| Heavy armor             | -2  | -10 | -10 | -0  | 6   | -2  | -2    | STR 2        |                           |
+| Consecrated heavy armor | -2  | -8  | -8  | -2  | 5   | -2  | -2    | STR 2, SPI 1 |                           |
+| Consecrated armor       | -1  | -4  | -4  | -4  | 3   | -1  | +0    | STR 1, SPI 2 |                           |
+| Consecrated robes       | -2  | -0  | -0  | -8  | 1   | +0  | +0    | SPI 1        |                           |
+| Sable robes             | -2  | -0  | -0  | -6  | 1   | +0  | +0    | ARC 2        | Shroud 1                  |
+| Ranging cloak           | -2  | -0  | -0  | -0  | 0   | +0  | +0    | DEX 2        | Skill: Wilderness Stealth |
+| Shield                  | -0  | -1  | -1  | -0  | 1   | +0  | -1    | STR 1        | Shielding                 |
+| Heavy shield            | -1  | -2  | -2  | -0  | 2   | +0  | -3    | STR 3        | Shielding                 |
 
 ### Clothing and Armor Properties
 

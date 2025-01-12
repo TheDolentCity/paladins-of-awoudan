@@ -34,9 +34,18 @@ The full combat sequence is as follows:
 
 - **Attack:** Perform a melee, ranged, or spell attack action. You can perform a maximum amount of attack actions in a round equal to your **END** (minimum 2).
 - **Bull Rush:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target is pushed 1 square away and knocked prone or it is pushed 2 squares away. You can shift into the square it left behind after pushing it.
-- **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check.
+- **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check. You must move at least 3 squares from your starting position and you must move in a straight line for at least the last 3 squares of movement.
+- **Finisher:** You can deliver a finishing attack against an unconscious or helpless foe. If the attack hits, it deals triple damage.
 - **Grapple:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target gains the grappled condition.
+- **Reload:** Decrease the amount of reload actions necessary to use the weapon again by 1. If a weapon has "reload 2", then it needs 2 reload actions before you can use the weapon again. This action can only be performed once per round.
 - **Rest:** At the end of your turn when you regenerate stamina or willpower, you add +d6 to the rolls.
+
+### Move Actions
+
+- **Crawl:** You must be prone to crawl. You move a quarter of your **SPE**. You still provoke opportunity attacks.
+- **Shift:** You move 1 square, but you do not provoke opportunity attacks.
+- **Sprint:** You move your **SPE** + 2, but grant combat advantage until the start of your next turn.
+- **Run:** You move your **SPE** which may provoke opportunity attacks.
 
 ### Stamina Actions
 
@@ -45,7 +54,7 @@ The full combat sequence is as follows:
 - **Opportunity Attack (3 STA, Reaction):** When you are wielding a melee weapon and an adjacent enemy moves to a square that is not adjacent to you, you may perform an opportunity attack. This is a standard attack action. Certain class abilities grant you additional attacks or triggers for opportunity attacks.
 - **Draw/Stow (3 STA):** Perform an additional draw or stow action. A maximum of two draw/stow actions can be performed per round. Drawing/stowing two melee weapons that you dual wield is one action.
 - **Dodge (6 STA, Reaction):** As a reaction to an attack against you, but before damage is rolled, you may dodge. Roll d6 + **DEX** and subtract the sum from the final attack roll. If the sum is zero or less, no on-hit or on-damage effects trigger.
-- **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** up to 12 and add **DEX**. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and the attacker takes **STA** damage equal to your **STR**+**DEX**.
+- **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** to spend, up to 12, and then add **DEX**. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and the attacker takes **STA** damage equal to your **STR**+**DEX**.
 - **Shield (Variable STA, Reaction):** Requires a shield. As a reaction to an attack against you, but before damage is rolled, you may shield. If you do, you must spend a number of **STA** equal to the damage of the attack. If this leaves you with 0 or less **STA**, you gain the exposed condition and cannot make a save for this condition on your next turn. ex: Attack roll of 8 when you have 4 armor would result in 4 damage, requiring you to spend 4 **STA** to negate all damage.
 - **Reload (3 STA):** This action can only be performed once per round.
 
@@ -92,17 +101,19 @@ When your **STA** falls to zero or lower, your stamina is drained. You gain the 
 ## Conditions
 
 - **Bleeding:** At the start of your turn, you take an amount of damage equal to the rating of the bleeding condition. Make a **VIT** save to remove the condition. If the damage from this condition lowers you to 0 or lower **HEA**, you suffer a wound and the condition is removed.
+- **Broken:** You suffer 1 **HEA** and **STA** damage for each square of movement you perform. This damage cannot be reduced.
 - **Burning:** At the start of your turn, you take an amount of damage equal to the rating of the burning condition. Make a **DEX** save to remove the condition. If the damage from this condition lowers you to 0 or lower **HEA**, you suffer a wound and the condition is removed.
 - **Dazed:** You are unable to perform stamina actions. Make a **MIN** save to remove the condition.
 - **Dying:** You must make three death saves to stabilize and lose the dying condition. If you reach three failed death saves, you die.
+- **Exhausted:** Your maximum **STA** and **WIL** is reduced by the rating of exhausted (to a minimum of 1).
 - **Exposed:** Unable to perform actions besides free actions, including stamina actions and reactions. You also suffer an additional +4 damage from all attacks until the condition leaves you. Make a **SPI** save to remove the condition.
 - **Frightened:** You are unable to move towards or attack the creature/object frightening you. Make a **SPI** save to remove the condition.
-- **Grappled:** One creature is holding onto another. The grappler can perform move action at half speed, but the grappled creature is immobilized. The grappled creature has a -2 penalty to all attacks. Everyone besides the grappler has +2 bonus to attacks against the grappled creature. Make a **STR** save to break free of the grapple.
+- **Grappled:** One creature is holding onto another. The grappler can perform move actions at half speed (dragging the grappled target with them), but the grappled creature is immobilized. The grappled creature has a -2 penalty to all attacks. Make a **STR** save to break free of the grapple.
 - **Immobilized:** You are unable to perform move actions or any action that results in you moving from your current square. Make a **VIT** save to remove the condition.
-- **Prone:** You move at a quarter speed. Melee attacks against you have +2 and ranged attacks have -2. It takes two squares of movement to stand from prone, but it is a free action to drop prone.
+- **Prone:** The only move action you can make is crawl. Melee attacks against you have combat advantage and ranged attacks have a -2 penalty. It takes two squares of movement to stand from prone or drop prone.
 - **Slowed:** Your speed is halved. Make a **VIT** save to remove the condition.
 - **Stunned:** You lose your free move or standard action every turn. Make a **MIN** save to remove the condition.
-- **Unconscious:** Unaware and unable to perform actions. When first given this condition from a wound, you are dying and must make death saves. This condition can only be removed through healing or medicine from an ally.
+- **Unconscious:** Unaware and unable to perform actions. When given this condition from a wound, you are dying and must make death saves. This condition can only be removed through healing or medicine from an ally.
 
 ## Ranges
 
@@ -310,7 +321,9 @@ Wall is a unique attack pattern. Walls create physical objects on the battlefiel
 • X X X X • • • • • • •
 ```
 
-## Niche Rules
+## Attack Modifiers
+
+There are several attack modifiers that increase or decrease attack rolls.
 
 ### Combat Advantage
 
@@ -344,6 +357,28 @@ There are several ways to gain combat advantage, but the one way any unit can ga
 • • • • • • • • • • • •
 ```
 
+### Cover
+
+Objects, structures, and terrain can be used as cover logically. Common examples of cover are standing behind a barrel, large tree, or even other individuals. If there is a foe that is standing in between you and your target, the target has cover. If an ally stands in front of you, then you gain cover from attacks from foes. When attacking someone in cover, attack rolls have a -2 penalty.
+
+#### Superior Cover
+
+The GM determines if it counts as superior cover. It is any cover that almost completely obscures the target. Examples include firing crossbow bolts through a small hole in a castle wall and a splintered door. When attacking someone in superior cover, attack rolls have a -8 penalty.
+
+### Concealment
+
+If you can't get a good look at your target, then they are concealed and you have a -2 penalty to attacking them. Common examples of concealment are smoke filling a room, the darkness of a moonless night, and
+
+#### Total Concealment
+
+If you can't see the target at all, or if the target is invisible through some magic, then they have total concealment and you cannot attack them as normal. Instead, you must target what you cannot see.
+
+### Invisibility
+
+If a target is invisible, treat them as if they have total concealment.
+
+## Niche Rules
+
 ### Concentration
 
 When you are concentrating on an effect and you take damage, you must make a **MIN** check and subtract the amount of damage you sustained from the roll. If you fail, the effect ends.
@@ -354,10 +389,23 @@ When you hold two of the same weapon type, one in each hand, you are dual wieldi
 
 Ex: If you dual wield shortswords, you can either roll d6 against two adjacent targets or roll 2d6 against one adjacent target. If you roll against two targets and hit both, then you can trigger two on-hit effects.
 
-### Stamina Regeneration
+### Regeneration
+
+At the end of your turn, you may regenerate stamina or willpower, but only if you did not spend them.
+
+#### Stamina Regeneration
 
 At the end of your turn, if you did not spend any **STA**, you regain a number of **STA** equal to d4 + **END**. This cannot decrease your **STA**.
 
-### Willpower Regeneration
+#### Willpower Regeneration
 
 At the end of your turn, if you did not spend any **WIL**, you regain a number of **WIL** equal to your **MIN**. This cannot decrease your **WIL**.
+
+### Targeting What You Can't See
+
+If you wish to target a foe with total concealment, there are several steps you must follow.
+
+1. First, roll a check to perceive it as a free action. Roll a d6. If you rolled higher than your target's **DEX** or **INT** (whichever is higher) then you know where it is located on this turn and may target it as normal.
+2. If you did not perceive the creature, then you must instead target a square(s) for the attack roll. This attack roll has a -4 penalty and automatically fails if the creature is not present in the square(s). On a miss, the GM should **not** tell you if the creature was present in the square(s).
+3. If the attack roll is a blast, burst, or close burst, then there is no penalty to the attack roll.
+4. If the attack hits, then the target only has concealment instead of total concealment until the end of their next turn.

@@ -7,12 +7,12 @@ _The old wizard, Myrrdin, is long dead. There are still a few who learned but an
 
 ## Stats
 
-- You start with 4 encumbrance. Increase it by 1 for each point of strength.
-- You start with 4 speed. Increase it by 1 for each point of dexterity.
-- You start with 4 stamina. Increase it by 1 for each point of dexterity and 4 for each point of endurance.
-- You start with 4 health. Increase it by 2 for each point of vitality.
-- You start with 12 willpower. Increase it by 1 for each point of intelligence and 4 for each point of mind.
-- You start with 8 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
+- **You start with 4 encumbrance**. <br /> Increase it by 1 for each point of strength.
+- **You start with 4 speed**. <br /> Increase it by 1 for each point of dexterity.
+- **You start with 4 stamina**. <br /> Increase it by 1 for each point of dexterity and 4 for each point of endurance.
+- **You start with 4 health**. <br /> Increase it by 2 for each point of vitality.
+- **You start with 16 willpower**. <br /> Increase it by 1 for each point of intelligence and 2 for each point of mind.
+- **You start with 8 luster**. <br /> Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 ## Gear
 
@@ -36,15 +36,15 @@ Start with: <br />
 - Take consecrated robes, hazel wand, and spell hoard ring.
 - Level 1: Take **Magus Hand** cantrip.
 - Level 1: Take **Area** spell attribute.
-- Level 1: Take **Line** spell attribute.
+- Level 3: Take **Dazzle** spell attribute.
 - Level 1: Take **Shield** spell attribute.
-- Level 1: Take **Sigil** spell attribute.
-- Level 1: Take **Slide** spell attribute.
 - Level 1: Take **Zone** spell attribute.
 - Level 1: Take the **Forceful Magic** feat.
 - Level 2: Increase **ARC** and **MIN** by +1.
 - Level 2: Take the **Careful Spellcraft** feat.
-- Level 3: Take **Dazzle** spell attribute.
+- Level 1: Take **Line** spell attribute.
+- Level 1: Take **Sigil** spell attribute.
+- Level 1: Take **Slide** spell attribute.
 - Level 3: Take **Ward** spell attribute.
 - Level 4: Increase **DEX** and **INT** by +1.
 - Level 4: Take the **Quick Shield** feat.
@@ -61,13 +61,13 @@ Start with: <br />
 - Take consecrated robes, oak staff, and spell hoard ring.
 - Level 1: Take **Magus Light** cantrip.
 - Level 1: Take **Magus Sound** cantrip.
-- Level 1: Take **Blast** spell attribute.
-- Level 1: Take **Burst** spell attribute.
 - Level 1: Take **Close** spell attribute.
 - Level 1: Take **Shield** spell attribute.
 - Level 1: Take the **Mage Shield** feat.
 - Level 2: Increase **ARC** and **MIN** by +1.
 - Level 2: Take the **Lingering Shield** feat.
+- Level 1: Take **Blast** spell attribute.
+- Level 1: Take **Burst** spell attribute.
 - Level 3: Take **Push** spell attribute.
 - Level 3: Take **Wall** spell attribute.
 - Level 4: Increase **ARC** and **INT** by +1.
@@ -85,27 +85,27 @@ Start with: <br />
 - Take sable robes, hazel wand, and spell hoard ring.
 - Level 1: Take **Magus Illusion** cantrip.
 - Level 1: Take **Dishearten** spell attribute.
-- Level 1: Take **Dominate** spell attribute.
-- Level 1: Take **Expose** spell attribute.
+- Level 1: Take **Domination** spell attribute.
 - Level 1: Take **Overpower** spell attribute.
 - Level 1: Take **Sniper** spell attribute.
-- Level 1: Take **Targeted** spell attribute.
 - Level 1: Take the **Commanding Mind** feat.
 - Level 2: Increase **MIN** and **ARC** by +1.
 - Level 2: Take the **Crippling Conditions** feat.
 - Level 3: Take **Magus Sound** cantrip.
+- Level 1: Take **Expose** spell attribute.
 - Level 3: Take **Shatter** spell attribute.
+- Level 1: Take **Targeted** spell attribute.
 - Level 4: Increase **MIN** and **INT** by +1.
 - Level 4: Take the **Willful Alienist** feat.
 - Level 5: Take the **Wizard's Passage** daily spell.
 
 ## Levels
 
-When you take a level in this class after level one, increase your health by 1, stamina by 1, willpower by 4, and luster by 2.    
+When you take a level in this class after level one, increase your health by 1, stamina by 1, willpower by 4, and luster by 2.
 
 ### Level 1
 
-All Paladins of the Celadon Tower have the same three features: wizard's exit, cantrips, and spell attributes. Choose 1 cantrip and 6 attributes or 2 cantrips and 4 attributes. You can apply 1 attribute to a standard spell attack. Add additional attributes at the cost of 3 **WIL** each. You cannot apply more than 3 attributes to one attack or apply multiple range attributes.
+All Paladins of the Celadon Tower have the same three features: wizard's exit, cantrips, and spell attributes. Choose 1 cantrip and 4 attributes or 2 cantrips and 2 attributes. You can apply 1 attribute to a standard spell attack. Add additional attributes at the cost of 3 **WIL** each. You cannot apply more than 3 attributes to one attack or apply multiple range attributes.
 
 - **Wizard's Exit:** Once per skirmish as a move action, you may move up to your speed and at any point enter a natural object such as a tree or boulder and reappear up to 20 squares away from behind another natural object.
 - **Cantrips:** Weak, but useful spells.
@@ -118,7 +118,7 @@ All Paladins of the Celadon Tower have the same three features: wizard's exit, c
   - **Blast:** The range becomes blast 3.
   - **Burst:** The range becomes close burst 3.
   - **Close:** The attack must be single target and against a target 1 square away. The attack does not trigger opportunity attacks. Whether the attack deals damage or not, the target is pushed a number of squares equal to your **INT**.
-  - **Dazzle:** Targets hit by the attack gain the dazed condition.
+  - **Dazzle:** Targets hit by the attack gain the dazed or stunned condition (but not both).
   - **Dishearten:** Targets hit by the attack have -2 to all attack rolls. Increase the penalty by -2 for every 3 points of **WIL** you spend. The maximum penalty is equal to twice your **MIN**. This effect lasts until the start of your next turn.
   - **Domination:** The attack must be single target and target **WIL**. If the attack breaks the target's will, they gain the domination condition. At the start of the target's turn, as a free action before they roll for saves, you may force them to perform a move action.
   - **Expose:** Targets hit by the attack have -2 to **DEF**. Increase the penalty by -2 for every 6 points of **WIL** you spend. The maximum penalty is equal to twice your **MIN**. This effect lasts until the start of your next turn.
@@ -149,7 +149,7 @@ Increase two different ability scores by +1 and take a new feat.
 
 ### Level 3
 
-Learn one cantrip and one spell attribute or learn two spell attributes.
+Learn 1 cantrip and 2 spell attribute or learn 4 spell attributes.
 
 ### Level 4
 

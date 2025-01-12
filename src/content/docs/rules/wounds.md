@@ -11,41 +11,28 @@ If your **HEA** falls to zero or lower, you roll a d12 + injury level (INJ) on t
 
 These wounds are often caused by blunt melee weapons such as maces or powerful monsters. They often involve moving the Paladin, breaking their bones, and conditions that cannot be saved against. For those special conditions, the wound itself must be healed for the condition to disappear.
 
-| d12 | Blunt Wounds                                                         |
-| --- | -------------------------------------------------------------------- |
-| 1   | Smashed → knocked down                                               |
-| 2   | Smashed → knocked down and thrown a good distance                    |
-| 3   | Crumpled → weakened mobility and strength and thrown a good distance |
-| 4   | Hand broken → unable to use one hand, struggle with weapons          |
-| 5   | Foot broken → unable to use one foot, struggle with moving           |
-| 6   | Arms broken → unable to use hands or weapons                         |
-| 7   | Legs broken → unable to walk                                         |
-| 8   | Back broken → unable to move                                         |
-| 9   | Skull broken → unconscious and dying and thrown a good distance      |
-| 0   | Spine destroyed → Paladin is killed                                  |
-
-| d12 + INJ | Crush Wounds                                                                           |
-| --------- | -------------------------------------------------------------------------------------- |
-| 1         | Smashed → knocked prone                                                                |
-| 2         | Drained → lose (6) stamina                                                             |
-| 3         | Smashed → pushed 1 square and knocked prone                                            |
-| 4         | Smashed → pushed 2 squares and knocked prone                                           |
-| 5         | Drained → lose (12) stamina                                                            |
-| 6         | Smashed → pushed 3 squares and knocked prone                                           |
-| 7         | Smashed → pushed 4 squares and knocked prone                                           |
-| 8         | Bleeding → gain the bleeding (4) condition                                             |
-| 9         | Bleeding → gain the bleeding (4) condition                                             |
-| 10        | Weakened → fingers lose blood, -2 when using your hands                                |
-| 11        | Weakened → fingers lose blood, -4 when using your hands                                |
-| 12        | Weakened → toes lose blood, gain the slowed condition                                  |
-| 13        | Bleeding → gain the bleeding (8) condition                                             |
-| 14        | Bleeding → gain the bleeding (8) condition                                             |
-| 15        | Withered → leg loses lots of blood, gain the immobilized condition                     |
-| 16        | Legs broken → gain the immobilized condition (no save)                                 |
-| 17        | Back broken → gain the immobilized and stunned conditions (no save)                    |
-| 18        | Skull broken → gain the unconscious condition (no save)                                |
-| 19        | Shattered → knocked prone, gain the unconscious and dying conditions                   |
-| 20        | Shattered → pushed 4 squares, knocked prone, gain the unconscious and dying conditions |
+| INJ | Crush Wounds                                                                           |
+| --- | -------------------------------------------------------------------------------------- |
+| 1   | Smashed → knocked prone                                                                |
+| 2   | Drained → lose (6) stamina                                                             |
+| 3   | Smashed → pushed 1 square and knocked prone                                            |
+| 4   | Smashed → pushed 2 squares and knocked prone                                           |
+| 5   | Drained → lose (12) stamina                                                            |
+| 6   | Smashed → pushed 3 squares and knocked prone                                           |
+| 7   | Smashed → pushed 4 squares and knocked prone                                           |
+| 8   | Exhausting → pushed 1 squares and gain the exhausting (4) condition                    |
+| 9   | Exhausting → pushed 1 squares and gain the exhausting (4) condition                    |
+| 10  | Exhausting → pushed 2 squares and gain the exhausting (6) condition                    |
+| 11  | Exhausting → pushed 2 squares and gain the exhausting (6) condition                    |
+| 12  | Exhausting → pushed 3 squares and gain the exhausting (8) condition                    |
+| 13  | Exhausting → pushed 3 squares and gain the exhausting (8) condition                    |
+| 14  | Exhausting → pushed 4 squares and gain the exhausting (12) condition                   |
+| 15  | Leg broken → gain the immobilized and broken conditions                                |
+| 16  | Legs broken → gain the immobilized and (2) broken conditions                           |
+| 17  | Back broken → gain the immobilized and stunned conditions                              |
+| 18  | Skull broken → gain the unconscious condition                                          |
+| 19  | Shattered → knocked prone, gain the unconscious and dying conditions                   |
+| 20  | Shattered → pushed 4 squares, knocked prone, gain the unconscious and dying conditions |
 
 ### Piercing + Slashing Wounds
 
@@ -56,17 +43,17 @@ These wounds are the most common and can be caused by arrows, swords, and animal
 | 1         | Grazed                                                                                              |
 | 2         | Cut → lose (3) stamina                                                                              |
 | 3         | Cut → lose (6) stamina                                                                              |
-| 4         | Bleeding → gain the bleeding (1) condition                                                          |
-| 5         | Bleeding → gain the bleeding (1) condition                                                          |
-| 6         | Bleeding → gain the bleeding (2) condition                                                          |
-| 7         | Bleeding → gain the bleeding (2) condition                                                          |
-| 8         | Bleeding → gain the bleeding (4) condition                                                          |
-| 9         | Bleeding → gain the bleeding (4) condition                                                          |
+| 4         | Bleeding → gain the bleeding (1) condition (save ends)                                              |
+| 5         | Bleeding → gain the bleeding (1) condition (save ends)                                              |
+| 6         | Bleeding → gain the bleeding (2) condition (save ends)                                              |
+| 7         | Bleeding → gain the bleeding (2) condition (save ends)                                              |
+| 8         | Bleeding → gain the bleeding (4) condition (save ends)                                              |
+| 9         | Bleeding → gain the bleeding (4) condition (save ends)                                              |
 | 10        | Weakened → fingers lose blood, -2 when using your hands                                             |
 | 11        | Weakened → fingers lose blood, -4 when using your hands                                             |
 | 12        | Weakened → toes lose blood, gain the slowed condition                                               |
-| 13        | Bleeding → gain the bleeding (8) condition                                                          |
-| 14        | Bleeding → gain the bleeding (8) condition                                                          |
+| 13        | Bleeding → gain the bleeding (8) condition (save ends)                                              |
+| 14        | Bleeding → gain the bleeding (8) condition (save ends)                                              |
 | 15        | Withered → leg loses lots of blood, gain the immobilized condition                                  |
 | 16        | Withered → leg loses lots of blood, gain the immobilized condition                                  |
 | 17        | Withered → arm loses lots of blood, unable to use hands                                             |
@@ -76,20 +63,27 @@ These wounds are the most common and can be caused by arrows, swords, and animal
 
 ### Massive Wounds
 
-These wounds are often caused by alchemy, magic, and monsters. They can kill or sever limbs with ease.
+These wounds are often caused by alchemy, magic, and monsters. They can kill or sever limbs with ease. If a limb is severed, it cannot be restored to the body.
 
-|     | Massive Wounds                                                         |
-| --- | ---------------------------------------------------------------------- |
-| 1   | Blasted → knocked down and scorched                                    |
-| 2   | Burned → 3rd degree burns, unable to act for a round                   |
-| 3   | Melted → combat suit is ruined and useless, thruster belt is destroyed |
-| 4   | Concussed → save or fall unconscious                                   |
-| 5   | Engulfed in flame → unable to perform actions until fire is put out    |
-| 6   | Lit aflame → ongoing d6 explosive wounds                               |
-| 7   | Limb destroyed → arm is severed, struggle to use weapons               |
-| 8   | Limb destroyed → leg is severed, unable to move                        |
-| 9   | Limbs fragmented → Paladin loses d4 limbs                              |
-| 0   | Eruption → Paladin loses consciousness and d4 limbs                    |
+| d12 | Massive Wounds                                                                   |
+| --- | -------------------------------------------------------------------------------- |
+| 1   | Blasted → gain the prone condition and lose (12) stamina                         |
+| 2   | Broken → gain the dazed, stunned, and prone conditions                           |
+| 3   | Broken → armor is ruined and useless, gain the dazed and stunned conditions      |
+| 4   | Concussed → gain the dazed and stunned conditions, save or fall unconscious      |
+| 5   | Concussed → gain the dazed and stunned conditions, save or fall unconscious      |
+| 6   | Concussed → gain the unconscious condition                                       |
+| 7   | Limb destroyed → arm is severed, can only use one hand                           |
+| 8   | Limb destroyed → leg is severed, gain the immobilized condition                  |
+| 9   | Limbs fragmented → lose d4 limbs (1-2 arms, 3-4 legs)                            |
+| 10+ | Dismembered → gain the unconscious and dying conditions, lose d4 limbs (roll d4) |
+
+| d4  | Random severed limb |
+| --- | ------------------- |
+| 1   | Left arm            |
+| 2   | Right arm           |
+| 3   | Left leg            |
+| 4   | Right leg           |
 
 ## Broken Will
 

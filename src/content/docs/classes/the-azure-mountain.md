@@ -7,12 +7,12 @@ _A warrior who was habitually struck by boulders as part of their training. A cl
 
 ## Stats
 
-- You start with 6 encumbrance. Increase it by 1 for each point of strength.
-- You start with 4 speed. Increase it by 1 for each point of dexterity.
-- You start with 8 stamina. Increase it by 1 for each point of dexterity and 4 for each point of endurance.
-- You start with 10 health. Increase it by 2 for each point of vitality.
-- You start with 6 willpower. Increase it by 1 for each point of intelligence and 2 for each point of mind.
-- You start with 6 luster. Increase it by 1 for each point of arcane and 2 for each point of spirit.
+- **You start with 6 encumbrance**. <br /> Increase it by 1 for each point of strength.
+- **You start with 4 speed**. <br /> Increase it by 1 for each point of dexterity.
+- **You start with 8 stamina**. <br /> Increase it by 1 for each point of dexterity and 4 for each point of endurance.
+- **You start with 10 health**. <br /> Increase it by 2 for each point of vitality.
+- **You start with 6 willpower**. <br /> Increase it by 1 for each point of intelligence and 2 for each point of mind.
+- **You start with 6 luster**. <br /> Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 ## Gear
 
