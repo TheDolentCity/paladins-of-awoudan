@@ -17,7 +17,7 @@ _A slayer of dangerous beasts and men alike. A class that focuses on harrying a 
 ## Gear
 
 - Take light armor or a ranging cloak.
-- Take longbow, bow, or shortbow and quiver of x24 arrows.
+- Take longbow, bow, or shortbow and quiver (24 arrows).
 - Take ranger's long knife and ranger's short knife.
 
 ## Builds

@@ -34,8 +34,8 @@ The full combat sequence is as follows:
 
 - **Attack:** Perform a melee, ranged, or spell attack action. You can perform a maximum amount of attack actions in a round equal to your **END** (minimum 2).
 - **Bull Rush:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target is pushed 1 square away and knocked prone or it is pushed 2 squares away. You can shift into the square it left behind after pushing it.
-- **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check. You must move at least 3 squares from your starting position and you must move in a straight line for at least the last 3 squares of movement.
-- **Finisher:** You can deliver a finishing attack against an unconscious or helpless foe. If the attack hits, it deals triple damage.
+- **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check. You must move at least 3 squares from your starting position and you must move in a line for at least the last 3 squares of movement. The target of the attack must be in a square in the same orientation of your charge such that if you continued in your line you would enter their square.
+- **Finisher:** You can deliver a finishing attack against an unconscious or helpless foe. If the attack hits, it deals a wound or failed death save if they are dying.
 - **Grapple:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target gains the grappled condition.
 - **Help:** Choose an ally within close burst 1. Once on their next turn, when they roll any die, they may reroll it. This could be for a save, attack roll, or special ability.
 - **Reload:** Decrease the amount of reload actions necessary to use the weapon again by 1. If a weapon has "reload 2", then it needs 2 reload actions before you can use the weapon again. This action can only be performed once per round.

@@ -1,9 +1,9 @@
 ---
 title: The Umber Pines
-description: TODO
+description: A raging warrior that does not fear pain. A class that focuses on chasing down single foes and taking damage to increase their lethality. A striker or blaster depending on your ability selection.
 ---
 
-_TODO. A striker, with some blaster aspects._
+_A raging warrior that does not fear pain. A class that focuses on chasing down single foes and taking damage to increase their lethality. A striker or blaster depending on your ability selection._
 
 ## Stats
 
@@ -16,40 +16,14 @@ _TODO. A striker, with some blaster aspects._
 
 ## Gear
 
-- Take light armor or medium armor.
-- Take longaxe or axe and x2 throwing axes.
-- Take axe or shield.
+- Take medium armor or light armor.
+- Take great spear or longaxe or shortbow and quiver (24 arrows) or x2 throwing axes.
+- Take dagger or axe or shortsword or mace or x2 throwing axes.
+- Take dagger or axe or shortsword or mace or shield.
 
 ## Builds
 
 You unlock features, attacks, and feats as you level up. There are three builds for this class that you can follow for quick character creation and level ups.
-
-### The Skirmisher
-
-A fast moving melee combatant that avoids attacks with hit and run tactics while dual wielding.
-
-Start with: <br />
-**STR:** +2 **DEX:** +3 **END:** +0 **VIT:** +0 <br />
-**ARC:** -1 **SPI:** +2 **INT:** +0 **MIN:** +2
-
-- Take light armor, x2 axes, and x2 throwing axes.
-- Level 1: Take **Skirmisher's Quarry** feature.
-- Level 1: Take the **Lightfoot** feat.
-- Level 2: Increase **STR** and **MIN** by +1.
-- Level 2: Take the **Lightfoot (improved)** feat.
-- Level 3: Take the **Evasive** attack attribute.
-- Level 3: Take the **Nimble** attack attribute.
-- Level 4: Increase **DEX** and **MIN** by +1.
-- Level 4: Take the **Hasty Defense** feat.
-- Level 5: Take the **Invigorating Assault** daily attack.
-
-### The Raider
-
-A versatile combatant who gains strength as their blows wound and kill their foes.
-
-Start with: <br />
-**STR:** +1 **DEX:** +4 **END:** +0 **VIT:** +0 <br />
-**ARC:** -2 **SPI:** +2 **INT:** -1 **MIN:** +3
 
 ### The Berserker
 
@@ -59,17 +33,79 @@ Start with: <br />
 **STR:** +2 **DEX:** +3 **END:** +0 **VIT:** +1 <br />
 **ARC:** -1 **SPI:** +3 **INT:** -1 **MIN:** +1
 
+- Take light armor, longaxe, dagger, and x2 throwing axes.
+- Level 1: Take **Rage** feature.
+- Level 1: Take **Berserker's Frenzy** feature.
+- Level 1: Take the **Silent Speech** martial practice.
+- Level 1: Take the **Tame Beast** martial practice.
+- Level 1: Take the **Rampage** feat.
+- Level 2: Increase **DEX** and **SPI** by +1.
+- Level 2: Take the **Hasty Defense** feat.
+- Level 3: Take the **Hack and Slash** attack attribute.
+- Level 3: Take the **Knockdown** attack attribute.
+- Level 3: Take the **Shatter** attack attribute.
+- Level 4: Increase **MIN** and **VIT** by +1.
+- Level 4: Take the **Raging Focus** feat.
+- Level 5: Take the **Bear's Rage** stance benefit.
+
+### The Raider
+
+A versatile combatant who gains strength as their blows wound and kill their foes.
+
+Start with: <br />
+**STR:** +1 **DEX:** +4 **END:** +0 **VIT:** +0 <br />
+**ARC:** -2 **SPI:** +2 **INT:** -1 **MIN:** +3
+
+- Take medium armor, shortsword, x2 throwing axes, and shield.
+- Level 1: Take **Rage** feature.
+- Level 1: Take **Raider's Cruelty** feature.
+- Level 1: Take the **Feign Death** martial practice.
+- Level 1: Take the **Tracker** martial practice.
+- Level 1: Take the **Varied Assault** feat.
+- Level 2: Increase **DEX** and **SPI** by +1.
+- Level 2: Take the **Raging Focus** feat.
+- Level 3: Take the **Biter** attack attribute.
+- Level 3: Take the **Furious** attack attribute.
+- Level 3: Take the **Nimble** attack attribute.
+- Level 4: Increase **MIN** and **SPI** by +1.
+- Level 4: Take the **Raging Will** feat.
+- Level 5: Take the **Elephant's Rage** stance benefit.
+
+### The Skirmisher
+
+A fast moving melee combatant that avoids attacks with hit and run tactics while dual wielding.
+
+Start with: <br />
+**STR:** +2 **DEX:** +3 **END:** +0 **VIT:** +0 <br />
+**ARC:** -1 **SPI:** +2 **INT:** +0 **MIN:** +2
+
+- Take light armor, x2 axes, x2 throwing axes.
+- Level 1: Take **Rage** feature.
+- Level 1: Take **Skirmisher's Quarry** feature.
+- Level 1: Take the **Courier Training** martial practice.
+- Level 1: Take the **Weather Vane** martial practice.
+- Level 1: Take the **Dual Fighter** feat.
+- Level 2: Increase **STR** and **MIN** by +1.
+- Level 2: Take the **Lightfoot** feat.
+- Level 3: Take the **Hack and Slash** attack attribute.
+- Level 3: Take the **Nimble** attack attribute.
+- Level 3: Take the **Tempest** attack attribute.
+- Level 4: Increase **DEX** and **MIN** by +1.
+- Level 4: Take the **Lightfoot (improved)** feat.
+- Level 5: Take the **Viper's Rage** stance benefit.
+
 ## Levels
 
-When you take a level in this class after level one, increase your health by 6, stamina by 4, willpower by 2, and luster by 2.
+When you take a level in this class after level one, increase your health by 4, stamina by 2, willpower by 2, and luster by 2.
 
 ### Level 1
 
-Take the rage feature, 1 martial pursuit, and 3 martial practices:
+Take the rage feature, 1 martial pursuit, and 2 martial practices:
 
 - **Rage:** You have the ability to enter a rage stance on your turn as a free action. You have a number of rages equal to your **SPI** + your level (minimum 1). You regain 1 rage when you take a short rest and all of your rages when you take a long rest. While in the rage stance, you have the following effects applied:
   - You have combat advantage on all attacks, and all attacks from foes have combat advantage against you.
   - You roll **STR** and **DEX** checks with advantage.
+  - You roll wound rolls for yourself with advantage (taking the lowest injury).
   - You may split damage you suffer among your **HEA**, **STA**, and **WIL** stats. Ex: If you had 8 **HEA** and 4 **WIL** and took 6 damage targeting **WIL**, you could choose to take 4 **HEA** damage and 2 **WIL** damage to avoid your will breaking.
   - You fall out of the stance if you fail to make an attack roll by the end of your turn or if you are dazed, stunned, or exposed. You cannot enter the rage stance if you are dazed, stunned, or exposed.
 - **Martial Pursuit:** You were trained to use your rage to kill your foes.
@@ -91,14 +127,15 @@ Increase two different ability scores by +1 and take a new feat.
 
 ### Level 3
 
-Learn 3 of the following attack attributes. You can apply 1 attribute to a standard attack or 2 attributes at the cost of 3 **WIL**. You cannot apply more than 3 attributes to one attack.
+Learn 3 of the following attack attributes. You can apply 1 attribute to a standard attack or 2 attributes at the cost of 3 **WIL**. You cannot apply more than 2 attributes to one attack.
 
 - **Biter:** Requires a cruel weapon. Increase the rating of cruel by +2. If you gain a wound before the start of your next turn, increase the injury level by +2.
-- **Bloody:** If the attack hits or misses, every character in a close burst 1 gains the bleeding (2) condition, including yourself.
-- **Evasive:** If the attack hits, you may shift a number of squares equal to your **END**.
+- **Bloody:** If the attack hits or misses, every character in a close burst 1 of the target including yourself gains the bleeding (2) condition.
+- **Evasive:** If the attack hits or misses, you may shift a number of squares equal to your **END**.
 - **Exhausting:** If the attack hits or misses, the target takes **STA** damage equal to your 4 + **END** and you take 4 **STA** damage.
 - **Furious:** If the attack hits, you ignore all damage that originally targets **WIL** until the start of your next turn. Damage split to **WIL** from raging still decreases it.
-- **Hack and Slash:** If the attack misses, the target takes damage equal to your **STR** and you take damage equal to half your **STR**.
+- **Hack and Slash:** If you add your **STR** to the attack roll, also add your **DEX** to the roll and take damage equal to your **DEX** afterwards. If you add your **DEX** to the attack roll, also add your **STR** and take damage equal to your **STR** afterwards. If the attack roll adds both, then you add nothing.
+- **Knockdown:** Requires a two-handed weapon. If the attack hits, the target is knocked prone.
 - **Nimble:** If the attack hits, for the rest of your turn, you do not provoke opportunity attacks.
 - **Shatter:** Requires a two-handed weapon and a single target. Whether the attack hits or misses, creatures in a close burst 1 of the target including yourself, take 2 damage.
 - **Tempest:** Requires a two-handed weapon or dual wielding weapons. The attack's range changes to close burst 1 and you take damage equal to your **STR** or **DEX**, whichever is higher.
@@ -109,10 +146,11 @@ Increase two different ability scores by +1 and take a new feat.
 
 ### Level 5
 
-Take one of the following daily attacks:
+You gain one of the following benefits while in a rage stance:
 
-- **Invigorating Assault**: As a standard action, shift a number of squares equal to your **SPE**. You may perform an attack action on any target that you move adjacent to during this movement without spending **STA** on extra attacks. You may still choose to spend **STA** for extra attacks. This action does not count as your free move action on your turn.
-- **Savagery:** Make a standard attack action. If the target gains a wound, roll on the massive wounds table instead of the normal table you would use. Any foe who can see gains the frightened condition.
+- **Bear's Rage:** When you hit with a melee attack, you knock the target prone. If the target is already prone, then they take extra damage equal to your **STR**.
+- **Elephant's Rage:** You gain **HEA**, **STA**, and **WIL** regeneration equal to your **SPI**.
+- **Serpent's Rage:** You gain a +2 bonus to **SPE** and can shift a number of squares equal to your **DEX** as a move action.
 
 ## Feats
 
@@ -126,8 +164,9 @@ You must have at least one level in this class to take the following feats:
 - **Lightfoot (improved):** You must have the lightfoot feat in order to take this feat. Your swim and climb speed is equal to your running speed.
 - **Martial Study:** You can take 3 more martial practices.
 - **Martial Training:** Requires learning attack attributes. Learn two more attack attributes.
-- **Raging Focus:** When you enter the rage stance, you may immediately remove one condition that is afflicting you (that is not from a wound).
+- **Raging Boar:** Add +2 to charge attacks while in the rage stance.
+- **Raging Focus:** When you enter the rage stance, you may immediately remove one condition that is afflicting you that is not from a wound.
 - **Raging Vitality:** Instead of gaining +2 **HEA** for each point of **VIT**, you instead gain +4 **HEA**. This is retroactive. Recalculate your health as if this were true from level 1.
-- **Raging Will:** You may spend a rage to ignore the dazed, stunned, or exposed condition (unless the exposed condition occurs from draining your **STA**).
+- **Raging Will:** When you gain the dazed, stunned, or exposed condition (unless the exposed condition occurs from draining your **STA**) you may spend a rage to discard it.
 - **Rampage:** Requires you be in the rage stance. If you wound or kill a foe that is not a minion, regain 3 **STA** and 3 **WIL**.
 - **Varied Assault:** When you wound or kill with a thrown weapon, you may perform a charge as a free action.

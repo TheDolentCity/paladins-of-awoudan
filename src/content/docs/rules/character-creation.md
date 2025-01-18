@@ -18,7 +18,7 @@ There are five roles that affect how a class functions in a skirmish: striker, b
 
 Strikers specialize in dealing lots of damage to a single target at a time. They are offensive characters who rely on movement to position themselves in the perfect place to strike their intended target. Strikers are at their best when they are isolated from most combatants.
 
-- Paladin of the Umber Trees (primary role)
+- Paladin of the Umber Pines (primary role)
 - Paladin of the Red Wood (primary or secondary role)
 - Paladin of the Azure Mountain (secondary role)
 - Paladin of the Sable Spire (secondary role)
@@ -30,7 +30,7 @@ Blasters specialize in attacks that target large areas or multiple enemies at on
 - Paladin of the Sable Spire (primary role)
 - Paladin of the Red Wood (primary or secondary role)
 - Paladin of the Celadon Tower (secondary role)
-- Paladin of the Umber Trees (secondary role)
+- Paladin of the Umber Pines (secondary role)
 
 ### Controller
 
@@ -62,7 +62,7 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - [Paladin of the Celadon Tower](../../classes/the-celadon-tower)
 - [Paladin of the Red Wood](../../classes/the-red-wood)
 - [Paladin of the Sable Spire](../../classes/the-sable-spire)
-- [Paladin of the Umber Trees](../../classes/the-umber-trees)
+- [Paladin of the Umber Pines](../../classes/the-umber-pines)
 - [Paladin of the White Ash](../../classes/the-white-ash)
 
 
@@ -90,7 +90,7 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - ...you want to master spells of fire, vines, or ice
 - ...you don't fear losing control of your soul
 
-#### Become a Paladin of the Umber Trees if...
+#### Become a Paladin of the Umber Pines if...
 
 - ...you want to inflict precise wounds on strong foes
 - ...you want to strike out at multiple enemies with powerful melee attacks

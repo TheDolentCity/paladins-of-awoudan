@@ -3,7 +3,7 @@ title: The Celadon Tower
 description: The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with blaster or leader as a secondary role depending on your ability selection.
 ---
 
-_The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for inklings of knowledge. You have gleaned some of his mysterious spell craft. Controller, with blaster or leader as a secondary role depending on your ability selection._
+_The old wizard, Myrrdin, is long dead. There are still a few who learned but an inkling of his wizard ways. His acolytes persist in his tower, pouring over his handwritten tomes for arcane clues. You have gleaned some of his mysterious spell craft. Controller, with blaster or leader as a secondary role depending on your ability selection._
 
 ## Stats
 
