@@ -3,11 +3,9 @@ title: Wounds
 description: Details and tables for handling Paladin wounds.
 ---
 
-## Wounds
+If your **HEA** falls to zero or lower, you roll an injury (INJ) on the relevant wounds table (based on the type of damage suffered). This is a d12 + your current **INJ**, which is equal to the rating of the highest wound you're currently suffering from, or 0 if you have no wounds. After you suffer a wound, you reset your **HEA** to its maximum.
 
-If your **HEA** falls to zero or lower, you roll a d12 + injury level (INJ) on the relevant wounds table (based on the type of damage suffered). Your injury level is equal to the rating of the highest wound you're currently suffering from, or 0 if you have no wounds. After you suffer a wound, you reset your **HEA** to its maximum.
-
-### Crush Wounds
+## Crush Wounds
 
 These wounds are often caused by blunt melee weapons such as maces or powerful monsters. They often involve moving the Paladin, breaking their bones, and conditions that cannot be saved against. For those special conditions, the wound itself must be healed for the condition to disappear.
 
@@ -34,11 +32,11 @@ These wounds are often caused by blunt melee weapons such as maces or powerful m
 | 19  | Shattered → knocked prone, gain the unconscious and dying conditions                   |
 | 20  | Shattered → pushed 4 squares, knocked prone, gain the unconscious and dying conditions |
 
-### Piercing + Slashing Wounds
+## Piercing + Slashing Wounds
 
 These wounds are the most common and can be caused by arrows, swords, and animals. They leaving bleeding wounds that will weaken and then kill the Paladin if left untreated.
 
-| d12 + INJ | Piercing + Slashing Wounds                                                                          |
+| INJ | Piercing + Slashing Wounds                                                                          |
 | --------- | --------------------------------------------------------------------------------------------------- |
 | 1         | Grazed                                                                                              |
 | 2         | Cut → lose (3) stamina                                                                              |
@@ -61,9 +59,9 @@ These wounds are the most common and can be caused by arrows, swords, and animal
 | 19        | Withered → arms and legs lose lots of blood, gain the immobilized condition and unable to use hands |
 | 20        | Bleeding out → Gain the unconscious and dying conditions                                            |
 
-### Massive Wounds
+## Massive Wounds
 
-These wounds are often caused by alchemy, magic, and monsters. They can kill or sever limbs with ease. If a limb is severed, it cannot be restored to the body.
+You do not add your injury level to rolls on the massive wounds table, you only roll a d12. These wounds are often caused by alchemy, magic, and monsters. They can kill or sever limbs with ease. If a limb is severed, it cannot be restored to the body.
 
 | d12 | Massive Wounds                                                                   |
 | --- | -------------------------------------------------------------------------------- |

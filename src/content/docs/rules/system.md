@@ -20,7 +20,6 @@ Your physical prowess and power.
 Your agility and adroitness.
 
 - Increases speed by +1 for each point.
-- Increases stamina by +1 for each point.
 - Increases effectiveness of piercing and slashing weapons.
 - Increases efficacy of the dodge action.
 - Required for certain arms and armor.

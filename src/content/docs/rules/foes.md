@@ -56,3 +56,4 @@ A minion has no health, stamina, or willpower. They are defeated quickly, but th
 - If it takes health damage, it is slain.
 - If it takes stamina damage, it falls unconscious.
 - If it takes willpower damage, it flees the skirmish.
+- If it suffers a condition, they fail the first save automatically and succeed automatically the next time they would roll a save.

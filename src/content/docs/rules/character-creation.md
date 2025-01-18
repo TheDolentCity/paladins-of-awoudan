@@ -18,8 +18,7 @@ There are five roles that affect how a class functions in a skirmish: striker, b
 
 Strikers specialize in dealing lots of damage to a single target at a time. They are offensive characters who rely on movement to position themselves in the perfect place to strike their intended target. Strikers are at their best when they are isolated from most combatants.
 
-<!-- - Paladin of the Umber Trees (primary role) -->
-
+- Paladin of the Umber Trees (primary role)
 - Paladin of the Red Wood (primary or secondary role)
 - Paladin of the Azure Mountain (secondary role)
 - Paladin of the Sable Spire (secondary role)
@@ -31,7 +30,7 @@ Blasters specialize in attacks that target large areas or multiple enemies at on
 - Paladin of the Sable Spire (primary role)
 - Paladin of the Red Wood (primary or secondary role)
 - Paladin of the Celadon Tower (secondary role)
-<!-- - Paladin of the Umber Trees (secondary role) -->
+- Paladin of the Umber Trees (secondary role)
 
 ### Controller
 
@@ -63,9 +62,9 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - [Paladin of the Celadon Tower](../../classes/the-celadon-tower)
 - [Paladin of the Red Wood](../../classes/the-red-wood)
 - [Paladin of the Sable Spire](../../classes/the-sable-spire)
+- [Paladin of the Umber Trees](../../classes/the-umber-trees)
 - [Paladin of the White Ash](../../classes/the-white-ash)
 
-<!-- - [Paladin of the Umber Trees](../../classes/the-umber-trees) -->
 
 #### Become a Paladin of the Azure Mountain if...
 
@@ -91,11 +90,11 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - ...you want to master spells of fire, vines, or ice
 - ...you don't fear losing control of your soul
 
-<!-- #### Become a Paladin of the Umber Trees if...
+#### Become a Paladin of the Umber Trees if...
 
 - ...you want to inflict precise wounds on strong foes
 - ...you want to strike out at multiple enemies with powerful melee attacks
-- ...you want to move with ease across a battlefield -->
+- ...you want to move with ease across a battlefield
 
 #### Become a Paladin of the White Ash if...
 
@@ -130,11 +129,6 @@ Each class has several features that determine the core behavior of your class i
 
 Every character starts with one feat. There are class specific feats, but there are also generic feats. Many class feats will boost specific features so keep that in mind when choosing class features.
 
-- [+3, +2, +1, +1, +0, +0, -1, -2]
-- [+2, +2, +2, +0, +0, +0, -1, -1]
-- [+2, +2, +1, +1, +0, +0, +0, -1]
-- [+1, +1, +1, +1, +1, +0, +0, +0]
-
 ## 7. Determine stats and skills
 
 Based on your ability scores, starting class values, feats, and gear, calculate your defenses, health, stamina, willpower, luster, encumbrance, and speed.
@@ -146,7 +140,7 @@ Every character starts with 1 skill (even if you have negative **INT**). You sta
 ### Paladin of the Red Wood (level 1)
 
 ```
-NAME: Sir Drake of Elethain
+NAME: Drake of Elethain
 CLASS: Paladin of the Red Wood
 PRONOUNS: He/Him
 

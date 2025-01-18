@@ -37,6 +37,7 @@ The full combat sequence is as follows:
 - **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check. You must move at least 3 squares from your starting position and you must move in a straight line for at least the last 3 squares of movement.
 - **Finisher:** You can deliver a finishing attack against an unconscious or helpless foe. If the attack hits, it deals triple damage.
 - **Grapple:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target gains the grappled condition.
+- **Help:** Choose an ally within close burst 1. Once on their next turn, when they roll any die, they may reroll it. This could be for a save, attack roll, or special ability.
 - **Reload:** Decrease the amount of reload actions necessary to use the weapon again by 1. If a weapon has "reload 2", then it needs 2 reload actions before you can use the weapon again. This action can only be performed once per round.
 - **Rest:** At the end of your turn when you regenerate stamina or willpower, you add +d6 to the rolls.
 
@@ -54,7 +55,7 @@ The full combat sequence is as follows:
 - **Opportunity Attack (3 STA, Reaction):** When you are wielding a melee weapon and an adjacent enemy moves to a square that is not adjacent to you, you may perform an opportunity attack. This is a standard attack action. Certain class abilities grant you additional attacks or triggers for opportunity attacks.
 - **Draw/Stow (3 STA):** Perform an additional draw or stow action. A maximum of two draw/stow actions can be performed per round. Drawing/stowing two melee weapons that you dual wield is one action.
 - **Dodge (6 STA, Reaction):** As a reaction to an attack against you, but before damage is rolled, you may dodge. Roll d6 + **DEX** and subtract the sum from the final attack roll. If the sum is zero or less, no on-hit or on-damage effects trigger.
-- **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** to spend, up to 12, and then add **DEX**. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and the attacker takes **STA** damage equal to your **STR**+**DEX**.
+- **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** to spend, up to 12, and then add **DEX**. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and the attacker takes **STA** damage equal to your **DEX**.
 - **Shield (Variable STA, Reaction):** Requires a shield. As a reaction to an attack against you, but before damage is rolled, you may shield. If you do, you must spend a number of **STA** equal to the damage of the attack. If this leaves you with 0 or less **STA**, you gain the exposed condition and cannot make a save for this condition on your next turn. ex: Attack roll of 8 when you have 4 armor would result in 4 damage, requiring you to spend 4 **STA** to negate all damage.
 - **Reload (3 STA):** This action can only be performed once per round.
 

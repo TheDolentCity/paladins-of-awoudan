@@ -151,9 +151,51 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"classes/paladin-of-the-red-hunt.md": {
-	id: "classes/paladin-of-the-red-hunt.md";
-  slug: "classes/paladin-of-the-red-hunt";
+"bestiary/bandits.mdx": {
+	id: "bestiary/bandits.mdx";
+  slug: "bestiary/bandits";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"classes/the-azure-mountain.md": {
+	id: "classes/the-azure-mountain.md";
+  slug: "classes/the-azure-mountain";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/the-celadon-tower.md": {
+	id: "classes/the-celadon-tower.md";
+  slug: "classes/the-celadon-tower";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/the-red-wood.md": {
+	id: "classes/the-red-wood.md";
+  slug: "classes/the-red-wood";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/the-sable-spire.md": {
+	id: "classes/the-sable-spire.md";
+  slug: "classes/the-sable-spire";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/the-umber-pines.md": {
+	id: "classes/the-umber-pines.md";
+  slug: "classes/the-umber-pines";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"classes/the-white-ash-temple.md": {
+	id: "classes/the-white-ash-temple.md";
+  slug: "classes/the-white-ash-temple";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -172,9 +214,51 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"rules/dice.md": {
-	id: "rules/dice.md";
-  slug: "rules/dice";
+"rules/character-creation.md": {
+	id: "rules/character-creation.md";
+  slug: "rules/character-creation";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"rules/checks.mdx": {
+	id: "rules/checks.mdx";
+  slug: "rules/checks";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"rules/combat.md": {
+	id: "rules/combat.md";
+  slug: "rules/combat";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"rules/equipment.md": {
+	id: "rules/equipment.md";
+  slug: "rules/equipment";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"rules/feats.md": {
+	id: "rules/feats.md";
+  slug: "rules/feats";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"rules/foes.md": {
+	id: "rules/foes.md";
+  slug: "rules/foes";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"rules/healing.md": {
+	id: "rules/healing.md";
+  slug: "rules/healing";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -214,20 +298,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"setting/subspace.md": {
-	id: "setting/subspace.md";
-  slug: "setting/subspace";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"setting/united-human-colonies.md": {
-	id: "setting/united-human-colonies.md";
-  slug: "setting/united-human-colonies";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 };
 
 	};
@@ -243,5 +313,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../../src/content/config.js");
+	export type ContentConfig = typeof import("./../../src/content/config.js");
 }

@@ -62,3 +62,11 @@
 .expressive-code .frame {
   display: inline-block !important;
 }
+
+.site-title {
+  color: var(--sl-color-accent-high) !important;
+}
+
+.sidebar-content ul>li>a {
+  @apply px-2 py-1.5 rounded-sm leading-none;
+}
