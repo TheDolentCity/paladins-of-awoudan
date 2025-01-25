@@ -6,7 +6,7 @@ description: Important events for the Kingdom of Awoudan.
 The death of the Christian God fractured the land of Awoudan so completely that they adopted a new standardized dating system based off of that year. Dates before the death of God are marked BD (before death) and AD (after death). The present day is 63 AD.
 
 ## 1 BD - Death of God
-The Christian God is killed. Aged churches collapse, untouched relics crumble, and defeaning silence meets every prayer. No one knows how, most blame the Devil, but all that is certain is that his divinity is gone.
+The Christian God is killed. Aged churches collapse, untouched relics crumble, and deafening silence meets every prayer. No one knows how, most blame the Devil, but all that is certain is that his divinity is gone.
 
 ## 1 AD - Death of the King
 When God was slain, a part of the King died too. Half his crown balded, the other half grew sticky and twisted hairs. New sores scoured his flesh daily. He walked with a staggering limp while under the influence of herbs, but could not walk at all without them.
@@ -20,7 +20,7 @@ She declared herself Freygr of the Seven Rings. For the two smaller fingers of h
 
 She sent missives to the Ealdormen to acknowledge her as one of their own. They returned to Carabrim, along with their knights and men-at-arms. The Ealdormen intended to lay siege upon Carabrim, but Freygr raised a white flag and left the castle with an old, cloaked man to meet with the Ealdormen.
 
-Not much is known what happened in that tent, but the Ealdormen named her one of their own and left her shire. War never came to Awoudan. The men-at-arms returned to their homes and keeps and all fire for battle went out of the Ealdormen. Rumors called Freygr a witch-queen and insinuiated that she had charmed the Ealdormen and taken control of their thoughts.
+Not much is known what happened in that tent, but the Ealdormen named her one of their own and left her shire. War never came to Awoudan. The men-at-arms returned to their homes and keeps and all fire for battle went out of the Ealdormen. Rumors called Freygr a witch-queen and insinuated that she had charmed the Ealdormen and taken control of their thoughts.
 
 Whatever misgivings people had of her, she ruled well and fair and the Shire of Carrdun thrived for it.
 
@@ -39,14 +39,14 @@ Myrrdin returned one year and a day from his departure. He conferred his discove
 
 And so an order of warriors called the Paladins was established. They were trained and cared for in ways that even Awoudan Knights were not. The selection process was not based on lineage or standing, or really anything that people could at all suspect.
 
-It was later peaced together that all recruits were Omens. And so the people grew to fear and despise the Paladins for no reason other than supersistion, despite their worship of the Fell Gods. The Paladins did not mind it. They were loyal to their Ring Lord with their heart and souls.
+It was later peaced together that all recruits were Omens. And so the people grew to fear and despise the Paladins for no reason other than superstition, despite their worship of the Fell Gods. The Paladins did not mind it. They were loyal to their Ring Lord with their heart and souls.
 
 ## 33 AD - The Great Shadow
 Like a storm, the Great Shadow huddled across the sea on the southeastern horizon. It marched towards Awoudan, but Freygr had prepared for this. She called the banners of all Ealdormen and bade them stand at the border of the shire, but not enter it. She marched with her Paladins, entering this southeastern shire alone. Evacuations were underway, but most would not leave their homes before the storm. Some fled before the Paladins, but most hid indoors.
 
 The Shadow crashed upon the shore. All in its path warped and became umbral, their skin purpling and greying. The light of humanity left them, and they attacked the Paladins. The luster of the Paladins protected them, but only for a short time. Soon the Paladins were forced to turn on their own. The Shadow merely rested upon the shore.
 
-It relished in this carnage, and seemed to gather itself as it watched the humans destroy each other. It was in this moment that Myrddin sailed a longship directly into the Shadow's mass. He was undetected for he wore Freydr's Sable ring. None understood the magic words he chanted, but a great flash rippled from within the Shadow and a noise like the breath driven from a man's lungs echoed across Awoudan.
+It relished in this carnage, and seemed to gather itself as it watched the humans destroy each other. It was in this moment that Myrrdin sailed a longship directly into the Shadow's mass. He was undetected for he wore Freygr's Sable ring. None understood the magic words he chanted, but a great flash rippled from within the Shadow and a noise like the breath driven from a man's lungs echoed across Awoudan.
 
 The Shadow and Myrrdin were gone. Freygr was victorious. Few Paladins survived, and none were unscathed. While the Shadow had dispersed, Freygr believed it would return. She retrieved the Sable ring and then quested alone across the land for a year.
 
