@@ -37,6 +37,8 @@
   --sl-text-lg: 1.75rem;
   --sl-text-code: var(--sl-text-base);
   --ec-codeLineHt: 1.5rem !important;
+
+  font-variant-ligatures: no-common-ligatures;
 }
 /* Light mode colors. */
 :root[data-theme="light"] {

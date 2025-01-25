@@ -291,13 +291,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"setting/paladins.md": {
-	id: "setting/paladins.md";
-  slug: "setting/paladins";
+"setting/notable-paladins.md": {
+	id: "setting/notable-paladins.md";
+  slug: "setting/notable-paladins";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"setting/the-fell-gods.mdx": {
+	id: "setting/the-fell-gods.mdx";
+  slug: "setting/the-fell-gods";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 };
 
 	};

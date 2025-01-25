@@ -3,7 +3,15 @@ title: Introduction
 description: A brief intro to this website.
 ---
 
-**Paladins of Awoudan** is a grimdark, arthurian, tactical roleplaying game. Players take on the role of Paladins, cursed knights devoted to the Order of the Ring. The land of Awoudan is encased in shadow and filled with horrid beasts. If it will one day have a bright future, you will not live to see it.
+The Christian God is dead and Shadow unfurls across the world.
+
+The touch of the Great Shadow twists beasts and men into misshapen things. These beings are called the Umbral. For most living things there is nothing to do but flee before them. Only the Omens stand against them.
+
+When God was slain, the Fell Gods were released. Pagan deities of yore, they are cunning, ruthless, selfish, and spiteful; but they do not wish to see the world fall to darkness. Their blessings come in the form of the Omens, children born under a dark sign, but with divine radiance in their heart. The Omens can withstand the presence of the Umbral creatures, and so they are trained with sword, shield, wands, and horse. They are our Paladins; our last hope.
+
+---
+
+**Paladins of Awoudan** is a grimdark, arthurian, tactical roleplaying game. Players take on the role of Paladins, cursed knights devoted to the Ring Lord. The land of Awoudan is falling to the Great Shadow. If it will one day have a bright future, you will not live to see it.
 
 You can read more about important events here: [history](/setting/history)
 

@@ -3,6 +3,8 @@ title: Feats
 description: A list of all feats.
 ---
 
+The following feats are not restricted by class and can be selected whenever you would gain a feat.
+
 - **Alert:** You have +4 to any check to avoid being surprised. Additionally, when an skirmish begins and before rolling initiative, you may spend 3 **WIL** to perform a warning cry. All allies who can hear it may add your **SPI** or **INT** to their initiative checks. You must be aware at the start of the skirmish.
 - **Die Hard:** Add +2 to death saves. Once per skirmish when you stabilize after rolling a third successful death save, you may return to consciousness with 1 **HEA**.
 - **Energetic:** When you regenerate stamina at the end of your turn, you may roll d12+**END** instead of d4+**END**.
