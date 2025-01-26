@@ -158,20 +158,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"classes/the-azure-mountain.md": {
-	id: "classes/the-azure-mountain.md";
-  slug: "classes/the-azure-mountain";
+"classes/the-magus.mdx": {
+	id: "classes/the-magus.mdx";
+  slug: "classes/the-magus";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"classes/the-celadon-tower.md": {
-	id: "classes/the-celadon-tower.md";
-  slug: "classes/the-celadon-tower";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "classes/the-red-wood.md": {
 	id: "classes/the-red-wood.md";
   slug: "classes/the-red-wood";
@@ -186,6 +179,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"classes/the-titan.mdx": {
+	id: "classes/the-titan.mdx";
+  slug: "classes/the-titan";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "classes/the-umber-pines.md": {
 	id: "classes/the-umber-pines.md";
   slug: "classes/the-umber-pines";
@@ -259,6 +259,13 @@ declare module 'astro:content' {
 "rules/healing.md": {
 	id: "rules/healing.md";
   slug: "rules/healing";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"rules/rituals.md": {
+	id: "rules/rituals.md";
+  slug: "rules/rituals";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

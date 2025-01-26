@@ -15,7 +15,7 @@ Artillery foes excel at ranged combat. These foes launch volleys of arrows, sorc
 
 ### Brute
 
-Brute foes excel at melee combat and usually have high health. They move slowly and have lower defenses, but deal high damage if you get close. They are vulnerable to ranged and magic attacks.
+Brute foes excel at melee combat and usually have high health. They move slowly and have lower defenses, but deal high damage if you get close. They are vulnerable to ranged and spell attacks.
 
 ### Controller
 

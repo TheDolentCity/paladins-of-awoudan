@@ -29,6 +29,7 @@ Your agility and adroitness.
 Your body's energy level.
 
 - Increases stamina by +4 for each point.
+- Increases the maximum number of attacks per turn.
 - Used for stamina regeneration.
 
 ### Vitality
@@ -45,8 +46,9 @@ Your strength of body.
 Your innate magical potential.
 
 - Increases luster by +1 for each point.
-- Increases effectiveness of magic attacks.
+- Increases effectiveness of spell attacks.
 - Required for certain arms and armor.
+- Used for a few rituals.
 
 ### Spirit
 
@@ -56,6 +58,7 @@ Your strength of faith and courage.
 - Used for saves from the frightened condition.
 - Used for saves from the exposed condition.
 - Required for certain arms and armor.
+- Used often for rituals.
 
 ### Intelligence
 
@@ -63,6 +66,7 @@ Your innate acumen.
 
 - Increases willpower by +1 for each point.
 - Increases number of skills.
+- Used often for rituals.
 
 ### Mind
 
@@ -73,6 +77,7 @@ Your cerebral potential.
 - Used for saves from the dazed condition.
 - Used for saves from the stunned condition.
 - Used for concentration checks.
+- Used for a few rituals.
 
 ## Stats
 

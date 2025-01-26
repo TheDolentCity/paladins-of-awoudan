@@ -25,7 +25,7 @@ _All omens feel the call of umbral magic, but none so keenly as you. You have ma
 
 You unlock features, attacks, and feats as you level up. There are three quick builds for this class that you can follow for quick character creation and level ups.
 
-### The Frost Mage
+### The Frost Sorcerer
 
 A caster who attacks foe's stamina and freezes them in their tracks.
 
@@ -43,7 +43,7 @@ Start with: <br />
 - Level 4: Take the **Invigorating Exhaustion** feat.
 - Level 5: Take the **Wall of Ice** daily attack.
 
-### The Flame Mage
+### The Flame Sorcerer
 
 A caster who creates destructive bursts of fire that deal ongoing damage.
 
@@ -61,7 +61,7 @@ Start with: <br />
 - Level 4: Take the **Invigorating Blood** feat.
 - Level 5: Take the **Incinerate** daily attack.
 
-### The Spark Mage
+### The Spark Sorcerer
 
 A potent caster who chains bolts of carefully placed lightning.
 

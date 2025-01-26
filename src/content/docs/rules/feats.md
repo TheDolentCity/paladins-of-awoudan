@@ -12,6 +12,9 @@ The following feats are not restricted by class and can be selected whenever you
 - **Fearless:** Immune to the frightened condition.
 - **Focused Mind:** You add +4 to all concentration checks.
 - **Iron Will:** Before you roll a save versus a condition, you may spend a number of **WIL** up to your **INT** or **MIN** (whichever is higher) to add an equal amount to the save roll.
-- **Mage Slayer:** When an enemy in melee range makes a magic attack, you may perform an opportunity attack. If the attack deals damage, the spell fails.
+- **Mage Slayer:** When an enemy in melee range makes a spell attack, you may perform an opportunity attack. If the attack deals damage, the spell fails.
+- **Ritualist:** You gain the ability to learn rituals. Select one ritual from the ritual list of your level or lower. You learn this ritual.
+- **Ritualist (study):** Requires the ritualist feat. Select one ritual from the ritual list of your level or lower. You learn this ritual. You can take this feat multiple times.
 - **Second Wind:** Gain access to the second wind action. Once per skirmish, regain 8 **HEA**, 8 **STA**, and 8 **WIL** (up to your maximums) as a free action.
 - **Unyielding:** Subtract 2 from all wound rolls.
+- **Weightbearer:** Increase your **ENC** limit by +4 and add +4 to any checks to lift heavy loads.

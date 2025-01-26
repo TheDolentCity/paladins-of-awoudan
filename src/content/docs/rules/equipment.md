@@ -46,14 +46,14 @@ Most weapons are only effective at one or two damage types. The most common is p
 | Name          | Attack | Range | ENC | Requirements | Properties         |
 | ------------- | ------ | ----- | --- | ------------ | ------------------ |
 | Crystal Orb   | d4+ARC | 3+ARC | 1   | ARC 1, INT 1 | Magic, Forceful 1  |
-| Oak Staff     | d4+ARC | 3+ARC | 1   | ARC 1, MIN 1 | Magic, Defensive 2 |
+| Ash Staff     | d4+ARC | 3+ARC | 1   | ARC 1, MIN 1 | Magic, Defensive 2 |
 | Hazel Wand    | d4+ARC | 6+ARC | 1   | ARC 2        | Magic              |
 | Hawthorn Wand | d8+ARC | 8+ARC | 1   | ARC 3        | Magic, Umbral 1    |
 | Holy Symbol   | d4+SPI | 1     | 1   | SPI 3        | Magic, Holy        |
 
 ### Implement Properties
 
-- **Defensive:** Increase **FOC** by the rating of defensive. Increases the effectiveness of the shield spell attribute by +2.
+- **Defensive:** Increase **FOC** by the rating of defensive.
 - **Forceful:** When this implement forces a creature to move, increase the forced movement by one square.
 - **Holy:** When targeting umbral creatures, this implement deals **HEA** damage.
 - **Magic:** This implement deals **STA** or **WIL** damage (user's choice) instead of **HEA** damage and costs 1 **WIL** to attack with.
@@ -69,7 +69,7 @@ age.
 - **CRU:** Crush attack rolls that target you add this amount to the attack roll.
 - **PRC:** Pierce attack rolls that target you add this amount to the attack roll.
 - **SLA:** Slash attack rolls that target you add this amount to the attack roll.
-- **FOC:** Magic attack rolls that target you, regardless of whether it hurts **HEA**, **STA**, or **WIL**, add this amount to the attack roll.
+- **FOC:** Spell attack rolls that target you, regardless of whether it hurts **HEA**, **STA**, or **WIL**, add this amount to the attack roll.
 - **ENC:** Increase your encumbrance by this amount when you wear or carry this item.
 - **SPE:** Increase or decrease your speed by this value while wearing the item.
 - **Check:** Physical ability checks, but not attack rolls or saves, add this amount to the roll.

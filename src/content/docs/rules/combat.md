@@ -83,7 +83,7 @@ This defense is highest with heavy armors. Swords and axes deal a lot of slashin
 
 ### Focus (FOC)
 
-This defense is highest with consecrated armors and robes. All magic attacks (regardless of whether they target **HEA**, **STA**, or **WIL**) are resisted by the focus stat.
+This defense is highest with consecrated armors and robes. All spell attacks (regardless of whether they target **HEA**, **STA**, or **WIL**) are resisted by the focus stat.
 
 ## Damage
 
@@ -118,7 +118,7 @@ When your **STA** falls to zero or lower, your stamina is drained. You gain the 
 
 ## Ranges
 
-Most attacks are single target, be they melee, ranged, or magic attacks. Certain class abilities modify attacks so that they have unique ranges that target multiple creatures instead. These ranges are also used colloquially to describe certain ranges of non-attack effects.
+Most attacks are single target, be they melee, ranged, or spell attacks. Certain class abilities modify attacks so that they have unique ranges that target multiple creatures instead. These ranges are also used colloquially to describe certain ranges of non-attack effects.
 
 ### Blast
 

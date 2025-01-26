@@ -3,10 +3,7 @@ title: Character Creation
 description: The rules to follow to create a character.
 ---
 
-## Steps
-
-- [Roll an omen]()
-- [Choose a class]()
+There are seven steps to character creation.
 
 ## 1. Roll an omen
 
@@ -20,7 +17,7 @@ Strikers specialize in dealing lots of damage to a single target at a time. They
 
 - Paladin of the Umber Pines (primary role)
 - Paladin of the Red Wood (primary or secondary role)
-- Paladin of the Azure Mountain (secondary role)
+- Titan (secondary role)
 - Paladin of the Sable Spire (secondary role)
 
 ### Blasters
@@ -29,15 +26,14 @@ Blasters specialize in attacks that target large areas or multiple enemies at on
 
 - Paladin of the Sable Spire (primary role)
 - Paladin of the Red Wood (primary or secondary role)
-- Paladin of the Celadon Tower (secondary role)
 - Paladin of the Umber Pines (secondary role)
 
 ### Controller
 
 Controllers specialize in attacks that control the behavior of enemies or apply debuffs. They favor powers that force movement, prevent enemy attacks from hitting, or apply debilitating conditions. Controllers are at their best when they are not threatened by melee combatants.
 
-- Paladin of the Celadon Tower (primary role)
-- Paladin of the Azure Mountain (secondary role)
+- Magus (primary role)
+- Titan (secondary role)
 - Paladin of the Sable Spire (secondary role)
 
 ### Leader
@@ -45,55 +41,54 @@ Controllers specialize in attacks that control the behavior of enemies or apply 
 Leaders specialize in healing allies and supporting them with buffs. They favor powers that restore defensive stats like stamina, willpower, and luster. Leaders are at their best when allies are close by to receive bonuses from them.
 
 - Paladin of the White Ash Temple (primary role)
-- Paladin of the Celadon Tower (secondary role)
 
 ### Defender
 
 Defenders specialize in front line combat. They have high defenses and make it difficult for enemies to avoid them or attack their allies. Defenders are at their best when enemies are focusing on them versus other combatants.
 
-- Paladin of the Azure Mountain (primary role)
+- Titan (primary role)
 - Paladin of the White Ash Temple (secondary role)
 
 ### Classes
 
-Each class has a primary and at least one secondary role. Keep that in mind when forming a party. There are 5 total:
+Each class has a primary and at least one secondary role. Keep that in mind when forming a party. There are 6 total:
 
-- [Paladin of the Azure Mountain](../../classes/the-azure-mountain)
-- [Paladin of the Celadon Tower](../../classes/the-celadon-tower)
+- [Titan](../../classes/the-titan)
+- [Magus](../../classes/the-magus)
 - [Paladin of the Red Wood](../../classes/the-red-wood)
 - [Paladin of the Sable Spire](../../classes/the-sable-spire)
 - [Paladin of the Umber Pines](../../classes/the-umber-pines)
 - [Paladin of the White Ash](../../classes/the-white-ash)
 
 
-#### Become a Paladin of the Azure Mountain if...
+#### Become a Titan if...
 
-- ...you want to defend your allies with your shield and sword
-- ...you want to be a master of a variety of melee weapons
-- ...you want to survive devastating attacks like dragon fire
+- ...you want to protect your allies with your armor and shield
+- ...you want to hold the front line of combat by yourself
+- ...you want to knock down enemies with heavy weapons
 
-#### Become a Paladin of the Celadon Tower if...
+#### Become a Magus if...
 
-- ...you want to cast useful cantrips all the time
-- ...you want to control the battlefield with magic
+- ...you want to cast useful cantrips or powerful rituals
+- ...you want to manipulate the entire battlefield with magic
 - ...you want to overpower a single foe's mind
 
 #### Become a Paladin of the Red Wood if...
 
 - ...you want to take down a powerful foe with bleeding arrows
 - ...you want to strike many foes with hails of arrows
-- ...you want to focus on positioning yourself for maximum damage
+- ...you want to position yourself for maximum damage
 
 #### Become a Paladin of the Sable Spire if...
 
 - ...you want to destroy many foes with blasts of magic
-- ...you want to master spells of fire, vines, or ice
+- ...you want to master spells of fire, ice, or sparks
 - ...you don't fear losing control of your soul
 
 #### Become a Paladin of the Umber Pines if...
 
 - ...you want to inflict precise wounds on strong foes
-- ...you want to strike out at multiple enemies with powerful melee attacks
+- ...you want to strike multiple enemies with melee attacks
 - ...you want to move with ease across a battlefield
 
 #### Become a Paladin of the White Ash if...
@@ -131,9 +126,16 @@ Every character starts with one feat. There are class specific feats, but there 
 
 ## 7. Determine stats and skills
 
-Based on your ability scores, starting class values, feats, and gear, calculate your defenses, health, stamina, willpower, luster, encumbrance, and speed.
+Every character starts with the following stats.
 
-Every character starts with 1 skill (even if you have negative **INT**). You start with an additional skill for each point of **INT**. Skills can technically be anything, but should be the most specific form of the stated skill. "Combat" is not a skill, but "Fencing" is.
+- **You start with 4 encumbrance**. Increase it by 1 for each point of strength.
+- **You start with 4 speed**. Increase it by 1 for each point of dexterity.
+- **You start with 8 stamina**. Increase it by 4 for each point of endurance.
+- **You start with 8 health**. Increase it by 2 for each point of vitality.
+- **You start with 8 willpower**. Increase it by 1 for each point of intelligence and 2 for each point of mind.
+- **You start with 8 luster**. Increase it by 1 for each point of arcane and 2 for each point of spirit.
+
+Every character starts with 1 skill (even if you have negative **INT**). You start with an additional skill for each positive point of **INT**. Skills can technically be anything, but should be the most specific form of the stated skill. "Combat" is not a skill, but "Fencing" is.
 
 ## Example Characters
 

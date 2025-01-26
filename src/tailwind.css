@@ -61,8 +61,16 @@
   --sl-color-hairline-shade: var(--sl-color-gray-6);
 }
 
+.action.primary {
+  @apply rounded bg-accent-600 text-accent-100 dark:bg-accent-400 dark:text-accent-900;
+}
+
 .expressive-code .frame {
   display: inline-block !important;
+}
+
+.right-sidebar-panel ul>li>a {  
+  @apply aria-current-true:underline aria-current-true:decoration-2 aria-current-true:decoration-accent-900 aria-current-true:text-accent-900 dark:aria-current-true:decoration-accent-200 dark:aria-current-true:text-accent-200;
 }
 
 .site-title {
@@ -70,5 +78,9 @@
 }
 
 .sidebar-content ul>li>a {
-  @apply px-2 py-1.5 rounded-sm leading-none;
+  @apply px-2 py-1.5 rounded-sm leading-none !bg-transparent aria-current-page:underline aria-current-page:decoration-2 aria-current-page:decoration-accent-900 aria-current-page:text-accent-900 dark:aria-current-page:decoration-accent-200  dark:aria-current-page:text-accent-200;
+}
+
+.tagline {
+  @apply leading-none;
 }

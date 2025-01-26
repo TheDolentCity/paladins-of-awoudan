@@ -32,10 +32,10 @@ Then the Omens were born. Their appearances had never ceased under Christian rul
 Little by little, shrines and prayers to the Fell Gods became everyday life.
 
 ## 6 AD - Dark Tidings
-Reports from the East reached the ears of Myrrdin, the old advisor that Freygr favored. His scrying was clouded by a greater magic, but echoes of a great evil carried on the wind. Myrrdin himself journeyed to the East to discover the truth of the rumors.
+Reports from the East reached the ears of Myrddin, the old advisor that Freygr favored. His scrying was clouded by a greater magic, but echoes of a great evil carried on the wind. Myrddin himself journeyed to the East to discover the truth of the rumors.
 
 ## 7 AD - Freygr's Paladins
-Myrrdin returned one year and a day from his departure. He conferred his discovery of the Great Shadow and the Umbral ones to Freygr. Myrrdin's luster was able to resist both, but only in small measure. Awoudan would need more greater than he in order to survive the encroaching darkness. 
+Myrddin returned one year and a day from his departure. He conferred his discovery of the Great Shadow and the Umbral ones to Freygr. Myrddin's luster was able to resist both, but only in small measure. Awoudan would need more greater than he in order to survive the encroaching darkness. 
 
 And so an order of warriors called the Paladins was established. They were trained and cared for in ways that even Awoudan Knights were not. The selection process was not based on lineage or standing, or really anything that people could at all suspect.
 
@@ -46,16 +46,16 @@ Like a storm, the Great Shadow huddled across the sea on the southeastern horizo
 
 The Shadow crashed upon the shore. All in its path warped and became umbral, their skin purpling and greying. The light of humanity left them, and they attacked the Paladins. The luster of the Paladins protected them, but only for a short time. Soon the Paladins were forced to turn on their own. The Shadow merely rested upon the shore.
 
-It relished in this carnage, and seemed to gather itself as it watched the humans destroy each other. It was in this moment that Myrrdin sailed a longship directly into the Shadow's mass. He was undetected for he wore Freygr's Sable ring. None understood the magic words he chanted, but a great flash rippled from within the Shadow and a noise like the breath driven from a man's lungs echoed across Awoudan.
+It relished in this carnage, and seemed to gather itself as it watched the humans destroy each other. It was in this moment that Myrddin sailed a longship directly into the Shadow's mass. He was undetected for he wore Freygr's Sable ring. None understood the magic words he chanted, but a great flash rippled from within the Shadow and a noise like the breath driven from a man's lungs echoed across Awoudan.
 
-The Shadow and Myrrdin were gone. Freygr was victorious. Few Paladins survived, and none were unscathed. While the Shadow had dispersed, Freygr believed it would return. She retrieved the Sable ring and then quested alone across the land for a year.
+The Shadow and Myrddin were gone. Freygr was victorious. Few Paladins survived, and none were unscathed. While the Shadow had dispersed, Freygr believed it would return. She retrieved the Sable ring and then quested alone across the land for a year.
 
 ## 34 AD - Freygr's Return
 None recognized Freygr when she returned. They thought her a beggar, perhaps a witch, and entreated her to basic hospitality. It was only Ealbryst, her Paladin Commander, who recognized her. Though her skin was sunken and she bore no arms, armor, or rings, she looked into his eyes with the same cunning he was used to.
 
 She would take no food, nor water, nor rest and demanded they help her to her throne. As she walked she shook and spoke only these words:
 
-> I have done what I can to protect Awoudan. The Shadow will come again. Myrrdin foresaw this. The Paladins are the only hope for the people. Live well, old friend.
+> I have done what I can to protect Awoudan. The Shadow will come again. Myrddin foresaw this. The Paladins are the only hope for the people. Live well, old friend.
 
 She sat upon the throne with a tired smile, and then was still. Her flesh was cold to the touch and the beat of her heart could not be detected. But the luster inside her had not faded, and so the Paladins dare not move her.
 

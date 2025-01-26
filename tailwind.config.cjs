@@ -7,6 +7,10 @@ module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      aria: {
+        "current-page": "current=page",
+        "current-true": "current=true",
+      },
       colors: {
         accent: colors.stone,
         gray: colors.neutral,
