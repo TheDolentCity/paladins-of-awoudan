@@ -158,6 +158,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"classes/the-elementalist.mdx": {
+	id: "classes/the-elementalist.mdx";
+  slug: "classes/the-elementalist";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "classes/the-magus.mdx": {
 	id: "classes/the-magus.mdx";
   slug: "classes/the-magus";
@@ -165,20 +172,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"classes/the-red-wood.md": {
-	id: "classes/the-red-wood.md";
-  slug: "classes/the-red-wood";
+"classes/the-ranger.mdx": {
+	id: "classes/the-ranger.mdx";
+  slug: "classes/the-ranger";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"classes/the-sable-spire.md": {
-	id: "classes/the-sable-spire.md";
-  slug: "classes/the-sable-spire";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "classes/the-titan.mdx": {
 	id: "classes/the-titan.mdx";
   slug: "classes/the-titan";
@@ -235,13 +235,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"rules/equipment.md": {
-	id: "rules/equipment.md";
+"rules/equipment.mdx": {
+	id: "rules/equipment.mdx";
   slug: "rules/equipment";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "rules/feats.md": {
 	id: "rules/feats.md";
   slug: "rules/feats";
@@ -263,13 +263,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"rules/rituals.md": {
-	id: "rules/rituals.md";
+"rules/martial-practices.mdx": {
+	id: "rules/martial-practices.mdx";
+  slug: "rules/martial-practices";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
+"rules/rituals.mdx": {
+	id: "rules/rituals.mdx";
   slug: "rules/rituals";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "rules/system.md": {
 	id: "rules/system.md";
   slug: "rules/system";

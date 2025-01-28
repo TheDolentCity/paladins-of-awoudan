@@ -5,7 +5,7 @@ description: The rules to follow to create a character.
 
 There are seven steps to character creation.
 
-## 1. Roll an omen
+## 1. Roll or choose an omen
 
 ## 2. Choose a class
 
@@ -16,16 +16,16 @@ There are five roles that affect how a class functions in a skirmish: striker, b
 Strikers specialize in dealing lots of damage to a single target at a time. They are offensive characters who rely on movement to position themselves in the perfect place to strike their intended target. Strikers are at their best when they are isolated from most combatants.
 
 - Paladin of the Umber Pines (primary role)
-- Paladin of the Red Wood (primary or secondary role)
+- Ranger (primary or secondary role)
 - Titan (secondary role)
-- Paladin of the Sable Spire (secondary role)
+- Elementalist (secondary role)
 
 ### Blasters
 
 Blasters specialize in attacks that target large areas or multiple enemies at once. They are offensive characters, but they deal less damage to individual targets than strikers. Blasters are at their best when someone can group up targets for them.
 
-- Paladin of the Sable Spire (primary role)
-- Paladin of the Red Wood (primary or secondary role)
+- Elementalist (primary role)
+- Ranger (primary or secondary role)
 - Paladin of the Umber Pines (secondary role)
 
 ### Controller
@@ -34,7 +34,7 @@ Controllers specialize in attacks that control the behavior of enemies or apply 
 
 - Magus (primary role)
 - Titan (secondary role)
-- Paladin of the Sable Spire (secondary role)
+- Elementalist (secondary role)
 
 ### Leader
 
@@ -53,19 +53,18 @@ Defenders specialize in front line combat. They have high defenses and make it d
 
 Each class has a primary and at least one secondary role. Keep that in mind when forming a party. There are 6 total:
 
-- [Titan](../../classes/the-titan)
+- [Elementalist](../../classes/the-elementalist)
 - [Magus](../../classes/the-magus)
-- [Paladin of the Red Wood](../../classes/the-red-wood)
-- [Paladin of the Sable Spire](../../classes/the-sable-spire)
+- [Ranger](../../classes/the-ranger)
+- [Titan](../../classes/the-titan)
 - [Paladin of the Umber Pines](../../classes/the-umber-pines)
 - [Paladin of the White Ash](../../classes/the-white-ash)
 
+#### Become a Elementalist if...
 
-#### Become a Titan if...
-
-- ...you want to protect your allies with your armor and shield
-- ...you want to hold the front line of combat by yourself
-- ...you want to knock down enemies with heavy weapons
+- ...you want to destroy many foes with blasts of magic
+- ...you want to master spells of fire, ice, or sparks
+- ...you are willing to risk your soul for powerful magic
 
 #### Become a Magus if...
 
@@ -73,17 +72,17 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - ...you want to manipulate the entire battlefield with magic
 - ...you want to overpower a single foe's mind
 
-#### Become a Paladin of the Red Wood if...
+#### Become a Ranger if...
 
-- ...you want to take down a powerful foe with bleeding arrows
+- ...you want to take down a powerful foe with bleeding effects
 - ...you want to strike many foes with hails of arrows
 - ...you want to position yourself for maximum damage
 
-#### Become a Paladin of the Sable Spire if...
+#### Become a Titan if...
 
-- ...you want to destroy many foes with blasts of magic
-- ...you want to master spells of fire, ice, or sparks
-- ...you don't fear losing control of your soul
+- ...you want to protect your allies with your armor and shield
+- ...you want to hold the front line of combat by yourself
+- ...you want to knock down enemies with heavy weapons
 
 #### Become a Paladin of the Umber Pines if...
 
@@ -139,11 +138,11 @@ Every character starts with 1 skill (even if you have negative **INT**). You sta
 
 ## Example Characters
 
-### Paladin of the Red Wood (level 1)
+### Ranger (level 1)
 
 ```
 NAME: Drake of Elethain
-CLASS: Paladin of the Red Wood
+CLASS: Ranger
 PRONOUNS: He/Him
 
 STR: +3     DEX: +3     END: +2     VIT: +0

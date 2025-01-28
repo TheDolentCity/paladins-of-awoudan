@@ -23,7 +23,7 @@ _A raging warrior that does not fear pain. A class that focuses on chasing down 
 
 ## Builds
 
-You unlock features, attacks, and feats as you level up. There are three builds for this class that you can follow for quick character creation and level ups.
+You unlock abilities and feats as you level up. There are three builds for this class that you can follow for quick character creation and level ups.
 
 ### The Berserker
 

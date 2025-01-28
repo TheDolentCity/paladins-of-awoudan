@@ -65,7 +65,8 @@ Your strength of faith and courage.
 Your innate acumen.
 
 - Increases willpower by +1 for each point.
-- Increases number of skills.
+- Increases number of skills or martial practices.
+- Used often for martial practices.
 - Used often for rituals.
 
 ### Mind

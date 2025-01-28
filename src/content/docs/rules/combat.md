@@ -40,6 +40,7 @@ The full combat sequence is as follows:
 - **Help:** Choose an ally within close burst 1. Once on their next turn, when they roll any die, they may reroll it. This could be for a save, attack roll, or special ability.
 - **Reload:** Decrease the amount of reload actions necessary to use the weapon again by 1. If a weapon has "reload 2", then it needs 2 reload actions before you can use the weapon again. This action can only be performed once per round.
 - **Rest:** At the end of your turn when you regenerate stamina or willpower, you add +d6 to the rolls.
+- **Save:** Make a save against one condition affecting you. This cannot heal conditions from wounds.
 
 ### Move Actions
 
@@ -104,7 +105,7 @@ When your **STA** falls to zero or lower, your stamina is drained. You gain the 
 - **Bleeding:** At the start of your turn, you take an amount of damage equal to the rating of the bleeding condition. Make a **VIT** save to remove the condition. If the damage from this condition lowers you to 0 or lower **HEA**, you suffer a wound and the condition is removed.
 - **Broken:** You suffer 1 **HEA** and **STA** damage for each square of movement you perform. This damage cannot be reduced.
 - **Burning:** At the start of your turn, you take an amount of damage equal to the rating of the burning condition. Make a **DEX** save to remove the condition. If the damage from this condition lowers you to 0 or lower **HEA**, you suffer a wound and the condition is removed.
-- **Dazed:** You are unable to perform stamina actions. Make a **MIN** save to remove the condition.
+- **Dazed:** You are unable to perform stamina actions or reactions. Make a **MIN** save to remove the condition.
 - **Dying:** You must make three death saves to stabilize and lose the dying condition. If you reach three failed death saves, you die.
 - **Exhausted:** Your maximum **STA** and **WIL** is reduced by the rating of exhausted (to a minimum of 1).
 - **Exposed:** Unable to perform actions besides free actions, including stamina actions and reactions. You also suffer an additional +4 damage from all attacks until the condition leaves you. Make a **SPI** save to remove the condition.
