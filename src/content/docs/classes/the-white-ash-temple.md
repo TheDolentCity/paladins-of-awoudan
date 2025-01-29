@@ -23,7 +23,7 @@ _The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember
 
 ## Builds
 
-You unlock abilities and feats as you level up. There are three builds for this class that you can follow for quick character creation and level ups.
+You unlock abilities and feats as you level up. There are three builds for this class that you can follow for quick character creation and level ups. **These builds are optional guides, you do not need to follow them.**
 
 ### The Cleric
 

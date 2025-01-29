@@ -186,13 +186,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"classes/the-umber-pines.md": {
-	id: "classes/the-umber-pines.md";
-  slug: "classes/the-umber-pines";
+"classes/the-warhawk.mdx": {
+	id: "classes/the-warhawk.mdx";
+  slug: "classes/the-warhawk";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "classes/the-white-ash-temple.md": {
 	id: "classes/the-white-ash-temple.md";
   slug: "classes/the-white-ash-temple";
