@@ -15,7 +15,7 @@ There are five roles that affect how a class functions in a skirmish: striker, b
 
 Strikers specialize in dealing lots of damage to a single target at a time. They are offensive characters who rely on movement to position themselves in the perfect place to strike their intended target. Strikers are at their best when they are isolated from most combatants.
 
-- Paladin of the Umber Pines (primary role)
+- Warhawk (primary role)
 - Ranger (primary or secondary role)
 - Titan (secondary role)
 - Elementalist (secondary role)
@@ -26,7 +26,7 @@ Blasters specialize in attacks that target large areas or multiple enemies at on
 
 - Elementalist (primary role)
 - Ranger (primary or secondary role)
-- Paladin of the Umber Pines (secondary role)
+- Warhawk (secondary role)
 
 ### Controller
 
@@ -40,25 +40,31 @@ Controllers specialize in attacks that control the behavior of enemies or apply 
 
 Leaders specialize in healing allies and supporting them with buffs. They favor powers that restore defensive stats like stamina, willpower, and luster. Leaders are at their best when allies are close by to receive bonuses from them.
 
-- Paladin of the White Ash Temple (primary role)
+- Divine (primary role)
 
 ### Defender
 
 Defenders specialize in front line combat. They have high defenses and make it difficult for enemies to avoid them or attack their allies. Defenders are at their best when enemies are focusing on them versus other combatants.
 
 - Titan (primary role)
-- Paladin of the White Ash Temple (secondary role)
+- Divine (secondary role)
 
 ### Classes
 
 Each class has a primary and at least one secondary role. Keep that in mind when forming a party. There are 6 total:
 
+- [Divine](../../classes/the-divine)
 - [Elementalist](../../classes/the-elementalist)
 - [Magus](../../classes/the-magus)
 - [Ranger](../../classes/the-ranger)
 - [Titan](../../classes/the-titan)
-- [Paladin of the Umber Pines](../../classes/the-umber-pines)
-- [Paladin of the White Ash](../../classes/the-white-ash)
+- [Warhawk](../../classes/the-warhawk)
+
+#### Become a Divine if...
+
+- ...you want to heal the bodies and minds of your allies
+- ...you want to create great shields and defenses using magic
+- ...you want to repel umbral creatures with holy attacks
 
 #### Become a Elementalist if...
 
@@ -84,17 +90,11 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - ...you want to hold the front line of combat by yourself
 - ...you want to knock down enemies with heavy weapons
 
-#### Become a Paladin of the Umber Pines if...
+#### Become a Warhawk if...
 
 - ...you want to inflict precise wounds on strong foes
 - ...you want to strike multiple enemies with melee attacks
 - ...you want to move with ease across a battlefield
-
-#### Become a Paladin of the White Ash if...
-
-- ...you want to heal the bodies and minds of your allies
-- ...you want to create great shields and defenses using magic
-- ...you want to repel umbral creatures with holy attacks
 
 ## 3. Choose ability scores
 
@@ -148,9 +148,9 @@ PRONOUNS: He/Him
 STR: +3     DEX: +3     END: +2     VIT: +0
 ARC: -1     SPI: +0     INT: -1     MIN: +1
 
-CRU: -2     PRC: -0     SLA: -0     FOC: -0
-HEA: 8/8    STA: 20/20  WIL: 8/8    LUS: 6/6
-ENC: 6/9    SPE: 7
+CRU: -4     PRC: -2     SLA: -2     FOC: -0
+HEA: 8/8    STA: 16/16  WIL: 10/10  LUS: 8/8
+ENC: 8/9    SPE: 7
 
 CONDITIONS
 - [Name]: [Description].
@@ -164,13 +164,14 @@ SKILLS
 
 WEAPONS
 - Longbow (2H, slow)
-  CRU: NA  PRC: d8+STR+DEX  SLA: NA  RAN: 23
+  CRU: NA  PRC: d10+STR+DEX  SLA: NA  RAN: 23
 - Ranger's Long Knife (parry)
   CRU: d4  PRC: d4+STR  SLA: d4+STR  RAN: 1
 - Ranger's Short Knife (quick, throwable 6)
   CRU: d4  PRC: d4+DEX  SLA: d4+DEX  RAN: 1
 
 GEAR
+- Light Armor (2 ENC)
 - Ranging Cloak (Wilderness Stealth)
 - Longbow (4 ENC)
 - Ranger's Long Knife (1 ENC)
@@ -183,10 +184,9 @@ CANTRIPS | None
 
 MARTIAL PRACTICES
 - Patrol
-- Survivor's Trade
-- Weather Vane
 
 FEATS
+- Martial Practice
 - Precision Archer
 ```
 

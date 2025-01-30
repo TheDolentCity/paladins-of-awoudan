@@ -3,9 +3,13 @@ title: System
 description: Overview of the rules.
 ---
 
+This page covers the basics of the system: ability scores and stats. These are the defining aspects of every character in the game, no matter their importance.
+
 ## Ability Scores
 
 There are eight ability score: strength, dexterity, endurance, vitality, arcane, spirit, intelligence, and mind. They are used for ability checks for related tasks, but they also have important numerical influences on your character stats, items they can wield, and saves from conditions.
+
+The max value of each ability score is +5.
 
 ### Strength
 
@@ -23,6 +27,7 @@ Your agility and adroitness.
 - Increases effectiveness of piercing and slashing weapons.
 - Increases efficacy of the dodge action.
 - Required for certain arms and armor.
+- Used for a few martial practices.
 
 ### Endurance
 
