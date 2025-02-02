@@ -3,9 +3,24 @@ title: Character Creation
 description: The rules to follow to create a character.
 ---
 
-There are seven steps to character creation.
+There are eight steps to character creation, but the most impactful are choosing an omen and a class.
 
-## 1. Roll or choose an omen
+## 1. Choose an omen
+
+Omens are dark events surrounding your birth. It is believed that those born under these signs are "blessed" by a Fell God. There are twelve omens, one for each of the Fell Gods. Choose one based on the god or ability, or just roll d12.
+
+1. [The Battlefield Cry](../../omens/the-battlefield-cry): An omen of Sten, god of Truth.
+1. [The Black Wolf](../../omens/the-black-wolf): An omen of Tian, god of Beasts.
+1. [The Bleeding Mother](../../omens/the-bleeding-mother): An omen of Wode, god of Bloodshed.
+1. [The Desolate Home](../../omens/the-desolate-home): An omen of Aflo, god of Fire.
+1. [The Eagle Born](../../omens/the-eagle-born): An omen of Hedr, god of Euphoria.
+1. [The Flame Kissed](../../omens/the-flame-kissed): An omen of Daen, god of Poetry.
+1. [The Frozen Child](../../omens/the-frozen-child): An omen of Svit, god of Pain.
+1. [The Inked Fingers](../../omens/the-inked-fingers): An omen of Virr, god of Secrets.
+1. [The Red Moon](../../omens/the-red-moon): An omen of Magi, god of Storms.
+1. [The Scarred Face](../../omens/the-scarred-face): An omen of Jori, god of Agriculture.
+1. [The Scribe Skin](../../omens/the-scribe-skin): An omen of Rygg, god of Writing.
+1. [The Stolen Child](../../omens/the-stolen-child): An omen of Ormu, god of Betrayal.
 
 ## 2. Choose a class
 
@@ -64,7 +79,7 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 
 - ...you want to heal the bodies and minds of your allies
 - ...you want to create great shields and defenses using magic
-- ...you want to repel umbral creatures with holy attacks
+- ...you want to cast useful cantrips or powerful rituals
 
 #### Become a Elementalist if...
 
@@ -74,15 +89,15 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 
 #### Become a Magus if...
 
-- ...you want to cast useful cantrips or powerful rituals
 - ...you want to manipulate the entire battlefield with magic
 - ...you want to overpower a single foe's mind
+- ...you want to cast useful cantrips or powerful rituals
 
 #### Become a Ranger if...
 
-- ...you want to take down a powerful foe with bleeding effects
-- ...you want to strike many foes with hails of arrows
-- ...you want to position yourself for maximum damage
+- ...you want to assail many foes with hails of arrows
+- ...you want to immobilize and bleed powerful foes
+- ...you want to learn useful martial practices
 
 #### Become a Titan if...
 
@@ -92,9 +107,9 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 
 #### Become a Warhawk if...
 
-- ...you want to inflict precise wounds on strong foes
-- ...you want to strike multiple enemies with melee attacks
+- ...you want to use your rage as a powerful weapon
 - ...you want to move with ease across a battlefield
+- ...you are willing to suffer wounds to empower your attacks
 
 ## 3. Choose ability scores
 
@@ -127,7 +142,7 @@ Every character starts with one feat. There are class specific feats, but there 
 
 Every character starts with the following stats.
 
-- **You start with 4 encumbrance**. Increase it by 1 for each point of strength.
+- **You start with 4 encumbrance**. Increase it by 2 for each point of strength.
 - **You start with 4 speed**. Increase it by 1 for each point of dexterity.
 - **You start with 8 stamina**. Increase it by 4 for each point of endurance.
 - **You start with 8 health**. Increase it by 2 for each point of vitality.
@@ -135,6 +150,80 @@ Every character starts with the following stats.
 - **You start with 8 luster**. Increase it by 1 for each point of arcane and 2 for each point of spirit.
 
 Every character starts with 1 skill (even if you have negative **INT**). You start with an additional skill for each positive point of **INT**. Skills can technically be anything, but should be the most specific form of the stated skill. "Combat" is not a skill, but "Fencing" is.
+
+If you have the martial practice feat, you can learn a new martial practice whenever you would gain a skill instead.
+
+## 8. Create Heraldry
+
+Every paladin has a unique title that they are known by. This can be whatever you would like, but if you want inspiration roll three times on the table associated with your class below to get a symbol, it's color, and the color of the background. Typically heraldry is painted on a shield, but if you lack one, then it would be painted somewhere on your surcoat, armor, or robes.
+
+Once you have your heraldry, come up with a title based on it. If you were a ranger and your heraldry was black arrows on a red background, they may call you the Paladin of the Dark Arrow.
+
+#### Divine Heraldry
+
+| d6  | Foreground | Symbol | Background |
+| --- | ---------- | ------ | ---------- |
+| 1   | Dark Grey  | Blood  | Dark Blue  |
+| 2   | Dark Grey  | Flame  | Grey       |
+| 3   | Dark Grey  | Heart  | Grey       |
+| 4   | Light Blue | Moon   | White      |
+| 5   | Light Blue | Star   | White      |
+| 6   | Yellow     | Sun    | White      |
+
+#### Elementalist Heraldry
+
+| d6  | Foreground   | Symbol    | Background  |
+| --- | ------------ | --------- | ----------- |
+| 1   | Light Purple | Flame     | Black       |
+| 2   | White        | Glacier   | Black       |
+| 3   | White        | Lightning | Black       |
+| 4   | White        | River     | Black       |
+| 5   | White        | Star      | Black       |
+| 6   | White        | Wave      | Dark Purple |
+
+#### Magus Heraldry
+
+| d6  | Foreground | Symbol | Background |
+| --- | ---------- | ------ | ---------- |
+| 1   | Black      | Falcon | Blue       |
+| 2   | Black      | Fire   | Blue       |
+| 3   | Dark Grey  | Owl    | Grey       |
+| 4   | Dark Grey  | Stone  | Grey       |
+| 5   | Purple     | Tower  | White      |
+| 6   | Purple     | Whale  | White      |
+
+#### Ranger Heraldry
+
+| d6  | Foreground | Symbol | Background |
+| --- | ---------- | ------ | ---------- |
+| 1   | Black      | Arrows | Green      |
+| 2   | Black      | Blood  | Grey       |
+| 3   | Black      | Boar   | Red        |
+| 4   | White      | Fang   | Red        |
+| 5   | Yellow     | Wolf   | Red        |
+| 6   | Yellow     | Wood   | Yellow     |
+
+#### Titan Heraldry
+
+| d6  | Foreground | Symbol   | Background |
+| --- | ---------- | -------- | ---------- |
+| 1   | Light Grey | Fist     | Black      |
+| 2   | Light Grey | Hammer   | Black      |
+| 3   | Purple     | Lion     | Blue       |
+| 4   | Purple     | Mountain | Dark Grey  |
+| 5   | Red        | Shield   | Dark Grey  |
+| 6   | Yellow     | Tower    | White      |
+
+#### Warhawk Heraldry
+
+| d6  | Foreground | Symbol | Background |
+| --- | ---------- | ------ | ---------- |
+| 1   | Black      | Axe    | Green      |
+| 2   | Black      | Bear   | Red        |
+| 3   | Dark Red   | Boar   | Red        |
+| 4   | Dark Red   | Hawk   | Umber      |
+| 5   | Orange     | Stag   | Umber      |
+| 6   | Yellow     | Wolf   | Umber      |
 
 ## Example Characters
 
@@ -150,7 +239,7 @@ ARC: -1     SPI: +0     INT: -1     MIN: +1
 
 CRU: -4     PRC: -2     SLA: -2     FOC: -0
 HEA: 8/8    STA: 16/16  WIL: 10/10  LUS: 8/8
-ENC: 8/9    SPE: 7
+ENC: 8/10   SPE: 7
 
 CONDITIONS
 - [Name]: [Description].
@@ -202,7 +291,7 @@ ARC: +0     SPI: +0     INT: +0     MIN: +0
 
 CRU: +0     PRC: +0     SLA: +0     FOC: +0
 HEA: 8/8    STA: 8/8    WIL: 8/8    LUS: 8/8
-ENC: 4/4    SPE: 4
+ENC: 0/4    SPE: 4
 
 CONDITIONS
 - [Name]: [Description].

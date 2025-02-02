@@ -32,7 +32,7 @@ The full combat sequence is as follows:
 
 ### Standard Actions
 
-- **Attack:** Perform a melee, ranged, or spell attack action. You can perform a maximum amount of attack actions in a round equal to your **END** (minimum 2).
+- **Attack:** Perform a melee, ranged, or spell attack action. You can perform a maximum amount of attack actions in a round equal to your **END** (minimum 2). Most weapon attacks target **HEA** unless stated otherwise, but melee attacks may choose to target **STA**. Spell attacks target **STA** or **WIL**.
 - **Bull Rush:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target is pushed 1 square away and knocked prone or it is pushed 2 squares away. You can shift into the square it left behind after pushing it.
 - **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check. You must move at least 3 squares from your starting position and you must move in a line for at least the last 3 squares of movement. The target of the attack must be in a square in the same orientation of your charge such that if you continued in your line you would enter their square.
 - **Finisher:** You can deliver a finishing attack against an unconscious or helpless foe. If the attack hits, it deals a wound or failed death save if they are dying.
@@ -402,6 +402,14 @@ At the end of your turn, if you did not spend any **STA**, you regain a number o
 #### Willpower Regeneration
 
 At the end of your turn, if you did not spend any **WIL**, you regain a number of **WIL** equal to your **MIN**. This cannot decrease your **WIL**.
+
+### Rounding
+
+All rounding is done by rounding down.
+
+### Structures
+
+Structures and objects can have structure health, or **STH**, that operates slightly differently than creature health. For every 10 points of **HEA** damage, a structure instead takes 1 point of **STH** damage. To destroy a 3 **STH** door with an axe, you must deal at least 30 points of **HEA** damage to it. Most damage that targets **STA** or **WIL** does 0 damage to **STH**.
 
 ### Targeting What You Can't See
 

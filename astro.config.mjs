@@ -49,6 +49,13 @@ export default defineConfig({
           },
         },
         {
+          label: "Omens",
+          collapsed: true,
+          autogenerate: {
+            directory: "omens",
+          },
+        },
+        {
           label: "Setting",
           collapsed: true,
           autogenerate: {

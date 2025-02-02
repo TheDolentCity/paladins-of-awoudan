@@ -214,6 +214,90 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"omens/the-battlefield-cry.md": {
+	id: "omens/the-battlefield-cry.md";
+  slug: "omens/the-battlefield-cry";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-black-wolf.md": {
+	id: "omens/the-black-wolf.md";
+  slug: "omens/the-black-wolf";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-bleeding-mother.md": {
+	id: "omens/the-bleeding-mother.md";
+  slug: "omens/the-bleeding-mother";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-desolate-home.md": {
+	id: "omens/the-desolate-home.md";
+  slug: "omens/the-desolate-home";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-eagle-born.md": {
+	id: "omens/the-eagle-born.md";
+  slug: "omens/the-eagle-born";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-flame-kissed.md": {
+	id: "omens/the-flame-kissed.md";
+  slug: "omens/the-flame-kissed";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-frozen-child.md": {
+	id: "omens/the-frozen-child.md";
+  slug: "omens/the-frozen-child";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-inked-fingers.md": {
+	id: "omens/the-inked-fingers.md";
+  slug: "omens/the-inked-fingers";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-red-moon.md": {
+	id: "omens/the-red-moon.md";
+  slug: "omens/the-red-moon";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-scarred-face.md": {
+	id: "omens/the-scarred-face.md";
+  slug: "omens/the-scarred-face";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-scribe-skin.md": {
+	id: "omens/the-scribe-skin.md";
+  slug: "omens/the-scribe-skin";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"omens/the-stolen-child.md": {
+	id: "omens/the-stolen-child.md";
+  slug: "omens/the-stolen-child";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "rules/character-creation.md": {
 	id: "rules/character-creation.md";
   slug: "rules/character-creation";
@@ -308,6 +392,13 @@ declare module 'astro:content' {
 "setting/notable-paladins.md": {
 	id: "setting/notable-paladins.md";
   slug: "setting/notable-paladins";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"setting/the-all-weaver.md": {
+	id: "setting/the-all-weaver.md";
+  slug: "setting/the-all-weaver";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

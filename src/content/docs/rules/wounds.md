@@ -18,13 +18,13 @@ These wounds are often caused by blunt melee weapons such as maces or powerful m
 | 5   | Drained → lose (12) stamina                                                            |
 | 6   | Smashed → pushed 3 squares and knocked prone                                           |
 | 7   | Smashed → pushed 4 squares and knocked prone                                           |
-| 8   | Exhausting → pushed 1 squares and gain the exhausting (4) condition                    |
-| 9   | Exhausting → pushed 1 squares and gain the exhausting (4) condition                    |
-| 10  | Exhausting → pushed 2 squares and gain the exhausting (6) condition                    |
-| 11  | Exhausting → pushed 2 squares and gain the exhausting (6) condition                    |
-| 12  | Exhausting → pushed 3 squares and gain the exhausting (8) condition                    |
-| 13  | Exhausting → pushed 3 squares and gain the exhausting (8) condition                    |
-| 14  | Exhausting → pushed 4 squares and gain the exhausting (12) condition                   |
+| 8   | Exhausting → pushed 1 squares and gain the exhausted (4) condition                     |
+| 9   | Exhausting → pushed 1 squares and gain the exhausted (4) condition                     |
+| 10  | Exhausting → pushed 2 squares and gain the exhausted (6) condition                     |
+| 11  | Exhausting → pushed 2 squares and gain the exhausted (6) condition                     |
+| 12  | Exhausting → pushed 3 squares and gain the exhausted (8) condition                     |
+| 13  | Exhausting → pushed 3 squares and gain the exhausted (8) condition                     |
+| 14  | Exhausting → pushed 4 squares and gain the exhausted (12) condition                    |
 | 15  | Leg broken → gain the immobilized and broken conditions                                |
 | 16  | Legs broken → gain the immobilized and (2) broken conditions                           |
 | 17  | Back broken → gain the immobilized and stunned conditions                              |
@@ -37,27 +37,27 @@ These wounds are often caused by blunt melee weapons such as maces or powerful m
 These wounds are the most common and can be caused by arrows, swords, and animals. They leaving bleeding wounds that will weaken and then kill the Paladin if left untreated.
 
 | INJ | Piercing + Slashing Wounds                                                                          |
-| --------- | --------------------------------------------------------------------------------------------------- |
-| 1         | Grazed                                                                                              |
-| 2         | Cut → lose (3) stamina                                                                              |
-| 3         | Cut → lose (6) stamina                                                                              |
-| 4         | Bleeding → gain the bleeding (1) condition (save ends)                                              |
-| 5         | Bleeding → gain the bleeding (1) condition (save ends)                                              |
-| 6         | Bleeding → gain the bleeding (2) condition (save ends)                                              |
-| 7         | Bleeding → gain the bleeding (2) condition (save ends)                                              |
-| 8         | Bleeding → gain the bleeding (4) condition (save ends)                                              |
-| 9         | Bleeding → gain the bleeding (4) condition (save ends)                                              |
-| 10        | Weakened → fingers lose blood, -2 when using your hands                                             |
-| 11        | Weakened → fingers lose blood, -4 when using your hands                                             |
-| 12        | Weakened → toes lose blood, gain the slowed condition                                               |
-| 13        | Bleeding → gain the bleeding (8) condition (save ends)                                              |
-| 14        | Bleeding → gain the bleeding (8) condition (save ends)                                              |
-| 15        | Withered → leg loses lots of blood, gain the immobilized condition                                  |
-| 16        | Withered → leg loses lots of blood, gain the immobilized condition                                  |
-| 17        | Withered → arm loses lots of blood, unable to use hands                                             |
-| 18        | Withered → arm loses lots of blood, unable to use hands                                             |
-| 19        | Withered → arms and legs lose lots of blood, gain the immobilized condition and unable to use hands |
-| 20        | Bleeding out → Gain the unconscious and dying conditions                                            |
+| --- | --------------------------------------------------------------------------------------------------- |
+| 1   | Grazed                                                                                              |
+| 2   | Cut → lose (3) stamina                                                                              |
+| 3   | Cut → lose (6) stamina                                                                              |
+| 4   | Bleeding → gain the bleeding (1) condition (save ends)                                              |
+| 5   | Bleeding → gain the bleeding (1) condition (save ends)                                              |
+| 6   | Bleeding → gain the bleeding (2) condition (save ends)                                              |
+| 7   | Bleeding → gain the bleeding (2) condition (save ends)                                              |
+| 8   | Bleeding → gain the bleeding (4) condition (save ends)                                              |
+| 9   | Bleeding → gain the bleeding (4) condition (save ends)                                              |
+| 10  | Weakened → fingers lose blood, -2 when using your hands                                             |
+| 11  | Weakened → fingers lose blood, -4 when using your hands                                             |
+| 12  | Weakened → toes lose blood, gain the slowed condition                                               |
+| 13  | Bleeding → gain the bleeding (8) condition (save ends)                                              |
+| 14  | Bleeding → gain the bleeding (8) condition (save ends)                                              |
+| 15  | Withered → leg loses lots of blood, gain the immobilized condition                                  |
+| 16  | Withered → leg loses lots of blood, gain the immobilized condition                                  |
+| 17  | Withered → arm loses lots of blood, unable to use hands                                             |
+| 18  | Withered → arm loses lots of blood, unable to use hands                                             |
+| 19  | Withered → arms and legs lose lots of blood, gain the immobilized condition and unable to use hands |
+| 20  | Bleeding out → Gain the unconscious and dying conditions                                            |
 
 ## Massive Wounds
 

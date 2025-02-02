@@ -1,6 +1,6 @@
 ---
 title: The Divine
-description: The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember, a burning sigil they wield in the fight against darkness. This class focuses on healing and shielding allies using holy power. A leader, with some defender aspects.
+description: The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember, a burning sigil they wield in the fight against darkness. This class focuses on healing and shielding allies using holy power. A leader, with defender as a secondary role.
 ---
 
 import Tags from "../../../components/markdown/Tags.astro";
@@ -11,13 +11,12 @@ import Tag from "../../../components/markdown/Tag.astro";
   <Tag type="secondary">Defender</Tag>
 </Tags>
 
-_The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember, a burning sigil they wield in the fight against darkness. This class focuses on healing and shielding allies using holy power. A leader, with some defender aspects._
+_The pagan gods are awoken, like hot coals in a dark fireplace. You are an ember, a burning sigil they wield in the fight against darkness. This class focuses on healing and shielding allies using holy power. A leader, with defender as a secondary role._
 
 ## Gear
 
 - Take medium armor, consecrated armor, or consecrated robes.
 - Take mace and shield or hazel wand.
-- Take prayerbook or scholar's tome.
 - Take holy symbol on a chain necklace.
 
 ## Builds
@@ -32,7 +31,7 @@ Start with: <br />
 **STR:** +2 **DEX:** +1 **END:** -1 **VIT:** +1 <br />
 **ARC:** +0 **SPI:** +3 **INT:** +0 **MIN:** +2
 
-- Take consecrated armor, mace and shield, prayerbook, and holy symbol.
+- Take consecrated armor, mace and shield, and holy symbol.
 - Level 1: Take the **Cleric's Training** feature.
 - Level 1: Take the **Divine Light** cantrip.
 - Level 1: Take the **Branding** spell attack attribute.
@@ -59,7 +58,7 @@ Start with: <br />
 **STR:** -2 **DEX:** +0 **END:** -1 **VIT:** +0 <br />
 **ARC:** +2 **SPI:** +4 **INT:** +1 **MIN:** +3
 
-- Take consecrated robes, hazel wand, prayerbook, and holy symbol.
+- Take consecrated robes, hazel wand, and holy symbol.
 - Level 1: Take the **Priest's Instruction** feature.
 - Level 1: Take the **Divine Miracle** cantrip.
 - Level 1: Take the **Brighten** spell attack attribute.
@@ -86,7 +85,7 @@ Start with: <br />
 **STR:** -1 **DEX:** +1 **END:** -1 **VIT:** +0 <br />
 **ARC:** +3 **SPI:** +1 **INT:** +3 **MIN:** +2
 
-- Take consecrated robes, hazel wand, scholar's tome, and holy symbol.
+- Take consecrated robes, hazel wand, and holy symbol.
 - Level 1: Take the **Scholar's Study** feature.
 - Level 1: Take the **Divine Guidance** cantrip.
 - Level 1: Take the **Blast** spell attack attribute.
@@ -139,10 +138,10 @@ Each Divine cantrip requires a holy symbol.
   - **Daen's Miracle:** Your touch cleans soiled clothes. If you touch them in water, you may change the color they are dyed.
   - **Hedr's Miracle:** You touch a glass or skin of water and turn it into wine.
   - **Jori's Miracle:** Plants flourish and grow somewhat under your touch. This effect fades over several days, but it can restore plants near-death back to life.
-  - **Magi's Miracle:** Your touch causes the water in a river or lake to grow rapid and agitated or turn calm and slowed.
-  - **Ormu's Miracle:** You can perfectly mimic the voice of those close to your heart. Lasts for 1 minute.
+  - **Magi's Miracle:** You can change the direction of the wind. Lasts for 1 minute.
+  - **Ormu's Miracle:** You can speak to and command nearby snakes. Commands last for 1 hour.
   - **Rygg's Miracle:** You can understand any language. Lasts for 1 minute.
-  - **Sten's Miracle:** You know if someone is lying. Lasts for 1 minute.
+  - **Sten's Miracle:** You can detect if anyone here has broken an oath. Lasts for 1 minute.
   - **Svit's Miracle:** Your touch causes a creature to not feel any pain. Lasts for 1 minute.
   - **Tian's Miracle:** With a howl, you can summon the nearby wolves of the land. They are not friendly or helpful, nor antagonistic or aggressive. They are not yours to command. How long before they arrive depends on how far you are from the wilds.
   - **Virr's Miracle:** You gain the unconscious condition (save ends). During that unconscious bout, you see a vague image or hear a strange riddle that is prophetic in nature. It hints at, but does not reveal, your future.
@@ -150,24 +149,22 @@ Each Divine cantrip requires a holy symbol.
 
 ### Spell Attack Options
 
-You can only select attributes for the book/tome you carry. You can apply one attribute to a standard attack or apply two at the cost of 6 **WIL**. You cannot apply more than two attributes to one attack.
+You can apply one attribute to a standard attack or apply two at the cost of 6 **WIL**. You cannot apply more than two attributes to one attack.
 
-- **Prayerbook Attributes:** Healing and protection spells.
-  - **Branding:** This attribute can only be applied to attacks with a melee weapon, despite this being a spell attack attribute. Whether the attack deals damage or not, the target is marked. While the target is marked, it has a -2 penalty to all attack rolls and all allies have a +2 bonus to attack rolls against them. This mark ends at the end of your next turn.
-  - **Brighten:** If this attack breaks a target's will, one ally who can see regains 2 **LUS**.
-  - **Burst:** The attack becomes a close burst 2 and does not target allies.
-  - **Distraction:** Decrease the attack roll by -2. Whether the attack hits or misses, an ally within 5 feet of you can shift 2 squares as a free action.
-  - **Holy:** This attribute can only be applied to attacks with a melee weapon, despite this being a spell attack attribute. Treat the weapon as though it has the holy property.
-  - **Indomitable:** If this attack deals a wound or breaks a target's will, regain 6 **WIL**.
-  - **Rebuke:** If this attack wounds, kills, or breaks a target's will, every foe in a close burst 1 of them gains the frightened condition.
-  - **Revitalize:** If this attack breaks a target's will, one ally who can see regains **HEA** equal to your **SPI**.
-- **Scholar's Tome Attributes:** Morale and control spells.
-  - **Blast:** The attack becomes a blast 2.
-  - **Cure:** If this attack breaks a target's will, one ally who can see automatically saves from one condition.
-  - **Invigorate:** If this attack breaks a target's will, one ally who can see regains **WIL** equal to d4 + your **INT**.
-  - **Light:** Every square in the attack leaves behind bright light. Adjacent squares have dim light. The light fades at the end of your next turn.
-  - **Turn:** Whether the attack deals damage or not, you may push the target away from you. If the enemy is Umbral, push it a number of square equal to your **INT**, otherwise push it 1 square.
-  - **Zone:** Every square in the attack leaves behind a trace of holy essence. Allies standing in the squares gain +2 **DEF** and add +2 to saves. This effect lasts until the end of your next turn.
+- **Blast:** The attack becomes a blast 1 and does not target allies.
+- **Branding:** This attribute can only be applied to attacks with a melee weapon, despite this being a spell attack attribute. Whether the attack deals damage or not, the target is marked. While the target is marked, it has a -2 penalty to all attack rolls and all allies have a +2 bonus to attack rolls against them. This mark ends at the end of your next turn.
+- **Brighten:** If this attack breaks a target's will, one ally who can see regains 2 **LUS**.
+- **Burst:** The attack becomes a close burst 2 and does not target allies.
+- **Cure:** If this attack breaks a target's will, one ally who can see automatically saves from one condition.
+- **Distraction:** Decrease the attack roll by -2. Whether the attack hits or misses, an ally within 5 feet of you can shift 2 squares as a free action.
+- **Holy:** This attribute can only be applied to attacks with a melee weapon, despite this being a spell attack attribute. Treat the weapon as though it has the holy property.
+- **Indomitable:** If this attack deals a wound or breaks a target's will, regain 6 **WIL**.
+- **Invigorate:** If this attack breaks a target's will, one ally who can see regains **WIL** equal to d4 + your **INT**.
+- **Light:** Every square in the attack leaves behind bright light. Adjacent squares have dim light. The light fades at the end of your next turn.
+- **Rebuke:** If this attack wounds, kills, or breaks a target's will, every foe in a close burst 1 of them gains the frightened condition.
+- **Revitalize:** If this attack breaks a target's will, one ally who can see regains **HEA** equal to your **SPI**.
+- **Turn:** Whether the attack deals damage or not, you may push the target away from you. If the enemy is Umbral, push it a number of square equal to your **INT**, otherwise push it 1 square.
+- **Zone:** Every square in the attack leaves behind a trace of holy essence. Allies standing in the squares gain +2 **DEF** and add +2 to saves. This effect lasts until the end of your next turn.
 
 ## Levels
 
