@@ -165,6 +165,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"classes/the-berserker.mdx": {
+	id: "classes/the-berserker.mdx";
+  slug: "classes/the-berserker";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".mdx"] };
 "classes/the-divine.mdx": {
 	id: "classes/the-divine.mdx";
   slug: "classes/the-divine";
@@ -196,13 +203,6 @@ declare module 'astro:content' {
 "classes/the-titan.mdx": {
 	id: "classes/the-titan.mdx";
   slug: "classes/the-titan";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
-"classes/the-warhawk.mdx": {
-	id: "classes/the-warhawk.mdx";
-  slug: "classes/the-warhawk";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

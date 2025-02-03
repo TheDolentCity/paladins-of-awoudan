@@ -30,7 +30,7 @@ There are five roles that affect how a class functions in a skirmish: striker, b
 
 Strikers specialize in dealing lots of damage to a single target at a time. They are offensive characters who rely on movement to position themselves in the perfect place to strike their intended target. Strikers are at their best when they are isolated from most combatants.
 
-- Warhawk (primary role)
+- Berserker (primary role)
 - Ranger (primary or secondary role)
 - Arbiter (secondary role)
 - Elementalist (secondary role)
@@ -42,7 +42,7 @@ Blasters specialize in attacks that target large areas or multiple enemies at on
 
 - Elementalist (primary role)
 - Ranger (primary or secondary role)
-- Warhawk (secondary role)
+- Berserker (secondary role)
 
 ### Controller
 
@@ -72,18 +72,24 @@ Defenders specialize in front line combat. They have high defenses and make it d
 Each class has a primary and at least one secondary role. Keep that in mind when forming a party. There are 6 total:
 
 - [Arbiter](../../classes/the-arbiter)
+- [Berserker](../../classes/the-berserker)
 - [Divine](../../classes/the-divine)
 - [Elementalist](../../classes/the-elementalist)
 - [Magus](../../classes/the-magus)
 - [Ranger](../../classes/the-ranger)
 - [Titan](../../classes/the-titan)
-- [Warhawk](../../classes/the-warhawk)
 
 #### Become an Arbiter if...
 
 - ...you want to impose a divine challenge a single foe
 - ...you want to smite enemies with swords and holy magic
 - ...you want to protect and heal allies in melee with you
+
+#### Become a Berserker if...
+
+- ...you want to use your rage as a powerful weapon
+- ...you want to move with ease across a battlefield
+- ...you are willing to suffer wounds to empower your attacks
 
 #### Become a Divine if...
 
@@ -114,12 +120,6 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - ...you want to protect your allies with your armor and shield
 - ...you want to hold the front line of combat by yourself
 - ...you want to knock down enemies with heavy weapons
-
-#### Become a Warhawk if...
-
-- ...you want to use your rage as a powerful weapon
-- ...you want to move with ease across a battlefield
-- ...you are willing to suffer wounds to empower your attacks
 
 ## 3. Choose ability scores
 
@@ -168,6 +168,28 @@ If you have the martial practice feat, you can learn a new martial practice when
 Every paladin has a unique title that they are known by. This can be whatever you would like, but if you want inspiration roll three times on the table associated with your class below to get a symbol, it's color, and the color of the background. Typically heraldry is painted on a shield, but if you lack one, then it would be painted somewhere on your surcoat, armor, or robes.
 
 Once you have your heraldry, come up with a title based on it. If you were a ranger and your heraldry was black arrows on a red background, they may call you the Paladin of the Dark Arrow.
+
+#### Arbiter Heraldry
+
+| d6  | Foreground   | Symbol | Background |
+| --- | ------------ | ------ | ---------- |
+| 1   | Dark Grey    | Hand   | Black      |
+| 2   | Dark Grey    | Ring   | Black      |
+| 3   | Light Purple | Shield | Blue       |
+| 4   | Light Purple | Star   | Blue       |
+| 5   | Light Purple | Sword  | White      |
+| 6   | Light Purple | Tower  | Yellow     |
+
+#### Berserker Heraldry
+
+| d6  | Foreground | Symbol | Background |
+| --- | ---------- | ------ | ---------- |
+| 1   | Black      | Axe    | Green      |
+| 2   | Black      | Bear   | Red        |
+| 3   | Dark Red   | Boar   | Red        |
+| 4   | Dark Red   | Hawk   | Umber      |
+| 5   | Orange     | Stag   | Umber      |
+| 6   | Yellow     | Wolf   | Umber      |
 
 #### Divine Heraldry
 
@@ -223,17 +245,6 @@ Once you have your heraldry, come up with a title based on it. If you were a ran
 | 4   | Purple     | Mountain | Dark Grey  |
 | 5   | Red        | Shield   | Dark Grey  |
 | 6   | Yellow     | Tower    | White      |
-
-#### Warhawk Heraldry
-
-| d6  | Foreground | Symbol | Background |
-| --- | ---------- | ------ | ---------- |
-| 1   | Black      | Axe    | Green      |
-| 2   | Black      | Bear   | Red        |
-| 3   | Dark Red   | Boar   | Red        |
-| 4   | Dark Red   | Hawk   | Umber      |
-| 5   | Orange     | Stag   | Umber      |
-| 6   | Yellow     | Wolf   | Umber      |
 
 ## Example Characters
 
