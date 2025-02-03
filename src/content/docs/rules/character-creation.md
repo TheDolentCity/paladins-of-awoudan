@@ -32,8 +32,9 @@ Strikers specialize in dealing lots of damage to a single target at a time. They
 
 - Warhawk (primary role)
 - Ranger (primary or secondary role)
-- Titan (secondary role)
+- Arbiter (secondary role)
 - Elementalist (secondary role)
+- Titan (secondary role)
 
 ### Blasters
 
@@ -48,19 +49,21 @@ Blasters specialize in attacks that target large areas or multiple enemies at on
 Controllers specialize in attacks that control the behavior of enemies or apply debuffs. They favor powers that force movement, prevent enemy attacks from hitting, or apply debilitating conditions. Controllers are at their best when they are not threatened by melee combatants.
 
 - Magus (primary role)
-- Titan (secondary role)
 - Elementalist (secondary role)
+- Titan (secondary role)
 
 ### Leader
 
 Leaders specialize in healing allies and supporting them with buffs. They favor powers that restore defensive stats like stamina, willpower, and luster. Leaders are at their best when allies are close by to receive bonuses from them.
 
 - Divine (primary role)
+- Arbiter (secondary role)
 
 ### Defender
 
 Defenders specialize in front line combat. They have high defenses and make it difficult for enemies to avoid them or attack their allies. Defenders are at their best when enemies are focusing on them versus other combatants.
 
+- Arbiter (primary role)
 - Titan (primary role)
 - Divine (secondary role)
 
@@ -68,6 +71,7 @@ Defenders specialize in front line combat. They have high defenses and make it d
 
 Each class has a primary and at least one secondary role. Keep that in mind when forming a party. There are 6 total:
 
+- [Arbiter](../../classes/the-arbiter)
 - [Divine](../../classes/the-divine)
 - [Elementalist](../../classes/the-elementalist)
 - [Magus](../../classes/the-magus)
@@ -75,13 +79,19 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - [Titan](../../classes/the-titan)
 - [Warhawk](../../classes/the-warhawk)
 
+#### Become an Arbiter if...
+
+- ...you want to impose a divine challenge a single foe
+- ...you want to smite enemies with swords and holy magic
+- ...you want to protect and heal allies in melee with you
+
 #### Become a Divine if...
 
 - ...you want to heal the bodies and minds of your allies
 - ...you want to create great shields and defenses using magic
 - ...you want to cast useful cantrips or powerful rituals
 
-#### Become a Elementalist if...
+#### Become an Elementalist if...
 
 - ...you want to destroy many foes with blasts of magic
 - ...you want to master spells of fire, ice, or sparks

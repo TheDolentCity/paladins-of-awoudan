@@ -53,12 +53,13 @@ The full combat sequence is as follows:
 
 - **Attack (6 STA):** Perform an additional melee, ranged, or spell attack action. You can perform a maximum amount of attack actions in a round equal to your **END** (minimum 2).
 - **Move (6 STA):** Perform an additional move action. A maximum of two move actions can be performed per round.
-- **Opportunity Attack (3 STA, Reaction):** When you are wielding a melee weapon and an adjacent enemy moves to a square that is not adjacent to you, you may perform an opportunity attack. This is a standard attack action. Certain class abilities grant you additional attacks or triggers for opportunity attacks.
+- **Opportunity Attack (3 STA, Reaction):** When you are wielding a melee weapon and an adjacent enemy moves to a square that is not adjacent to you, uses a ranged attack, or makes a spell attack without the blast or close burst attribute, you may perform an opportunity attack. This is a standard attack action. Certain class abilities grant you additional attacks or triggers for opportunity attacks.
 - **Draw/Stow (3 STA):** Perform an additional draw or stow action. A maximum of two draw/stow actions can be performed per round. Drawing/stowing two melee weapons that you dual wield is one action.
 - **Dodge (6 STA, Reaction):** As a reaction to an attack against you, but before damage is rolled, you may dodge. Roll d6 + **DEX** and subtract the sum from the final attack roll. If the sum is zero or less, no on-hit or on-damage effects trigger.
 - **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** to spend, up to 12, and then add **DEX**. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and the attacker takes **STA** damage equal to your **DEX**.
 - **Shield (Variable STA, Reaction):** Requires a shield. As a reaction to an attack against you, but before damage is rolled, you may shield. If you do, you must spend a number of **STA** equal to the damage of the attack. If this leaves you with 0 or less **STA**, you gain the exposed condition and cannot make a save for this condition on your next turn. ex: Attack roll of 8 when you have 4 armor would result in 4 damage, requiring you to spend 4 **STA** to negate all damage.
 - **Reload (3 STA):** This action can only be performed once per round.
+- **Free (6 STA):** Generally, free actions occur for free, but if you would like to perform the same free action multiple times in a round, you must spend 6 **STA**.
 
 ## Attacks
 
@@ -419,3 +420,7 @@ If you wish to target a foe with total concealment, there are several steps you 
 2. If you did not perceive the creature, then you must instead target a square(s) for the attack roll. This attack roll has a -4 penalty and automatically fails if the creature is not present in the square(s). On a miss, the GM should **not** tell you if the creature was present in the square(s).
 3. If the attack roll is a blast, burst, or close burst, then there is no penalty to the attack roll.
 4. If the attack hits, then the target only has concealment instead of total concealment until the end of their next turn.
+
+### Throwing Melee Weapons
+
+If a player wishes to throw a melee weapon, they cannot add any ability scores to the attack roll, the roll is halved, and the range is equal to the target's **STR**. Some melee weapons have the 'throw' property that allows you to throw them without this penalty or range.
