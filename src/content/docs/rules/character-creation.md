@@ -48,7 +48,7 @@ Blasters specialize in attacks that target large areas or multiple enemies at on
 
 Controllers specialize in attacks that control the behavior of enemies or apply debuffs. They favor powers that force movement, prevent enemy attacks from hitting, or apply debilitating conditions. Controllers are at their best when they are not threatened by melee combatants.
 
-- Magus (primary role)
+- Weaver (primary role)
 - Elementalist (secondary role)
 - Titan (secondary role)
 
@@ -75,9 +75,9 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - [Berserker](../../classes/the-berserker)
 - [Divine](../../classes/the-divine)
 - [Elementalist](../../classes/the-elementalist)
-- [Magus](../../classes/the-magus)
 - [Ranger](../../classes/the-ranger)
 - [Titan](../../classes/the-titan)
+- [Weaver](../../classes/the-weaver)
 
 #### Become an Arbiter if...
 
@@ -103,12 +103,6 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - ...you want to master spells of fire, ice, or sparks
 - ...you are willing to risk your soul for powerful magic
 
-#### Become a Magus if...
-
-- ...you want to manipulate the entire battlefield with magic
-- ...you want to overpower a single foe's mind
-- ...you want to cast useful cantrips or powerful rituals
-
 #### Become a Ranger if...
 
 - ...you want to assail many foes with hails of arrows
@@ -120,6 +114,12 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 - ...you want to protect your allies with your armor and shield
 - ...you want to hold the front line of combat by yourself
 - ...you want to knock down enemies with heavy weapons
+
+#### Become a Weaver if...
+
+- ...you want to manipulate the entire battlefield with magic
+- ...you want to overpower a single foe's mind
+- ...you want to cast useful cantrips or powerful rituals
 
 ## 3. Choose ability scores
 
@@ -213,7 +213,7 @@ Once you have your heraldry, come up with a title based on it. If you were a ran
 | 5   | White        | Star      | Black       |
 | 6   | White        | Wave      | Dark Purple |
 
-#### Magus Heraldry
+#### Weaver Heraldry
 
 | d6  | Foreground | Symbol | Background |
 | --- | ---------- | ------ | ---------- |

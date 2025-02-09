@@ -47,7 +47,7 @@ Most weapons are capable of slashing and piercing and deal those wounds accordin
 - **Cruel:** When this weapon inflicts a wound, add the rating of cruel to the wound roll.
 - **Heavy:** You add your **STR** score instead of **DEX** when making attacks with this weapon.
 - **Parry:** You are able to use the parry reaction while wielding the weapon and add the rating of parry when spending **STA** as part of the parry action.
-- **Quick:** You can draw and stow this weapon as part of an attack action, even while wielding another weapon using two hands.
+- **Quick:** You can draw and stow this weapon as part of an attack action, even while both of your hands are occupied.
 - **Reload:** This weapon requires a number of standard actions equal to the rating to reload and use the weapon again.
 - **Slow:** You cannot perform multiple attack actions on your turn with this weapon.
 - **Throw:** You can draw and throw this weapon as part of a ranged attack action, even while wielding another weapon using two hands. The maximum range of the ranged attack is equal to the rating of throwable.

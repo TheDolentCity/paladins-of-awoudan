@@ -37,6 +37,10 @@ export default defineConfig({
           link: "/introduction",
         },
         {
+          label: "Playing the Game",
+          link: "/playing-the-game",
+        },
+        {
           label: "Rules",
           autogenerate: {
             directory: "rules",

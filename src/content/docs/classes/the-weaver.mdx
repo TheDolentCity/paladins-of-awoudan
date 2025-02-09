@@ -1,0 +1,166 @@
+---
+title: The Weaver
+description: An acolyte who poured over Myrddin's handwritten tomes for inklings of knowledge. A class that focuses on forcefully re-positioning and debuffing enemies. Controller.
+---
+
+import Tags from "../../../components/markdown/Tags.astro";
+import Tag from "../../../components/markdown/Tag.astro";
+
+<Tags>
+  <Tag>Controller</Tag>
+</Tags>
+
+_An acolyte who poured over Myrddin's handwritten tomes for inklings of knowledge. A class that focuses on forcefully re-positioning and debuffing enemies. Controller._
+
+## Gear
+
+- Take consecrated robes or sable robes.
+- Take ash staff, crystal orb, hawthorn wand, hazel wand, or runic ring.
+- Take dagger, shortsword, axe, or mace.
+- Take spell hoard ring.
+
+## Builds
+
+You unlock abilities and feats as you level up. There are three builds for this class that you can follow for quick character creation and level ups. **These builds are optional guides, you do not need to follow them.**
+
+### The Wizard
+
+A caster who focuses on learning powerful rituals. To make this build, make **INT** your highest score for rituals. Make **ARC** your second highest score for magic implements and armor. Then invest in **MIN** to increase your willpower. Select cantrips and spells that are useful in and out of combat.
+
+- **Suggested Gear:** consecrated robes, hazel wand, dagger, and spell hoard ring
+- **Suggested Skills:** history, weaver lore, writing
+- **Suggested Rituals:** scry near, secret passage
+- **Suggested Cantrips:** weaver illusion, weaver hand
+- **Suggested Spells:** dazzle, sleep, wall, web
+- **Suggested Feat:** ritualist (study)
+
+### The Magus
+
+A caster who focuses on area of effect spells and battlefield control. To make this build, make **ARC** your highest score for magic implements and armor. Make **MIN** your second highest score for more willpower. Then invest in **INT** for rituals and buff forced movement. Select spells that help you control the positions of your enemies on the battlefield.
+
+- **Suggested Gear:** consecrated robes, oak staff, shortsword, and spell hoard ring
+- **Suggested Skills:** history, weaver lore, warfare
+- **Suggested Rituals:** secret passage, lock
+- **Suggested Cantrips:** weaver hand, weaver light
+- **Suggested Spells:** dazzle, hammer, hysteria, web
+- **Suggested Feat:** lingering shield
+
+### The Alienist
+
+A caster who focuses on debuffing and manipulating a single target. To make this build, make **ARC** your highest score for magic armor and implements. Make **MIN** your second highest score for more willpower. Then invest in **INT** for rituals. Select spells that control single targets.
+
+- **Suggested Gear:** sable robes, hazel wand, dagger, and spell hoard ring
+- **Suggested Skills:** illusions, persuasion, weaver lore
+- **Suggested Rituals:** scry near, secret passage
+- **Suggested Cantrips:** weaver illusion, weaver sound
+- **Suggested Spells:** dazzle, domination, hysteria, overpower
+- **Suggested Feat:** commanding mind
+
+## Features
+
+The Weaver class has access to the weaver exit feature, weaver rituals feature, weaver shield feature, cantrip feature, and spells feature.
+
+### Weaver Exit
+
+Once per skirmish as a move action, you may move up to your speed and at any point enter a natural object such as a tree or boulder and reappear up to 20 squares away from behind another natural object.
+
+### Weaver Rituals
+
+You start with the Ritualist and Ritualist (study) feats for free.
+
+### Weaver Shield
+
+As a free action on your turn, you may spend 6 **WIL** to gain +8 **DEF**. This effect lasts until the start of your next turn.
+
+### Cantrip Options
+
+Each Weaver cantrip requires a magical implement.
+
+- **Weaver Light:** As a standard action, shed bright light from your magical implement in a close burst 2 and dim light in a close burst 6. Increase both bursts by 1 for every point of **WIL** you spend. This effect lasts for one minute.
+- **Weaver Hand:** As a standard action, you conjure an ethereal hand up to 10 squares away. This hand is the same size as your own. It can carry 1 **ENC** worth of items and move with 5 **SPE**. If it has to make a check, it uses your ability scores. Concentration (1).
+- **Weaver Illusion:** As a standard action, you conjure an illusion up to 10 squares away. This illusion cannot be larger than a human. If the illusion is touched it fades instantly. Concentration (1) to keep the same illusion alive.
+- **Weaver Sound:** As a standard action, you conjure a sound as quiet as whispering or as loud as shouting up to 10 squares away. The sound may be a creature sound or a nonvocal sound such as a falling rock or wind.
+
+### Spell Options
+
+Each Weaver spell requires a magical implement.
+
+- **Dazzle:** Costs 6 **WIL**. A spell attack. The spell's range is burst 1 within your implement range. Targets hit by the attack gain the dazed or stunned condition (your choice).
+- **Dome:** Costs 6 **WIL**. The spell's range is close burst 2. This spell creates a zone. The zone's edge is surrounded by a dome of magic. Ranged and spell attacks stop if they intersect with the dome. The dome has 50 **HEA**. Attacks targeting **STA** or **WIL** deal damage to the dome.
+- **Domination:** Costs 6 **WIL**. A spell attack. If the attack breaks the target's will, they gain the domination condition. At the start of the target's turn, as a free action before they roll for saves, you may force them to perform a move or standard action.
+- **Hammer:** Costs 6 **WIL**. A spell attack. The spell's range is blast 1. Whether the attack hits the target or not, they are pushed 4 squares.
+- **Hysteria:** Costs 6 **WIL**. A spell attack. The spell's range is close burst 2. You slide each target you hit with the attack 2 squares.
+- **Overpower:** Costs 6 **WIL**. A spell attack. Add your **INT** and **MIN** to your attack roll. If the attack break's the target's will, they don't roll on the broken will table. Instead they gain the exposed condition.
+- **Sigil:** Special cost. Inscribe a magic rune on your square. Describe a spell:. Instead of performing the spell immediately, the spell is stored in the sigil. When any creature enters that square besides you, the described spell is triggered immediately, you spend the **WIL** and perform the spell as a reaction as if you were still there. You may perform this reaction multiple times per round at the cost of 2 **WIL** for each additional reaction. You may only have a number of sigils up to your **INT** active at a time. They last for up to an hour.
+- **Sleep:** Costs 12 **WIL**. A spell attack. The spell's range is burst 1 within your implement range. If anyone hit by this spell has their will broken, they do not roll and instead immediately gain the unconscious condition.
+- **Wall:** Costs 6 **WIL**. Create a wall using your spell attack range with a number of sections equal to **INT** + **MIN**. The wall is 2 squares tall and appears like a cloud of fog, blocking line of sight. Each section of the wall has 1 **HEA** and attacks against **STA** or **WIL** deal **HEA** damage to it. If a section is destroyed, other portions of the wall remain active. Concentration (1).
+- **Web:** Costs 6 **WIL**. The spell's range is burst 3 within your implement range. This spell creates a zone. Anyone who enters the zone or start their turn there gains the slowed condition. If they already have the slowed condition, they gain the immobilized condition instead. Concentration (1).
+
+## Levels
+
+At each level, you increase your stats and increase one or two ability scores. At level 1 and even levels, you take a feat from your class or from the generic feat list.
+
+### Level 1
+
+- Take the weaver exit feature.
+- Take the weaver rituals feature.
+- Take the weaver shield feature.
+- Take 2 of the cantrips.
+- Take 4 of the spells.
+- Take 1 feat.
+
+### Level 2
+
+- Increase **HEA** by +1.
+- Increase **STA** by +1.
+- Increase **WIL** by +3.
+- Increase **LUS** by +1.
+- Increase two different ability scores by +1.
+- Take 1 feat.
+
+### Level 3
+
+- Increase **HEA** by +1.
+- Increase **STA** by +1.
+- Increase **WIL** by +4.
+- Increase one ability score by +1.
+- Take 1 of the cantrips.
+- Take 2 of the spells.
+
+### Level 4
+
+- Increase **HEA** by +1.
+- Increase **STA** by +1.
+- Increase **WIL** by +3.
+- Increase **LUS** by +1.
+- Increase two different ability scores by +1.
+- Take 1 feat.
+
+### Level 5
+
+- Increase **HEA** by +1.
+- Increase **STA** by +1.
+- Increase **WIL** by +4.
+- Increase one ability score by +1.
+- Take 1 of the cantrips.
+- Take 2 of the spells.
+
+## Feats
+
+You must have at least one level in this class to take the following feats:
+
+- **Blasting Spellcraft:** You may increase the size of a spell with a range of burst, close burst, or blast by +1 at the cost of 3 **WIL**. You may increase the size of a spell with a range of line by +6 too.
+- **Cantrip Expertise:** You do not need a magical implement, hand gesture, or speech in order to cast a cantrip.
+- **Careful Spellcraft:** You may designate a number of creatures up to your **DEX** that are not affected by your area, burst, and blast spells.
+- **Commanding Mind:** When you break a target's will and they roll the result, you may spend 3 **WIL** to reroll the result.
+- **Crippling Conditions:** Targets have -4 to all saves for conditions you inflict.
+- **Focused Mind:** If the only **WIL** you spent this turn was on a concentration effect, you may regenerate **WIL** at the end of your turn.
+- **Forceful Spellcraft:** When you apply forced movement (push, pull, slide, etc.) from your spells, you may use your **INT** to determine the number of squares the target moves instead of the default.
+- **Lingering Shield:** When you use the weaver shield feature and the effect ends, a new lingering shield remains that grants +4 **DEF** until you take physical damage.
+- **Mind Breaker:** Whenever you break an enemy's will, they add +1 to their broken will roll.
+- **Multitasking Mind:** You can maintain concentration on 2 spells at the same time. Roll concentration checks separately.
+- **Quick Shield:** When an attack is made against you, you may use the weaver shield feature as a reaction.
+- **Tower Study:** The cost of applying a spell attributes to a spell attack is reduced to 2 **WIL**.
+- **Willful Alienist:** Once per round when you break the will of an enemy, you regain **WIL** equal to your **MIN**.
+- **Willful Commander:** Once per round when you force a target to move, you regain **WIL** equal to the number of squares they move.
+- **Willful Wizard:** When you regenerate **WIL** at the end of your turn, you add +d6.

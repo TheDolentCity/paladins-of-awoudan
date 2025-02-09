@@ -61,6 +61,12 @@ The full combat sequence is as follows:
 - **Reload (3 STA):** This action can only be performed once per round.
 - **Free (6 STA):** Generally, free actions occur for free, but if you would like to perform the same free action multiple times in a round, you must spend 6 **STA**.
 
+### Free Actions
+
+- Make a mental check of some sort
+- Pickup a light item from the ground
+- Sheathe one weapon and draw another
+
 ## Attacks
 
 When you attack with magic or a weapon, you roll dice and add ability scores or bonuses. The sum is reduced by a relevant defense stat and the result is the damage. If the damage is 0 or less, then the attack is a miss, otherwise it's a hit. If an ability says it deals damage instead of an attack, then there is no attack roll.
@@ -371,6 +377,8 @@ When you are concentrating on an effect and you take damage, you must make a **M
 ### Dual Wielding
 
 When you hold two of the same weapon type, one in each hand, you are dual wielding. While you dual wield, you do not add your ability scores to attack rolls, but you can roll two attack rolls against different targets as one standard attack action or you can combine both attack rolls against the same target.
+
+If two weapons are very similar, such as the parrying and throwing daggers, then they can be effectively dual wielded even though they are not technically the same weapon.d
 
 Ex: If you dual wield shortswords, you can either roll d6 against two adjacent targets or roll 2d6 against one adjacent target. If you roll against two targets and hit both, then you can trigger two on-hit effects.
 

@@ -25,7 +25,8 @@ Your physical prowess and power.
 Your agility and adroitness.
 
 - Increases speed.
-- Increases chance to hit and damage with most weapons.
+- Increases initiative.
+- Increases chance to hit and damage with most melee weapons.
 - Increases efficacy of the dodge action.
 - Required for certain arms and armor.
 - Used for a few martial practices.

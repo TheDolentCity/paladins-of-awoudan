@@ -91,7 +91,7 @@ You do not add your injury level to rolls on the massive wounds table, you only 
 
 ## Broken Will
 
-These conditions are triggered when your will is broken by a powerful spirit or magic. If your **WIL** falls to zero or lower, you roll a d6 on the broken will table. Afterwards, you regain a number of **WIL** equal to d4 + **MIN**.
+These conditions are triggered when your will is broken by a powerful spirit or magic. If your **WIL** falls to zero or lower, you roll a d6 on the broken will table. Afterwards, you regain a number of **WIL** equal to d6 + **MIN**.
 
 | d6  | Broken Will                                   |
 | --- | --------------------------------------------- |
