@@ -1,6 +1,6 @@
 ---
 title: Rituals
-description: A list of all of the magic rituals Paladins can learn.
+description: Rituals are powerful magical effects that require intense study to master. Each ritual has a level, ability score, casting time, and duration. To perform a ritual, the character must retain focus for the continuous casting time and then make a check using the relevant ability score. On a success, the ritual's effect takes place.
 ---
 
 import Tags from "../../../components/markdown/Tags.astro";
@@ -8,9 +8,59 @@ import Tag from "../../../components/markdown/Tag.astro";
 
 To learn rituals, you must have the ritualist feat.
 
-Rituals are powerful magical effects that require intense study to master. Each ritual has a level, ability score, casting time, and duration. To perform a ritual, the character must retain focus for the continuous casting time and then make a check using the relevant ability score. On a success, the ritual's effect takes place.
+Rituals are powerful magical effects that require intense study to master. Each ritual has a level, ability score, casting time, duration, and components. To perform a ritual, the character must retain focus for the continuous casting time, expend the components, and then make a check using the relevant ability score. On a success, the ritual's effect takes place.
 
-## Greater Healing
+The maximum number of rituals you can perform in a day is equal to your **INT**. You are unable to perform rituals if your **INT** is 0 or lower. If you attempt a ritual, whether it is successful or not, you must wait at least an hour before you can attempt that same ritual again.
+
+## Categories
+
+Each ritual belongs to one category. The category determines what  There are five ritual categories:
+
+- [Divination](./#divination): Rituals for finding information.
+- [Restoration](./#restoration): Rituals for healing.
+- [Summoning](./#summoning): Rituals for commanding nature and creatures.
+- [Travel](./#travel): Rituals for magical transportation.
+- [Warding](./#warding): Rituals for protection.
+
+## Divination
+
+These rituals provide guidance or allow the caster to glean information from the world. These rituals rely on a caster's **INT**.
+
+### Scry Far
+
+<Tags>
+  <Tag>Level 5</Tag>
+  <Tag>Ability: INT</Tag>
+  <Tag type="secondary">Time: 1 hour</Tag>
+  <Tag type="secondary">Duration: 1 hour</Tag>
+</Tags>
+
+**Components:** The eye of a large animal, crushed.
+
+**Success:** Choose any fixed location in the world. You must have visited the location previously OR have a sufficient description or visualization in order to perform this ritual. You can hear or see as if you were flying above the location. If the location is warded, you become aware of that and the ritual fails.
+
+**Failure:** Blind for 1 day.
+
+### Scry Near
+
+<Tags>
+  <Tag>Level 1</Tag>
+  <Tag>Ability: INT</Tag>
+  <Tag type="secondary">Time: 1 minute</Tag>
+  <Tag type="secondary">Duration: 1 minute</Tag>
+</Tags>
+
+**Components:** The eye of a small animal, crushed.
+
+**Success:** Choose any square in a close burst 20, even if you do not have line of sight to it. You can hear or see as if you were in that square. If the location is warded, you become aware of that and the ritual fails.
+
+**Failure:** Blind for 1 minute.
+
+## Restoration
+
+These rituals remove or negate harmful effects. These rituals rely on a caster's **SPI**.
+
+### Greater Healing
 
 <Tags>
   <Tag>Level 3</Tag>
@@ -21,9 +71,36 @@ Rituals are powerful magical effects that require intense study to master. Each 
 
 _This ritual requires a holy symbol. The target must be immobile and cannot be yourself._
 
-The target chooses one wound they suffer from. The target heals the selected wound. If the check is a failure this ability cannot be attempted again for that wound.
+**Components:** Three drops of the target's blood, pinch of dust, and a pint of clean water, boiled together. Dip a cloth in the mixture and then clean the target's wound.
 
-## Secret Passage
+**Success:** The target chooses one wound they suffer from. The target heals the selected wound. If the wound is for a severed limb, the limb can be reattached if you retain it, but the limb will not grow back.
+
+**Failure:** This ability cannot be attempted again for that wound.
+
+## Summoning
+
+These rituals summon creatures or direct natural forces of the world. These rituals rely on a caster's **INT**.
+
+### Summon Storm
+
+<Tags>
+  <Tag>Level 1</Tag>
+  <Tag>Ability: INT</Tag>
+  <Tag type="secondary">Time: 1 hour</Tag>
+  <Tag type="secondary">Duration: 1 + d4 hours</Tag>
+</Tags>
+
+**Components:** A handful of fresh, green leaves scattered over the smoke of an extinguished fire.
+
+**Success:** Summon a great storm of gale force winds and rain (or snow). The storm has a range of 1 mile. The storm creates huge waves over water and floods any nearby lowlands after one hour. While the storm is active, at the start of every character in the storm's turn, the wind pushes them d6 squares in a random direction (d8 → 1:N, 2:NE, 3:E, 4:SE, 5:S, 6:SW, 7:W, 8:NW). You are not affected by the spell and you may designate a number of targets up to your **DEX** that you can see, who are not affected by the wind.
+
+**Failure:** Every character (including yourself) in close burst 10 is thrown d12 squares in a random direction (d8 → 1:N, 2:NE, 3:E, 4:SE, 5:S, 6:SW, 7:W, 8:NW) and takes damage equal to your **DEX**.
+
+## Travel
+
+These rituals transport you or others great distances or using methods that cannot be achieved without magic.  These rituals rely on a caster's **INT**.
+
+### Secret Passage
 
 <Tags>
   <Tag>Level 1</Tag>
@@ -32,20 +109,32 @@ The target chooses one wound they suffer from. The target heals the selected wou
   <Tag type="secondary">Duration: Special</Tag>
 </Tags>
 
-You discover a secret passageway in a natural formation such as a tree or boulder that leads to another natural formation up to 100 squares away. You and allies can enter this passageway, but it remains unnoticed to anyone who has not seen someone enter it. The passageway persists forever. You cannot discover a secrete passageway that is within a mile of an existing secret passageway.
+**Components:** A pound of the material making up the natural formation (earth, plant, or stone) ground into a dust or paste and then scattered at the ritual location.
 
-## Summon Storm
+**Success:** You discover a secret passageway in a natural formation such as a tree or boulder that leads to another natural formation up to 100 squares away. You and allies can enter this passageway, but it remains unnoticed to anyone who has not seen someone enter it. The passageway persists forever. You cannot discover a secrete passageway that is within a mile of an existing secret passageway.
+
+**Failure:** You are transported to a random natural formation up to 100 squares away. You have no recollection of how you got there.
+
+## Warding
+
+These rituals provide a magical protection for you and allies. These rituals rely on a caster's **INT**.
+
+### Lock
 
 <Tags>
   <Tag>Level 1</Tag>
   <Tag>Ability: INT</Tag>
-  <Tag type="secondary">Time: 1 hour</Tag>
-  <Tag type="secondary">Duration: 1 + d4 hours</Tag>
+  <Tag type="secondary">Time: 10 minutes</Tag>
+  <Tag type="secondary">Duration: Permanent</Tag>
 </Tags>
 
-Summon a great storm of gale force winds and rain (or snow). The storm has a range of 1 mile. The storm creates huge waves over water and floods any nearby lowlands after one hour. While the storm is active, at the start of every character in the storm's turn, the wind pushes them d6 squares in a random direction (d8 → 1:N, 2:NE, 3:E, 4:SE, 5:S, 6:SW, 7:W, 8:NW). You are not affected by the spell and you may designate a number of targets up to your **DEX** that you can see, who are not affected by the wind.
+**Components:** Heat a metal lock until it's white hot.
 
-## Wall of Force
+**Success:** You lock a door, gate, portcullis, window, or other entryway so that it will not move. You and a number of people up to your **INT** that you designate, are able to open this entryway, but no one else. If someone attempts to open it by force, they must make a **STR** check that is opposed by your **INT**+4. The lock remains until you dismiss it or the entryway is destroyed.
+
+**Failure:** The entryway is damaged. Creatures have +4 to checks to destroy it.
+
+### Wall of Force
 
 <Tags>
   <Tag>Level 2</Tag>
@@ -54,4 +143,8 @@ Summon a great storm of gale force winds and rain (or snow). The storm has a ran
   <Tag type="secondary">Duration: 1 + d4 hours</Tag>
 </Tags>
 
-Create a wall of force using your spell attack range with a number of sections equal to 8 + **INT** + **MIN**. The wall is up to 10 squares tall and appears like a cloud of fog, blocking line of sight. The wall has 1000 **HEA** and attacks against **STA** or **WIL** deal **HEA** damage to it. If the wall is destroyed, each section explodes outward and deals 5d10 damage in a blast 8 facing away from where you cast it (this does not damage other sections of the wall). Characters only take 5d10 even if they are within multiple blasts of the wall.
+**Components:** Pour twelve drops of liquid silver on the ground where you wish to conjure the wall.
+
+**Success:** Create a wall of force using your spell attack range with a number of sections equal to 8 + **INT** + **MIN**. The wall is up to 10 squares tall and appears like a cloud of fog, blocking line of sight. The wall has 1000 **HEA** and attacks against **STA** or **WIL** deal **HEA** damage to it. If the wall is destroyed, each section explodes outward and deals 5d10 damage in a blast 8 facing away from where you cast it (this does not damage other sections of the wall). Characters only take 5d10 even if they are within multiple blasts of the wall.
+
+**Failure:** You take 1d10 damage and are knocked prone.

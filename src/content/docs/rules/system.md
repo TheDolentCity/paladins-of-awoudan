@@ -15,16 +15,17 @@ The max value of each ability score is +5.
 
 Your physical prowess and power.
 
+- Increases speed.
 - Increases encumbrance by +1 for each point.
-- Increases effectiveness of crushing weapons.
+- Increases chance to hit and damage with bows and heavy weapons.
 - Required for most arms and armor, especially the stronger ones.
 
 ### Dexterity
 
 Your agility and adroitness.
 
-- Increases speed by +1 for each point.
-- Increases effectiveness of piercing and slashing weapons.
+- Increases speed.
+- Increases chance to hit and damage with most weapons.
 - Increases efficacy of the dodge action.
 - Required for certain arms and armor.
 - Used for a few martial practices.
@@ -91,11 +92,11 @@ There are eight stats: defense, focus, encumbrance, speed, stamina, health, will
 
 ### Defense
 
-Your ability to resist attacks on your body. There are three types of defense: crush, pierce, and slash. Different weapons have different strengths and different armors have different defenses. Optimizing the correct damage type is key to battles.
+Your ability to resist physical attacks on your body, usually from weapons.
 
 ### Focus
 
-Your ability to resist attacks on your mind. Reduce willpower damage by your character's focus.
+Your ability to resist magical attacks. Reduce all damage from spells (whether it targets **HEA**, **STA**, or **WIL**) by your character's focus.
 
 ### Encumbrance
 

@@ -56,7 +56,7 @@ The full combat sequence is as follows:
 - **Opportunity Attack (3 STA, Reaction):** When you are wielding a melee weapon and an adjacent enemy moves to a square that is not adjacent to you, uses a ranged attack, or makes a spell attack without the blast or close burst attribute, you may perform an opportunity attack. This is a standard attack action. Certain class abilities grant you additional attacks or triggers for opportunity attacks.
 - **Draw/Stow (3 STA):** Perform an additional draw or stow action. A maximum of two draw/stow actions can be performed per round. Drawing/stowing two melee weapons that you dual wield is one action.
 - **Dodge (6 STA, Reaction):** As a reaction to an attack against you, but before damage is rolled, you may dodge. Roll d6 + **DEX** and subtract the sum from the final attack roll. If the sum is zero or less, no on-hit or on-damage effects trigger.
-- **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** to spend, up to 12, and then add **DEX**. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and the attacker takes **STA** damage equal to your **DEX**.
+- **Parry (Variable STA, Reaction):** Requires a parry weapon. As a reaction to a melee attack against you, but before damage is rolled, you may parry. Choose a number of **STA** to spend. If this total is greater than the attack roll, then you suffer no damage, the attack is treated as a miss, and you may make an opportunity attack against the target.
 - **Shield (Variable STA, Reaction):** Requires a shield. As a reaction to an attack against you, but before damage is rolled, you may shield. If you do, you must spend a number of **STA** equal to the damage of the attack. If this leaves you with 0 or less **STA**, you gain the exposed condition and cannot make a save for this condition on your next turn. ex: Attack roll of 8 when you have 4 armor would result in 4 damage, requiring you to spend 4 **STA** to negate all damage.
 - **Reload (3 STA):** This action can only be performed once per round.
 - **Free (6 STA):** Generally, free actions occur for free, but if you would like to perform the same free action multiple times in a round, you must spend 6 **STA**.
@@ -65,27 +65,9 @@ The full combat sequence is as follows:
 
 When you attack with magic or a weapon, you roll dice and add ability scores or bonuses. The sum is reduced by a relevant defense stat and the result is the damage. If the damage is 0 or less, then the attack is a miss, otherwise it's a hit. If an ability says it deals damage instead of an attack, then there is no attack roll.
 
-## Defense
+## Defense and Focus
 
-There are several defense stats. Usually based on armor, attack rolls have a penalty equal to the defense rating of the target. If a target has -2 crush, -4 pierce, and -4 slash, then the attacker subtracts -4 from an attack roll with a bow (which all deal piercing damage). It is in an attacker's best interest to use the damage type that a target resists the least.
-
-When an ability or item specifies that **DEF** is lowered or increased, this refers to all defenses: crush, pierce, slash, and focus.
-
-### Crush (CRU)
-
-This defense is highest with light armors. Blunt weapons and strong creatures deal a lot of crush damage, which is effective against heavier armors.
-
-### Pierce (PRC)
-
-This defense is highest with heavy armors. Spears, swords, and bows deal a lot of pierce damage. Bows can _only_ deal piercing damage. This is necessary to hit certain creatures.
-
-### Slash (SLA)
-
-This defense is highest with heavy armors. Swords and axes deal a lot of slashing damage, but most weapons have a decent slash attack. It is treated as the standard damage type.
-
-### Focus (FOC)
-
-This defense is highest with consecrated armors and robes. All spell attacks (regardless of whether they target **HEA**, **STA**, or **WIL**) are resisted by the focus stat.
+There are two defensive stats: defense (**DEF**) and focus (**FOC**). Most attacks are reduced by **DEF**, but spell attacks, regardless of whether they target **HEA**, **STA**, or **WIL**, are reduced by **FOC**. Usually based on armor, attack rolls have a penalty equal to the defense or focus rating of the target. If a target has -4 defense and -2 focus, then the attacker subtracts -4 from an attack roll with a bow and -2 from a wand attack.
 
 ## Damage
 

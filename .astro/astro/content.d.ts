@@ -326,13 +326,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"rules/equipment.mdx": {
-	id: "rules/equipment.mdx";
+"rules/equipment.md": {
+	id: "rules/equipment.md";
   slug: "rules/equipment";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
+} & { render(): Render[".md"] };
 "rules/feats.md": {
 	id: "rules/feats.md";
   slug: "rules/feats";

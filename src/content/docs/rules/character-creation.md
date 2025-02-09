@@ -81,8 +81,8 @@ Each class has a primary and at least one secondary role. Keep that in mind when
 
 #### Become an Arbiter if...
 
-- ...you want to impose a divine challenge a single foe
-- ...you want to smite enemies with swords and holy magic
+- ...you want to challenge a single foe with divine magic
+- ...you want to smite enemies with swords and holy spells
 - ...you want to protect and heal allies in melee with you
 
 #### Become a Berserker if...
@@ -150,10 +150,10 @@ Every character starts with one feat. There are class specific feats, but there 
 
 ## 7. Determine stats and skills
 
-Every character starts with the following stats.
+Every character starts with the following stats. Negative ability scores do not decrease these starting values.
 
 - **You start with 4 encumbrance**. Increase it by 2 for each point of strength.
-- **You start with 4 speed**. Increase it by 1 for each point of dexterity.
+- **You start with 4 speed**. Add your dexterity or strength score to your speed, whichever ability score is higher. If you had 3 strength and 2 dexterity, your speed would be 7.
 - **You start with 8 stamina**. Increase it by 4 for each point of endurance.
 - **You start with 8 health**. Increase it by 2 for each point of vitality.
 - **You start with 8 willpower**. Increase it by 1 for each point of intelligence and 2 for each point of mind.
@@ -253,14 +253,14 @@ Once you have your heraldry, come up with a title based on it. If you were a ran
 ```
 NAME: Drake of Elethain
 CLASS: Ranger
+HERALDRY: Paladin of the Red Wood
 PRONOUNS: He/Him
 
-STR: +3     DEX: +3     END: +2     VIT: +0
+STR: +3     DEX: +3     END: +2     VIT: +1
 ARC: -1     SPI: +0     INT: -1     MIN: +1
 
-CRU: -4     PRC: -2     SLA: -2     FOC: -0
-HEA: 8/8    STA: 16/16  WIL: 10/10  LUS: 8/8
-ENC: 8/10   SPE: 7
+HEA: 10/10  STA: 16/16  WIL: 10/10  LUS: 8/8
+DEF: 2      FOC: 0      ENC: 8/10   SPE: 7
 
 CONDITIONS
 - [Name]: [Description].
@@ -273,30 +273,32 @@ SKILLS
 - Wilderness Survival | Burned [ ]
 
 WEAPONS
-- Longbow (2H, slow)
-  CRU: NA  PRC: d10+STR+DEX  SLA: NA  RAN: 23
-- Ranger's Long Knife (parry)
-  CRU: d4  PRC: d4+STR  SLA: d4+STR  RAN: 1
-- Ranger's Short Knife (quick, throwable 6)
-  CRU: d4  PRC: d4+DEX  SLA: d4+DEX  RAN: 1
+- Longbow | d10+STR+DEX | 20 | 2H, Slow
+- Parrying Dagger | d4+DEX | 1 | Quick, Parry
+- Throwing Dagger | d4+DEX | 1 | Quick, Throwable 6
 
 GEAR
 - Light Armor (2 ENC)
-- Ranging Cloak (Wilderness Stealth)
+- Stalker's Cloak (Wilderness Stealth)
 - Longbow (4 ENC)
-- Ranger's Long Knife (1 ENC)
-- Ranger's Short Knife (1 ENC)
+- Quiver (24 arrows)
+- Parrying Dagger (1 ENC)
+- Throwing Dagger (1 ENC)
 
 ABILITIES
-- Ranger's Patience
+- Ranger's Study
+- Ranger's Twin Strike
+- Eagle Eyes
 
 CANTRIPS | None
 
 MARTIAL PRACTICES
 - Patrol
+- Survivor's Trade
 
 FEATS
 - Martial Practice
+- Martial Practice (study)
 - Precision Archer
 ```
 
@@ -304,15 +306,15 @@ FEATS
 
 ```
 NAME: Sir X of X
-CLASS: Paladin of the X
+CLASS: X
+HERALDRY: Paladin of the X
 PRONOUNS: X/X
 
 STR: +0     DEX: +0     END: +0     VIT: +0
 ARC: +0     SPI: +0     INT: +0     MIN: +0
 
-CRU: +0     PRC: +0     SLA: +0     FOC: +0
 HEA: 8/8    STA: 8/8    WIL: 8/8    LUS: 8/8
-ENC: 0/4    SPE: 4
+DEF: 0      FOC: 0      ENC: 0/4    SPE: 4
 
 CONDITIONS
 - [Name]: [Description].
@@ -324,8 +326,7 @@ SKILLS
 - [Name] | Burned [ ].
 
 WEAPONS
-- [Name] (properties)
-  CRU: dx+XXX  PRC: dx+XXX  SLA: dx+XXX  RAN: X
+- [Name] | attack | range | properties
 
 GEAR
 - [Name] (X ENC)

@@ -5,6 +5,12 @@ description: Details and tables for handling Paladin wounds.
 
 If your **HEA** falls to zero or lower, you roll an injury (INJ) on the relevant wounds table (based on the type of damage suffered). This is a d12 + your current **INJ**, which is equal to the rating of the highest wound you're currently suffering from, or 0 if you have no wounds. After you suffer a wound, you reset your **HEA** to its maximum.
 
+## Wound Types
+
+There are two types of wounds, minor and severe. Minor wounds are any wound with an injury level less than 12. Severe wounds have an injury level of 12 or higher.
+
+Minor wounds can be healed by a long rest, but severe wounds cannot. At that point, extensive rest, powerful magic, or rare potions are the only methods to remove those wounds.
+
 ## Crush Wounds
 
 These wounds are often caused by blunt melee weapons such as maces or powerful monsters. They often involve moving the Paladin, breaking their bones, and conditions that cannot be saved against. For those special conditions, the wound itself must be healed for the condition to disappear.
