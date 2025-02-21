@@ -87,23 +87,23 @@ The heavier the armor, the better it will withstand weapon attacks. Consecrated 
 - **Requires:** You must meet the following ability score requirements to wear the item and receive any benefit.
 - **Properties:** Unique effects that modify the clothing/armor.
 
-| Name                    | DEF | FOC | ENC | CHE | SPE | Requires     | Properties                |
-| ----------------------- | --- | --- | --- | --- | --- | ------------ | ------------------------- |
-| Clothing                | 0   | 0   | 0   | +0  | +0  |              |                           |
-| Light armor             | 2   | 0   | 2   | +0  | +0  | STR 0        |                           |
-| Medium armor            | 6   | 0   | 4   | -2  | -1  | STR 1        |                           |
-| Heavy armor             | 10  | 0   | 6   | -4  | -2  | STR 2        |                           |
-| Consecrated heavy armor | 8   | 2   | 5   | -3  | -2  | STR 2, SPI 1 |                           |
-| Consecrated armor       | 4   | 4   | 3   | -2  | -1  | STR 1, SPI 2 |                           |
-| Consecrated robes       | 0   | 8   | 0   | +0  | +0  | SPI 1        |                           |
-| Consecrated cloak       | 0   | 0   | 0   | +0  | +0  | SPI 1        | Skill: Influence          |
-| Sable armor             | 3   | 3   | 2   | -1  | -1  | ARC 3        | Shroud 1                  |
-| Sable robes             | 0   | 6   | 0   | +0  | +0  | ARC 2        | Shroud 1                  |
-| Sable cloak             | 0   | 0   | 1   | +0  | +0  | ARC 2        | Shroud 1                  |
-| Stalker's cloak         | 0   | 0   | 0   | +0  | +0  | DEX 2        | Skill: Wilderness Stealth |
-| Traveler's cloak        | 0   | 0   | 0   | +0  | +0  |              | Skill: Resist Elements    |
-| Shield                  | 2   | 0   | 1   | +0  | +0  | STR 1        | Shielding                 |
-| Heavy shield            | 4   | 0   | 2   | +0  | +0  | STR 3        | Shielding                 |
+| Name                    | DEF | FOC | ENC | CHE | SPE | Requires | Properties                |
+| ----------------------- | --- | --- | --- | --- | --- | -------- | ------------------------- |
+| Clothing                | 2   | 0   | 0   | +0  | +0  |          |                           |
+| Light armor             | 4   | 0   | 2   | +0  | +0  | STR 0    |                           |
+| Medium armor            | 6   | 0   | 4   | -1  | -1  | STR 1    |                           |
+| Heavy armor             | 8   | 0   | 6   | -3  | -2  | STR 2    |                           |
+| Consecrated heavy armor | 7   | 1   | 5   | -2  | -2  | SPI 3    |                           |
+| Consecrated armor       | 5   | 2   | 3   | -1  | -1  | SPI 2    |                           |
+| Consecrated robes       | 2   | 4   | 0   | +0  | +0  | SPI 1    |                           |
+| Consecrated cloak       | 0   | 0   | 0   | +0  | +0  | SPI 1    | Skill: Influence          |
+| Sable armor             | 3   | 3   | 2   | -1  | -1  | ARC 3    | Shroud 1                  |
+| Sable robes             | 2   | 2   | 0   | +0  | +0  | ARC 2    | Shroud 1                  |
+| Sable cloak             | 0   | 0   | 1   | +0  | +0  | ARC 2    | Shroud 1                  |
+| Stalker's cloak         | 0   | 0   | 0   | +0  | +0  | DEX 2    | Skill: Wilderness Stealth |
+| Traveler's cloak        | 0   | 0   | 0   | +0  | +0  |          | Skill: Resist Elements    |
+| Shield                  | 2   | 0   | 1   | +0  | +0  | STR 1    | Shielding                 |
+| Heavy shield            | 4   | 0   | 2   | -2  | -1  | STR 3    | Shielding                 |
 
 ### Clothing and Armor Properties
 
