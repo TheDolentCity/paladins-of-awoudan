@@ -87,7 +87,7 @@ If your **HEA** is restored to a value greater than 0, you lose the unconscious 
 
 ### Stamina Damage
 
-When your **STA** falls to zero or lower, your stamina is drained. You gain the exposed condition. You cannot save for this condition. At the end of your next turn, you lose the condition and regain d8 + **END** stamina.
+When your **STA** falls to zero or lower, your stamina is drained. You gain the exposed condition. You cannot save for this condition. At the end of your next turn, you lose the condition and regain d8 + **END** stamina. You cannot take **STA** damage while exposed in this way.
 
 ## Conditions
 

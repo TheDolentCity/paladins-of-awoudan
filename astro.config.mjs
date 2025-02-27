@@ -15,7 +15,7 @@ export default defineConfig({
   }),
   integrations: [
     starlight({
-      title: "Paladins of Awoudan",
+      title: "Paladins of Awoudan (alpha)",
       components: {
         Aside: "./src/components/overrides/AsideOverride.astro",
         MarkdownContent: "./src/components/overrides/MarkdownContentOverride.astro",

@@ -89,6 +89,28 @@ You do not add your injury level to rolls on the massive wounds table, you only 
 | 3   | Left leg            |
 | 4   | Right leg           |
 
+## Magic Wounds
+
+You do not add your injury level to rolls on magic wounds tables, you only roll a d12. These wounds are often caused by alchemy, spells, and monsters. There are several tables for common types of magic.
+
+| d12 | Flame Wounds                                  |
+| --- | --------------------------------------------- |
+| 1-6 | Burned → gain the burning (4) condition       |
+| 7-9 | Scorched → gain the burning (8) condition     |
+| 10+ | Incinerated → gain the burning (16) condition |
+
+| d12 | Frost Wounds                                                  |
+| --- | ------------------------------------------------------------- |
+| 1-6 | Numbed → gain the slowed condition and lose (4) stamina       |
+| 7-9 | Chilled → gain the immobilized condition and lose (8) stamina |
+| 10+ | Frozen → gain the exposed condition                           |
+
+| d12 | Spark Wounds                                           |
+| --- | ------------------------------------------------------ |
+| 1-6 | Sparked → gain the dazed condition and lose (4) will   |
+| 7-9 | Shocked → gain the stunned condition and lose (8) will |
+| 10+ | Overwhelmed → gain the exposed condition               |
+
 ## Broken Will
 
 These conditions are triggered when your will is broken by a powerful spirit or magic. If your **WIL** falls to zero or lower, you roll a d6 on the broken will table. Afterwards, you regain a number of **WIL** equal to d6 + **MIN**.

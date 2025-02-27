@@ -11,8 +11,6 @@ Most weapons are capable of slashing and piercing and deal those wounds accordin
 
 - **Name:** Name of the weapon.
 - **Attack:** The dice to roll when making a weapon attack.
-- **PRC:** The attack roll for piercing attacks.
-- **SLA:** The attack roll for slashing attacks.
 - **RAN:** The maximum range at which this weapon can attack enemies.
 - **ENC:** Increase your encumbrance by this amount.
 - **Requires:** You must meet the following ability score requirements to wield the weapon.
