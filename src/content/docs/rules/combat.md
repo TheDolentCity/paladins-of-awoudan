@@ -37,6 +37,7 @@ The full combat sequence is as follows:
 - **Charge:** Perform a move action as part of this attack (this consumes your free move) and then perform a melee attack with +2 to the attack roll or perform a bull rush with +2 to the check. You must move at least 3 squares from your starting position and you must move in a line for at least the last 3 squares of movement. The target of the attack must be in a square in the same orientation of your charge such that if you continued in your line you would enter their square.
 - **Finisher:** You can deliver a finishing attack against an unconscious or helpless foe. If the attack hits, it deals a wound or failed death save if they are dying.
 - **Grapple:** Choose a target within reach. Perform an opposed strength check. If you succeed, the target gains the grappled condition.
+- **Heal:** Choose an ally within close burst 1. You immediately allow them to roll one save or you may make a **SPI** or **INT** check to heal them for 1 **HEA**.
 - **Help:** Choose an ally within close burst 1. Once on their next turn, when they roll any die, they may reroll it. This could be for a save, attack roll, or special ability.
 - **Reload:** Decrease the amount of reload actions necessary to use the weapon again by 1. If a weapon has "reload 2", then it needs 2 reload actions before you can use the weapon again. This action can only be performed once per round.
 - **Rest:** At the end of your turn when you regenerate stamina or willpower, you add +d6 to the rolls.
@@ -87,7 +88,7 @@ If your **HEA** is restored to a value greater than 0, you lose the unconscious 
 
 ### Stamina Damage
 
-When your **STA** falls to zero or lower, your stamina is drained. You gain the exposed condition. You cannot save for this condition. At the end of your next turn, you lose the condition and regain d8 + **END** stamina. You cannot take **STA** damage while exposed in this way.
+When your **STA** falls to zero or lower, your stamina is drained. You gain the exposed condition. You cannot save for this condition. At the end of your next turn, you lose the condition and regain d4 + **END** stamina. You cannot take **STA** damage while exposed in this way.
 
 ## Conditions
 
@@ -101,10 +102,11 @@ When your **STA** falls to zero or lower, your stamina is drained. You gain the 
 - **Frightened:** You are unable to move towards or attack the creature/object frightening you. Make a **SPI** save to remove the condition.
 - **Grappled:** One creature is holding onto another. The grappler can perform move actions at half speed (dragging the grappled target with them), but the grappled creature is immobilized. The grappled creature has a -2 penalty to all attacks. Make a **STR** save to break free of the grapple.
 - **Immobilized:** You are unable to perform move actions or any action that results in you moving from your current square. Make a **VIT** save to remove the condition.
+- **Impaired:** You are unable to perform actions with the impaired section of your body. If your arm is impaired, you cannot use your hand. Make a **VIT** save to remove the condition.
 - **Prone:** The only move action you can make is crawl. Melee attacks against you have combat advantage and ranged attacks have a -2 penalty. It takes two squares of movement to stand from prone or drop prone.
 - **Slowed:** Your speed is halved. Make a **VIT** save to remove the condition.
 - **Stunned:** You lose your free move or standard action every turn. Make a **MIN** save to remove the condition.
-- **Unconscious:** Unaware and unable to perform actions. When given this condition from a wound, you are dying and must make death saves. This condition can only be removed through healing or medicine from an ally.
+- **Unconscious:** Unaware and unable to perform actions. This condition can only be removed through healing or medicine from an ally.
 
 ## Ranges
 
@@ -388,11 +390,11 @@ At the end of your turn, you may regenerate stamina or willpower, but only if yo
 
 #### Stamina Regeneration
 
-At the end of your turn, if you did not spend any **STA**, you regain a number of **STA** equal to d4 + **END**. This cannot decrease your **STA**.
+At the end of your turn, if you did not spend any **STA**, you regain d4 **STA**.
 
 #### Willpower Regeneration
 
-At the end of your turn, if you did not spend any **WIL**, you regain a number of **WIL** equal to your **MIN**. This cannot decrease your **WIL**.
+At the end of your turn, if you did not spend any **WIL**, you regain d4 **WIL**.
 
 ### Rounding
 
